@@ -1,0 +1,21 @@
+CRITICAL - 2022-09-11 00:02:46 --> Undefined property: App\Controllers\Login::$load
+in APPPATH\Controllers\Login.php on line 10.
+ 1 APPPATH\Controllers\Login.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Login::$load', 'APPPATH\\Controllers\\Login.php', 10)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Login->autenticar()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-11 00:02:54 --> Undefined property: App\Controllers\Login::$load
+in APPPATH\Controllers\Login.php on line 10.
+ 1 APPPATH\Controllers\Login.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Login::$load', 'APPPATH\\Controllers\\Login.php', 10)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Login->autenticar()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-11 08:00:22 --> Undefined property: App\Controllers\Login::$load
+in APPPATH\Controllers\Login.php on line 10.
+ 1 APPPATH\Controllers\Login.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Login::$load', 'APPPATH\\Controllers\\Login.php', 10)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Login->autenticar()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

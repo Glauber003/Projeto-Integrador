@@ -1,0 +1,322 @@
+CRITICAL - 2022-08-22 19:35:20 --> Invalid file: testepaginainicial.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('testepaginainicial.php')
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('testepaginainicial', [], true)
+ 3 APPPATH\Controllers\Usuario.php(29): view('testepaginainicial')
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Usuario->testepaginainicial()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-22 19:35:44 --> Invalid file: testepaginainicial.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('testepaginainicial.php')
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('testepaginainicial', [], true)
+ 3 APPPATH\Controllers\Usuario.php(29): view('testepaginainicial')
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Usuario->testepaginainicial()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-22 19:45:29 --> Undefined variable $animal
+in APPPATH\Views\testepaginainicial.php on line 104.
+ 1 APPPATH\Views\testepaginainicial.php(104): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $animal', 'APPPATH\\Views\\testepaginainicial.php', 104)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\testepaginainicial.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('testepaginainicial', [], true)
+ 5 APPPATH\Controllers\Usuario.php(29): view('testepaginainicial')
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Usuario->testepaginainicial()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-22 19:46:01 --> Undefined variable $animal
+in APPPATH\Views\testepaginainicial.php on line 104.
+ 1 APPPATH\Views\testepaginainicial.php(104): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $animal', 'APPPATH\\Views\\testepaginainicial.php', 104)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\testepaginainicial.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('testepaginainicial', [], true)
+ 5 APPPATH\Controllers\Usuario.php(29): view('testepaginainicial')
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Usuario->testepaginainicial()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-22 19:46:02 --> Undefined variable $animal
+in APPPATH\Views\testepaginainicial.php on line 104.
+ 1 APPPATH\Views\testepaginainicial.php(104): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $animal', 'APPPATH\\Views\\testepaginainicial.php', 104)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\testepaginainicial.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('testepaginainicial', [], true)
+ 5 APPPATH\Controllers\Usuario.php(29): view('testepaginainicial')
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Usuario->testepaginainicial()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-22 19:46:02 --> Undefined variable $animal
+in APPPATH\Views\testepaginainicial.php on line 104.
+ 1 APPPATH\Views\testepaginainicial.php(104): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $animal', 'APPPATH\\Views\\testepaginainicial.php', 104)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\testepaginainicial.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('testepaginainicial', [], true)
+ 5 APPPATH\Controllers\Usuario.php(29): view('testepaginainicial')
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Usuario->testepaginainicial()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-22 19:46:03 --> Undefined variable $animal
+in APPPATH\Views\testepaginainicial.php on line 104.
+ 1 APPPATH\Views\testepaginainicial.php(104): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $animal', 'APPPATH\\Views\\testepaginainicial.php', 104)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\testepaginainicial.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('testepaginainicial', [], true)
+ 5 APPPATH\Controllers\Usuario.php(29): view('testepaginainicial')
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Usuario->testepaginainicial()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-22 19:46:03 --> Undefined variable $animal
+in APPPATH\Views\testepaginainicial.php on line 104.
+ 1 APPPATH\Views\testepaginainicial.php(104): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $animal', 'APPPATH\\Views\\testepaginainicial.php', 104)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\testepaginainicial.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('testepaginainicial', [], true)
+ 5 APPPATH\Controllers\Usuario.php(29): view('testepaginainicial')
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Usuario->testepaginainicial()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-22 19:46:18 --> Undefined variable $animal
+in APPPATH\Views\testepaginainicial.php on line 104.
+ 1 APPPATH\Views\testepaginainicial.php(104): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $animal', 'APPPATH\\Views\\testepaginainicial.php', 104)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\testepaginainicial.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('testepaginainicial', [], true)
+ 5 APPPATH\Controllers\Usuario.php(29): view('testepaginainicial')
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Usuario->testepaginainicial()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-22 20:04:59 --> Invalid file: testepaginainicial.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('testepaginainicial.php')
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('testepaginainicial', [], true)
+ 3 APPPATH\Controllers\Usuario.php(29): view('testepaginainicial')
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Usuario->testepaginainicial()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-22 20:06:40 --> Invalid file: testepaginainicial.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('testepaginainicial.php')
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('testepaginainicial', [], true)
+ 3 APPPATH\Controllers\Usuario.php(29): view('testepaginainicial')
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Usuario->testepaginainicial()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-22 20:07:32 --> Invalid file: testepaginainicial.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('testepaginainicial.php')
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('testepaginainicial', [], true)
+ 3 APPPATH\Controllers\Usuario.php(29): view('testepaginainicial')
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Usuario->testepaginainicial()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-22 20:50:38 --> syntax error, unexpected token "?", expecting end of file
+in APPPATH\Views\testepaginainicial.php on line 8.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('testepaginainicial', [], true)
+ 3 APPPATH\Controllers\Usuario.php(29): view('testepaginainicial')
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Usuario->testepaginainicial()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-22 20:53:34 --> syntax error, unexpected token "?", expecting end of file
+in APPPATH\Views\testepaginainicial.php on line 8.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('testepaginainicial', [], true)
+ 3 APPPATH\Controllers\Usuario.php(29): view('testepaginainicial')
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Usuario->testepaginainicial()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-22 20:53:35 --> syntax error, unexpected token "?", expecting end of file
+in APPPATH\Views\testepaginainicial.php on line 8.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('testepaginainicial', [], true)
+ 3 APPPATH\Controllers\Usuario.php(29): view('testepaginainicial')
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Usuario->testepaginainicial()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-22 20:53:36 --> syntax error, unexpected token "?", expecting end of file
+in APPPATH\Views\testepaginainicial.php on line 8.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('testepaginainicial', [], true)
+ 3 APPPATH\Controllers\Usuario.php(29): view('testepaginainicial')
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Usuario->testepaginainicial()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-22 21:05:21 --> syntax error, unexpected token "<"
+in APPPATH\Views\testepaginainicial.php on line 7.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('testepaginainicial', [], true)
+ 3 APPPATH\Controllers\Usuario.php(29): view('testepaginainicial')
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Usuario->testepaginainicial()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-22 21:42:34 --> Invalid file: testepaginainicial.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('testepaginainicial.php')
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('testepaginainicial', [], true)
+ 3 APPPATH\Controllers\Usuario.php(29): view('testepaginainicial')
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Usuario->testepaginainicial()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-22 21:42:41 --> Invalid file: testepaginainicial.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('testepaginainicial.php')
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('testepaginainicial', [], true)
+ 3 APPPATH\Controllers\Usuario.php(29): view('testepaginainicial')
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Usuario->testepaginainicial()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-22 21:43:04 --> Invalid file: testepaginainicial.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('testepaginainicial.php')
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('testepaginainicial', [], true)
+ 3 APPPATH\Controllers\Usuario.php(29): view('testepaginainicial')
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Usuario->testepaginainicial()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-22 21:44:28 --> Invalid file: testepaginainicial.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('testepaginainicial.php')
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('testepaginainicial', [], true)
+ 3 APPPATH\Controllers\Usuario.php(29): view('testepaginainicial')
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Usuario->testepaginainicial()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-22 22:47:13 --> syntax error, unexpected end of file
+in APPPATH\Views\testepaginainicial.php on line 220.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('testepaginainicial', [], true)
+ 3 APPPATH\Controllers\Usuario.php(29): view('testepaginainicial')
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Usuario->testepaginainicial()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-22 22:56:32 --> Undefined variable $animals
+in APPPATH\Views\testepaginainicial.php on line 166.
+ 1 APPPATH\Views\testepaginainicial.php(166): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $animals', 'APPPATH\\Views\\testepaginainicial.php', 166)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\testepaginainicial.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('testepaginainicial', [], true)
+ 5 APPPATH\Controllers\Usuario.php(29): view('testepaginainicial')
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Usuario->testepaginainicial()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-22 22:56:37 --> Undefined variable $animals
+in APPPATH\Views\testepaginainicial.php on line 166.
+ 1 APPPATH\Views\testepaginainicial.php(166): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $animals', 'APPPATH\\Views\\testepaginainicial.php', 166)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\testepaginainicial.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('testepaginainicial', [], true)
+ 5 APPPATH\Controllers\Usuario.php(29): view('testepaginainicial')
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Usuario->testepaginainicial()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-22 22:57:00 --> Undefined variable $animals
+in APPPATH\Views\testepaginainicial.php on line 166.
+ 1 APPPATH\Views\testepaginainicial.php(166): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $animals', 'APPPATH\\Views\\testepaginainicial.php', 166)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\testepaginainicial.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('testepaginainicial', [], true)
+ 5 APPPATH\Controllers\Usuario.php(29): view('testepaginainicial')
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Usuario->testepaginainicial()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-22 22:57:50 --> Undefined variable $animal
+in APPPATH\Views\testepaginainicial.php on line 171.
+ 1 APPPATH\Views\testepaginainicial.php(171): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $animal', 'APPPATH\\Views\\testepaginainicial.php', 171)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\testepaginainicial.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('testepaginainicial', [], true)
+ 5 APPPATH\Controllers\Usuario.php(29): view('testepaginainicial')
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Usuario->testepaginainicial()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-22 22:57:52 --> Undefined variable $animal
+in APPPATH\Views\testepaginainicial.php on line 171.
+ 1 APPPATH\Views\testepaginainicial.php(171): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $animal', 'APPPATH\\Views\\testepaginainicial.php', 171)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\testepaginainicial.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('testepaginainicial', [], true)
+ 5 APPPATH\Controllers\Usuario.php(29): view('testepaginainicial')
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Usuario->testepaginainicial()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-22 22:58:46 --> Undefined variable $animal
+in APPPATH\Views\testepaginainicial.php on line 171.
+ 1 APPPATH\Views\testepaginainicial.php(171): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $animal', 'APPPATH\\Views\\testepaginainicial.php', 171)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\testepaginainicial.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('testepaginainicial', [], true)
+ 5 APPPATH\Controllers\Usuario.php(29): view('testepaginainicial')
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Usuario->testepaginainicial()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-22 22:58:47 --> Undefined variable $animal
+in APPPATH\Views\testepaginainicial.php on line 171.
+ 1 APPPATH\Views\testepaginainicial.php(171): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $animal', 'APPPATH\\Views\\testepaginainicial.php', 171)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\testepaginainicial.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('testepaginainicial', [], true)
+ 5 APPPATH\Controllers\Usuario.php(29): view('testepaginainicial')
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Usuario->testepaginainicial()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-22 22:58:48 --> Undefined variable $animal
+in APPPATH\Views\testepaginainicial.php on line 171.
+ 1 APPPATH\Views\testepaginainicial.php(171): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $animal', 'APPPATH\\Views\\testepaginainicial.php', 171)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\testepaginainicial.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('testepaginainicial', [], true)
+ 5 APPPATH\Controllers\Usuario.php(29): view('testepaginainicial')
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Usuario->testepaginainicial()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-22 22:59:13 --> Undefined variable $animal
+in APPPATH\Views\testepaginainicial.php on line 171.
+ 1 APPPATH\Views\testepaginainicial.php(171): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $animal', 'APPPATH\\Views\\testepaginainicial.php', 171)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\testepaginainicial.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('testepaginainicial', [], true)
+ 5 APPPATH\Controllers\Usuario.php(29): view('testepaginainicial')
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Usuario->testepaginainicial()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-22 22:59:14 --> Undefined variable $animal
+in APPPATH\Views\testepaginainicial.php on line 171.
+ 1 APPPATH\Views\testepaginainicial.php(171): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $animal', 'APPPATH\\Views\\testepaginainicial.php', 171)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\testepaginainicial.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('testepaginainicial', [], true)
+ 5 APPPATH\Controllers\Usuario.php(29): view('testepaginainicial')
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Usuario->testepaginainicial()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
