@@ -100,6 +100,9 @@
                                 <div class="footer text-center">
                                     <button type="submit" class="btn btn-fill btn-secondary btn-wd">Cadastrar</button>
                                 </div>
+                                <div>
+                                    <a href="<?php echo base_url('login')?>"> </br>CLIQUE AQUI E FAÇA LOGIN </a>
+                                    </div>
                             </div>
                         </div>
                         </form>

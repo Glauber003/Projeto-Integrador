@@ -33,7 +33,7 @@
   <nav id="menu2">
     <ul>
       <li><a href="<?php echo base_url('listaranimais')?>"> ADOÇÃO </a></li>
-      <li><a href="<?php echo base_url('login')?>"> DOAÇÃO </a></li>
+      <li><a href="<?php echo base_url('listaranimais')?>"> DOAÇÃO </a></li>
       <li><a href="<?php echo base_url('voluntarios')?>"> VOLUTÁRIADO </a></li>
       <li><a href="<?php echo base_url('sobrenos')?>"> SOBRE NÓS </a></li>
       <li><a href="<?php echo base_url('suporte')?>"> SUPORTE </a></li>

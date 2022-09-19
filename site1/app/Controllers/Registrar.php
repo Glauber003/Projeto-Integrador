@@ -14,7 +14,8 @@ class Registrar extends BaseController
            try{
                 $usuarioData = $this->request->getPost(); //pega todos os dados preenchidos no formulario e joga na variavel usuariodata;
                 if($usuarioModel->save($usuarioData)){
-                    $data['msg'] = 'Usuario Cadastrado com sucesso';
+                    $data['msg'] = 'Usuario Cadastrado com sucesso!
+                     volte a pagina principal e faça login';
                 }
                 else{
                     $data['msg'] ='erro ao criar usuario';

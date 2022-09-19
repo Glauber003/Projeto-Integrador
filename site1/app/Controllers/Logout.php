@@ -10,6 +10,6 @@ class Logout extends BaseController
     {
         //destruir sessão e voltar para o login
         $this->session->destroy();
-        return redirect()->to('login');
+        return redirect()->to('animal');
     }
 }

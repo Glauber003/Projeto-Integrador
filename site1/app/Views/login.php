@@ -69,6 +69,9 @@
                                 </div>
                                 <div class="footer text-center">
                                     <button type="submit" class="btn btn-fill btn-secondary btn-wd">Entrar</button>
+                                    <div>
+                                    <a href="<?php echo base_url('REGISTRAR')?>"> NÃO TEM CADASTRO ? CLIQUE AQUI </a>
+                                    </div>
                                 </div>
                             </div>
                         </div>

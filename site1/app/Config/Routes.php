@@ -50,6 +50,10 @@ $routes->get('suporte','Animal::suporte');
 
 //rotas usuario logado adm
 $routes->get('admin', 'Admin\Home::index');
+$routes->get('listaranimaisadmn','Admin\Home::listaranimaisadmn');
+$routes->get('voluntariosadmn','Admin\Home::voluntariosadmn');
+$routes->get('sobrenosadmn','Admin\Home::sobrenosadmn');
+$routes->get('suporteadmn','Admin\Home::suporteadmn');
 
 
 
