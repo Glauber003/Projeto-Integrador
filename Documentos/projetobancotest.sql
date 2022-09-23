@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Tempo de geração: 19-Set-2022 às 17:44
+-- Tempo de geração: 24-Set-2022 às 00:26
 -- Versão do servidor: 10.4.24-MariaDB
 -- versão do PHP: 8.1.6
 
@@ -31,7 +31,8 @@ CREATE TABLE `adocao` (
   `data_adocao` date DEFAULT NULL,
   `hora_adocao` varchar(255) DEFAULT NULL,
   `id_adocao` int(11) NOT NULL,
-  `usuario_adocao` varchar(255) DEFAULT NULL
+  `id_adocao_usuario` int(11) NOT NULL,
+  `id_adocao_animal` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 -- --------------------------------------------------------
@@ -54,18 +55,6 @@ CREATE TABLE `cadastro_animal` (
   `peso` int(11) NOT NULL,
   `quantidade` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
-
---
--- Acionadores `cadastro_animal`
---
-DELIMITER $$
-CREATE TRIGGER `adicionar_animal` AFTER INSERT ON `cadastro_animal` FOR EACH ROW BEGIN
-    	UPDATE cadastro_animal
-        SET cadastro_animal.quantidade = cadastro_animal.quantidade + NEW.quantidade
-        WHERE cadastro_animal.id_animal = NEW.id_animal;
-    END
-$$
-DELIMITER ;
 
 -- --------------------------------------------------------
 
@@ -164,6 +153,14 @@ CREATE TABLE `usuario` (
   `id_animal_usuario` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
+--
+-- Extraindo dados da tabela `usuario`
+--
+
+INSERT INTO `usuario` (`id_usuario`, `nome_usuario`, `cpf`, `rg`, `email`, `senha`, `sexo`, `nacionalidade`, `id_animal_usuario`) VALUES
+(10, 'Naiane ', '999999999', '324567', 'santosnaiane2003@gmail.com', '$2y$10$eIWLqZI2/LEOKOmbOsK3DeE08OdV4XtJd/.XAFZ8b0sijZiHwPSI2', 'feminino', 'brasileira', 0),
+(11, 'jose', '25', '111', 'teste123@gmail.com', '$2y$10$uIwiPDVQHz/U1S2w16mbf.Fydq4BrE6NtkYbfmY7RfbEdWM7dJyyq', 'm', 'BR', 0);
+
 -- --------------------------------------------------------
 
 --
@@ -186,13 +183,16 @@ CREATE TABLE `voluntarios` (
 -- Índices para tabela `adocao`
 --
 ALTER TABLE `adocao`
-  ADD PRIMARY KEY (`id_adocao`);
+  ADD PRIMARY KEY (`id_adocao`),
+  ADD KEY `fk_adocao_usuario` (`id_adocao_usuario`),
+  ADD KEY `fk_adocao_animal` (`id_adocao_animal`);
 
 --
 -- Índices para tabela `cadastro_animal`
 --
 ALTER TABLE `cadastro_animal`
-  ADD PRIMARY KEY (`id_animal`);
+  ADD PRIMARY KEY (`id_animal`),
+  ADD KEY `fk_usuario_animal` (`id_animal_usuario`);
 
 --
 -- Índices para tabela `doacao`
@@ -253,7 +253,7 @@ ALTER TABLE `voluntarios`
 -- AUTO_INCREMENT de tabela `cadastro_animal`
 --
 ALTER TABLE `cadastro_animal`
-  MODIFY `id_animal` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
+  MODIFY `id_animal` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=17;
 
 --
 -- AUTO_INCREMENT de tabela `imagem_animal`
@@ -265,11 +265,18 @@ ALTER TABLE `imagem_animal`
 -- AUTO_INCREMENT de tabela `usuario`
 --
 ALTER TABLE `usuario`
-  MODIFY `id_usuario` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
+  MODIFY `id_usuario` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
 
 --
 -- Restrições para despejos de tabelas
 --
+
+--
+-- Limitadores para a tabela `adocao`
+--
+ALTER TABLE `adocao`
+  ADD CONSTRAINT `fk_adocao_animal` FOREIGN KEY (`id_adocao_animal`) REFERENCES `cadastro_animal` (`id_animal`),
+  ADD CONSTRAINT `fk_adocao_usuario` FOREIGN KEY (`id_adocao_usuario`) REFERENCES `usuario` (`id_usuario`);
 
 --
 -- Limitadores para a tabela `doacao`
