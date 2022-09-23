@@ -138,10 +138,10 @@
   <div style="align-items: left" class="boxs">
     <h2>Links rápidos</h2>
       <ul>
-        <li><a href="#">Adoção</a></li>
-        <li><a href="#">Doação</a></li>
-        <li><a href="#">Voluntáriado</a></li> 
-        <li><a href="#">Sobre Nós</a></li> 
+        <li><a href="<?php echo base_url('listaranimaisadm')?>">Doação</a></li>
+        <li><a href="<?php echo base_url('suporteadmn')?>">Voluntáriado</a></li> 
+        <li><a href="<?php echo base_url('suporteadmn')?>">Suporte</a></li> 
+    </h2>> 
       </ul>
     </h2>
   </div>

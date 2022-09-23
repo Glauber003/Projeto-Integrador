@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<!-- saved from url=(0044)https://paulopbi.github.io/pequenos-amigos/# -->
 <html lang="pt-br"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
 <head>
@@ -10,8 +9,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <link href="http://fonts.cdnfonts.com/css/montserrat" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.googleapis.com/">
-  <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="#">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="#">
   <link rel="stylesheet" type="text/css" href="<?php echo base_url('css/edit.css'); ?>">
   <link rel="stylesheet" type="text/css" href="<?php echo base_url('css/edit2.css'); ?>">
 
@@ -26,7 +25,7 @@
 <body>
   <nav id="menu1">
     <ul>
-      <li><a href=""> MiauDota </a></li> 
+      <li><a> Miaudota </a></li> 
     </ul>
   </nav>
 
@@ -35,26 +34,23 @@
       <li><a href="<?php echo base_url('listaranimais')?>"> ADOÇÃO </a></li>
       <li><a href="<?php echo base_url('listaranimais')?>"> DOAÇÃO </a></li>
       <li><a href="<?php echo base_url('voluntarios')?>"> VOLUTÁRIADO </a></li>
-      <li><a href="<?php echo base_url('sobrenos')?>"> SOBRE NÓS </a></li>
       <li><a href="<?php echo base_url('suporte')?>"> SUPORTE </a></li>
-      <li><a href="<?php echo base_url('login')?>"> ENTRAR </a></li>
+      <li><a style="color: white" href="<?php echo base_url('login')?>"> ENTRAR </a></li>
     </ul>
   </nav>
 </body>
 
 <figure id="container">
-  <img style="width: 145%" src="<?php echo base_url('img/bg_1.jpg')?>">  
+  <img style="width: 145%" src="<?php echo base_url('img/bg_4.jpg')?>">  
   <figcaption>
     <h1 class="hero__h1">
-      Encontre Um Novo
-      </br>
-      <span class="hero__h1--color">Companheiro.</span>
+      Encontre Um Novo <span class="hero__h1--color">Companheiro.</span>
     </h1>
   </figcaption>
 </figure>
 
     
- 
+</br></br></br></br></br></br>
 <section class="hero-f">
   <div class="hero-frase">
     <div class="frase">
@@ -74,10 +70,11 @@
         <span list-style-tipe="circle" class="hero__h1--color">Adoção</span>
       </li>
       <p class="hero__text2">
-      Segundo informações do instituto bilubilubilu Sou um parágrafo. Clique aqui para editar-me e adicionar o seu próprio texto. É fácil! Basta clicar em "Editar Texto" ou clicar duas vezes sobre mim e você poderá adicionar o seu próprio conteúdo e trocar fontes. 
-      Sinta-se à vontade para arrastar-me e soltar em qualquer lugar em sua página. Sou um ótimo lugar para você contar sua história e permitir que seus clientes saibam um pouco mais sobre você.
-      Este é um ótimo espaço para escrever um texto longo sobre a sua compania e seus serviços. Você pode usar esse espaço para entrar em detalhes sobre a sua empresa. Fale sobre a sua equipe e sobre os serviços prestados por você.
-      Conte para seus visitantes sobre como teve a idéia de iniciar o seu negócio e o que o torna diferente de seus competidores. Faça com que sua empresa se destaque e mostre quem você é.
+      Primeiramente, é de suma importância salientar a importância sobre a adoção consciente dos animais. A adoção de animais  consiste em um processo de transferência de cuidados e responsabilidade que pertencia a outra parte, seja um abrigo, pessoa ou organização de resgate. 
+É relevante apontar que Segundo dados da União Internacional Protetora dos Animais (UIPA), a procura por adoção de animais aumentou significativamente durante os primeiros meses da pandemia, mas infelizmente o número de abandono também aumentou posteriormente. 
+Para adotar um animal de estimação, é imprescindível o tutor estar ciente sobre toda responsabilidade social por trás do processo de adoção. 
+Como: estilo de vida do tutor, espaço adequado para o animal, dinheiro para investir nos cuidados necessários para mantê-los saudáveis, como alimentação diária, consultas ao veterinário, medicamentos, etc... 
+Em contrapartida disso, a adoção pode ser considerada um ato nobre no que diz respeito ao poder que tem em mudar o bem-estar do animal adotado, e trás muitos benefícios para o tutor, como: ambiente mais alegre, amor, fidelidade, segurança, o tutor se torna mais sociável, e reduz os níveis de estresse e depressão.
       </p>
     </h1>
   </div>
@@ -90,10 +87,19 @@
                 <span class="hero__h1--color">Doação</span>
               </li>
               <p class="hero__text3">
-              Segundo informações do instituto bilubilubilu Sou um parágrafo. Clique aqui para editar-me e adicionar o seu próprio texto. É fácil! Basta clicar em "Editar Texto" ou clicar duas vezes sobre mim e você poderá adicionar o seu próprio conteúdo e trocar fontes. 
-              Sinta-se à vontade para arrastar-me e soltar em qualquer lugar em sua página. Sou um ótimo lugar para você contar sua história e permitir que seus clientes saibam um pouco mais sobre você.
-              Este é um ótimo espaço para escrever um texto longo sobre a sua compania e seus serviços. Você pode usar esse espaço para entrar em detalhes sobre a sua empresa. Fale sobre a sua equipe e sobre os serviços prestados por você.
-              Conte para seus visitantes sobre como teve a idéia de iniciar o seu negócio e o que o torna diferente de seus competidores. Faça com que sua empresa se destaque e mostre quem você é.
+              È o ato de dar um bem próprio ao próximo que necessita.Quando trazemos um
+              animal para o nosso convívio assumimos um compromisso para toda a vida.
+              Por isso, antes de acolher avalie com cuidado: haverá atenção, tempo e
+              recurso suficientes para as necessidades do companheiro? Afinal, trata-se de
+              uma vida totalmente dependente de pessoas que zelem por ela, com
+              responsabilidade e compromisso. Não o abandone , doe ,busque uma melhor
+              forma de ajudar, pois doar ajuda salvar vidas , do abandono , da fome
+              excessiva , da morte precoce. Se, em circunstância extrema você for obrigado
+              a se separar de seu amigo, NÃO O ABANDONE À PRÓPRIA SORTE. Além de
+              ser um, nas ruas ele irá adoecer ou será vítima de crueldade, atropelamento e
+              outros acidentes. Além disso, algumas separações são traumáticas. Tenha
+              certeza: ele jamais faria o mesmo, pois confia em você.
+
               </p>
             </div>
           </div>
@@ -109,10 +115,14 @@
         <span list-style-tipe="circle" class="hero__h1--color">Voluntariado</span>
       </li>
       <p class="hero__text2">
-        Segundo informações do instituto bilubilubilu Sou um parágrafo. Clique aqui para editar-me e adicionar o seu próprio texto. É fácil! Basta clicar em "Editar Texto" ou clicar duas vezes sobre mim e você poderá adicionar o seu próprio conteúdo e trocar fontes. 
-        Sinta-se à vontade para arrastar-me e soltar em qualquer lugar em sua página. Sou um ótimo lugar para você contar sua história e permitir que seus clientes saibam um pouco mais sobre você.
-        Este é um ótimo espaço para escrever um texto longo sobre a sua compania e seus serviços. Você pode usar esse espaço para entrar em detalhes sobre a sua empresa. Fale sobre a sua equipe e sobre os serviços prestados por você.
-        Conte para seus visitantes sobre como teve a idéia de iniciar o seu negócio e o que o torna diferente de seus competidores. Faça com que sua empresa se destaque e mostre quem você é.
+      O amor pelos animais pode te levar a descobrir o quanto é incrível se dedicar
+      ao trabalho voluntário . Voluntariado é uma relação humana, rica e
+      solidária: Não é uma atividade fria, racional e impessoal. Não é só quem é
+      especialista em alguma coisa que pode ser voluntário. Todas as pessoas têm
+      capacidades, habilidades e dons. O que cada um faz bem pode fazer bem a
+      alguém. A ação voluntária contribui para ajudar animais em dificuldade,
+      resolver problemas, melhorar a qualidade de vida , uma prestação de serviços
+      sem esperar remuneração financeira. Faça a diferença.
       </p>
     </h1>
 
@@ -133,23 +143,16 @@
 
 </br></br></br></br></br></br></br>
 
-<footer>
 
-  <div style="align-items: left" class="boxs">
+<footer>
+  
+  <div class="boxs">
     <h2>Links rápidos</h2>
       <ul>
-        <li><a href="#">Adoção</a></li>
-        <li><a href="#">Doação</a></li>
-        <li><a href="#">Voluntáriado</a></li> 
-        <li><a href="#">Sobre Nós</a></li> 
-      </ul>
-    </h2>
-  </div>
-
-  <div class="boxs">
-    <h2>Sobre Nós</h2>
-      <ul>
-        <li><a href="#">Get Into It (yuh)</a></li>
+        <li><a href="<?php echo base_url('listaranimais')?>">Adoção</a></li>
+        <li><a href="<?php echo base_url('listaranimais')?>">Doação</a></li>
+        <li><a href="<?php echo base_url('voluntarios')?>">Voluntáriado</a></li> 
+        <li><a href="<?php echo base_url('suporte')?>">Suporte</a></li> 
       </ul>
     </h2>
   </div>
@@ -157,28 +160,50 @@
   <div class="boxs">
     <h2>Contatos</h2>
       <ul>
-        <li><i style="color: white" class="fa fa-whatsapp fa-2x" aria-hidden="true"></i><a href="#">   (33) 99851-5585</a></li>
-        <li><i style="color: white" class="fa fa-paper-plane fa-2x" aria-hidden="true"></i></i><a href="#">   nms6@aluno.ifnmg.edu.br</a></li>
-        <li><i style="color: white" class="fa fa-map-o fa-2x" aria-hidden="true"></i></i><a href="#">   BR 367, km 278, s/n - Zona Rural, Araçuaí - MG, 39600-000</a></li> 
+        <li><i style="color: white" class="fa fa-whatsapp" aria-hidden="true"></i><a href="#">   (33) 99851-5585</a></li>
+        <li><i style="color: white" class="fa fa-paper-plane" aria-hidden="true"></i></i><a href="#">   nms6@aluno.ifnmg.edu.br</a></li>
+        <li><i style="color: white" class="fa fa-map-o" aria-hidden="true"></i></i><a href="#">   BR 367, km 278, s/n - Zona Rural</br>Araçuaí - MG, 39600-000</a></li> 
       </ul>
     </h2>
   </div>
 
+  <div class="boxs">
+    <h2>Sobre Nós</h2>
+      <ul>
+        <li><a>Somos um grupo de alunos do IFNMG - Campus Araçuaí e criamos essa plataforma web para o desenvolvimento do Projeto Integrador do Terceiro Período.
+                Nosso foco é uma plataforma simples com diversas funcionalidades e um com uma possibilidade de crescimento gigante.
+        </a></li>
+      </ul>
+    </h2>
+  </div>
+
+  <div class="boxs">
+    <h2 style="text-align: right" >Integrantes</h2>
+      <ul>
+        <li style="text-align: center" ><i style="color: white" aria-hidden="true"></i><i><a href="#">   Ana Flávia</a></li>
+        <li style="text-align: center" ><i style="color: white" aria-hidden="true"></i><i><a href="#">   Iara</a></li>
+        <li style="text-align: center" ><i style="color: white" aria-hidden="true"></i><i><a href="#">   Glauber</a></li>
+        <li style="text-align: center" ><i style="color: white" aria-hidden="true"></i><i><a href="#">   Naiane</a></li> 
+        <li style="text-align: center" ><i style="color: white" aria-hidden="true"></i><i><a href="#">   Nauberth</a></li> 
+      </ul>
+    </h2>
+  </div>
+  
 </footer>
 
 <div class="footer">
   <div class="sociais">
 
     <div class="social">
-      <a href="#"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
+      <a href="#"><i class="fa fa-instagram fa-4x" aria-hidden="true"></i></a>
     </div>
 
     <div class="social">
-      <a href="#"><i class="fa fa-github fa-2x" aria-hidden="true"></i>
+      <a href="#"><i class="fa fa-github fa-4x" aria-hidden="true"></i>
     </div>
 
     <div class="social">
-      <a href="#"><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></a>
+      <a href="#"><i class="fa fa-linkedin fa-4x" aria-hidden="true"></i></a>
     </div>
 
   </div>

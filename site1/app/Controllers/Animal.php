@@ -23,6 +23,8 @@ class Animal extends BaseController
 		]);
 	}
 
+	
+
 	public function sobrenos()
 	{
 		return view('sobrenos');
@@ -46,12 +48,13 @@ class Animal extends BaseController
 	}
 
 
-
-
 	public function cadastro()
 	{
 		return view('form');
 	}
+
+
+
 	public function enviadados_cadastro()
 	{
 		if($this->animalModel->save($this->request->getPost())){
@@ -61,7 +64,41 @@ class Animal extends BaseController
 			echo " Ocorreu um erro";
 		}
 	}
-	
+
+
+	public function enviadados_update()
+	{
+		$animalModel =  new \App\Models\AnimalModel();
+		$animal = $this->animalModel->find($id_animal);	
+
+	if($animal->request->getMethod() =='post');{
+		$animal['nome_animal'] = $this->request->getPost('nome_animal');
+
+		if ($animalModel->update($id_animal,$animal)){
+			return view('');
+		}else{
+			echo 'erro ao editar';
+		}
+		
+	}
+	}
+
+
+	public function editardados($id_animal)
+	{	$animal = $this->animalModel->find($id_animal);	
+		
+		echo view('edicaoform',[
+			'animal'=> $animal
+		]);
+
+	}
+
+	public function deletaranimal($id_animal){
+		if($this->animalModel->delete($id_animal)){
+			echo view('animalAdmn');
+		} else{
+			echo"ERRO.";
+		}
+	}
 
 }
-

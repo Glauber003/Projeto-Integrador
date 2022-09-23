@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- saved from url=(0044)https://paulopbi.github.io/pequenos-amigos/# -->
+
 <html lang="pt-br"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <head>
   <meta http-equiv="X-UA-Compatible" content="IE=edge">

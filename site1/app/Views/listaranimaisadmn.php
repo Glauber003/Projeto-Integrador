@@ -35,26 +35,12 @@
       <li><a href="<?php echo base_url('listaranimaisadmn')?>"> ADOÇÃO </a></li>
       <li><a href="<?php echo base_url('listaranimaisadmn')?>"> DOAÇÃO </a></li>
       <li><a href="<?php echo base_url('voluntariosadmn')?>"> VOLUTÁRIADO </a></li>
-      <li><a href="<?php echo base_url('sobrenosadmn')?>"> SOBRE NÓS </a></li>
       <li><a href="<?php echo base_url('suporteadmn')?>"> SUPORTE </a></li>
       <li><a href="<?php echo base_url('logout')?>"> LOGOUT </a></li>
     </ul>
   </nav>
 </body>
 
-<figure id="container">
-  <img style="width: 145%" src="<?php echo base_url('img/bg_1.jpg')?>">  
-  <figcaption>
-    <h1 class="hero__h1">
-      Encontre Um Novo
-      </br>
-      <span class="hero__h1--color">Companheiro.</span>
-    </h1>
-  </figcaption>
-</figure>
-
-    
- 
 <section class="hero-f">
   <div class="hero-frase">
     <div class="frase">
@@ -66,90 +52,46 @@
   </div>
 </section>
 
-<section class="hero">
-
-  <div class="hero-left">
-    <h1 class="hero__h2">
-      <li>
-        <span list-style-tipe="circle" class="hero__h1--color">Adoção</span>
-      </li>
-      <p class="hero__text2">
-      Segundo informações do instituto bilubilubilu Sou um parágrafo. Clique aqui para editar-me e adicionar o seu próprio texto. É fácil! Basta clicar em "Editar Texto" ou clicar duas vezes sobre mim e você poderá adicionar o seu próprio conteúdo e trocar fontes. 
-      Sinta-se à vontade para arrastar-me e soltar em qualquer lugar em sua página. Sou um ótimo lugar para você contar sua história e permitir que seus clientes saibam um pouco mais sobre você.
-      Este é um ótimo espaço para escrever um texto longo sobre a sua compania e seus serviços. Você pode usar esse espaço para entrar em detalhes sobre a sua empresa. Fale sobre a sua equipe e sobre os serviços prestados por você.
-      Conte para seus visitantes sobre como teve a idéia de iniciar o seu negócio e o que o torna diferente de seus competidores. Faça com que sua empresa se destaque e mostre quem você é.
-      </p>
-    </h1>
-  </div>
-
-      <h1 class="hero__h2">
-        <div class="container">
-          <div class="row">
-            <div class="col-sm">
-              <li list-style-image="#">
-                <span class="hero__h1--color">Doação</span>
-              </li>
-              <p class="hero__text3">
-              Segundo informações do instituto bilubilubilu Sou um parágrafo. Clique aqui para editar-me e adicionar o seu próprio texto. É fácil! Basta clicar em "Editar Texto" ou clicar duas vezes sobre mim e você poderá adicionar o seu próprio conteúdo e trocar fontes. 
-              Sinta-se à vontade para arrastar-me e soltar em qualquer lugar em sua página. Sou um ótimo lugar para você contar sua história e permitir que seus clientes saibam um pouco mais sobre você.
-              Este é um ótimo espaço para escrever um texto longo sobre a sua compania e seus serviços. Você pode usar esse espaço para entrar em detalhes sobre a sua empresa. Fale sobre a sua equipe e sobre os serviços prestados por você.
-              Conte para seus visitantes sobre como teve a idéia de iniciar o seu negócio e o que o torna diferente de seus competidores. Faça com que sua empresa se destaque e mostre quem você é.
-              </p>
-            </div>
+<div class="card" style="width: 40rem; display: flex">
+  <div class="card-body">
+    <h5 style="width: 500px; padding: 60px; font-size: 80px" class="card-title">Animais Para Doação</h5>
+      <?php foreach($listaranimaisadmn as $listaranimaisadmns) : ?>
+          <div class="box">
+          <div class="possy"style="width: 600px">
+            <img style="width: 1000px; padding: 40px" src="https://i0.wp.com/www.portaldodog.com.br/cachorros/wp-content/uploads/2021/03/visa%CC%83o-do-cachorro-2.jpeg?resize=626%2C626&ssl=1" alt="animal">
           </div>
+          <div style="line-height: 3rem; white-space: nowrap" class="content">
+          <p style="width: 500px; padding: 40px; font-size: 50px;"  class="card-text">-ID Animal :       <?php echo $listaranimaisadmns ['id_animal']?></p>
+          <p style="width: 500px; padding: 40px; font-size: 50px;"  class="card-text">-Nome do Animal:   <?php echo $listaranimaisadmns ['nome_animal']?></p>
+          <p style="width: 500px; padding: 40px; font-size: 50px;"  class="card-text">-Espécie:          <?php echo $listaranimaisadmns ['especie_animal']?></p>
+          <p style="width: 500px; padding: 40px; font-size: 50px;"  class="card-text">-Raça:             <?php echo $listaranimaisadmns ['raca']?></p>
+          <p style="width: 500px; padding: 40px; font-size: 50px;"  class="card-text">-Porte:            <?php echo $listaranimaisadmns ['porte']?></p>
+          <p style="width: 500px; padding: 40px; font-size: 50px;"  class="card-text">-Sexo:             <?php echo $listaranimaisadmns ['sexo']?></p>
+          <p style="width: 500px; padding: 40px; font-size: 50px;"  class="card-text">-Idade:            <?php echo $listaranimaisadmns ['idade']?></p>
+          <p style="width: 500px; padding: 40px; font-size: 50px;"  class="card-text">-Local:            <?php echo $listaranimaisadmns ['local_animal']?></p>
+          <p style="width: 500px; padding: 40px; font-size: 50px;"  class="card-text">-Descrição Do Pet: <?php echo $listaranimaisadmns ['descricao_pet']?></p>
+          <h3></h3>
+          <h3><h3><?php echo anchor("Animal/editardados/".$listaranimaisadmns['id_animal'],'Editar Dados')?></h3>
+          <h3><?php echo anchor("Animal/deletaranimal/".$listaranimaisadmns['id_animal'],'Exluir Animal')?></h3>
         </div>
-      </h1> 
-
-</section>
-
-<section class="hero">
-  <div class="hero-left">
-    <h1 class="hero__h2">
-      <li>
-        <span list-style-tipe="circle" class="hero__h1--color">Voluntariado</span>
-      </li>
-      <p class="hero__text2">
-        Segundo informações do instituto bilubilubilu Sou um parágrafo. Clique aqui para editar-me e adicionar o seu próprio texto. É fácil! Basta clicar em "Editar Texto" ou clicar duas vezes sobre mim e você poderá adicionar o seu próprio conteúdo e trocar fontes. 
-        Sinta-se à vontade para arrastar-me e soltar em qualquer lugar em sua página. Sou um ótimo lugar para você contar sua história e permitir que seus clientes saibam um pouco mais sobre você.
-        Este é um ótimo espaço para escrever um texto longo sobre a sua compania e seus serviços. Você pode usar esse espaço para entrar em detalhes sobre a sua empresa. Fale sobre a sua equipe e sobre os serviços prestados por você.
-        Conte para seus visitantes sobre como teve a idéia de iniciar o seu negócio e o que o torna diferente de seus competidores. Faça com que sua empresa se destaque e mostre quem você é.
-      </p>
-    </h1>
-
-    <h1 class="hero__h2">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm">
-            <p class="hero__text3">
-              <img style="width: 70%" src="<?php echo base_url('img/cuidados.png')?>"> 
-            </p>
-          </div>
         </div>
       </div>
-    </h1> 
+    <?php endforeach;?>
   </div>
-</section>
+</div>
 
 
 </br></br></br></br></br></br></br>
 
 <footer>
-
-  <div style="align-items: left" class="boxs">
+  
+  <div class="boxs">
     <h2>Links rápidos</h2>
       <ul>
-        <li><a href="#">Adoção</a></li>
-        <li><a href="#">Doação</a></li>
-        <li><a href="#">Voluntáriado</a></li> 
-        <li><a href="#">Sobre Nós</a></li> 
-      </ul>
-    </h2>
-  </div>
-
-  <div class="boxs">
-    <h2>Sobre Nós</h2>
-      <ul>
-        <li><a href="#">Get Into It (yuh)</a></li>
+        <li><a href="<?php echo base_url('listaranimais')?>">Adoção</a></li>
+        <li><a href="<?php echo base_url('listaranimais')?>">Doação</a></li>
+        <li><a href="<?php echo base_url('voluntarios')?>">Voluntáriado</a></li> 
+        <li><a href="<?php echo base_url('suporte')?>">Suporte</a></li> 
       </ul>
     </h2>
   </div>
@@ -157,28 +99,50 @@
   <div class="boxs">
     <h2>Contatos</h2>
       <ul>
-        <li><i style="color: white" class="fa fa-whatsapp fa-2x" aria-hidden="true"></i><a href="#">   (33) 99851-5585</a></li>
-        <li><i style="color: white" class="fa fa-paper-plane fa-2x" aria-hidden="true"></i></i><a href="#">   nms6@aluno.ifnmg.edu.br</a></li>
-        <li><i style="color: white" class="fa fa-map-o fa-2x" aria-hidden="true"></i></i><a href="#">   BR 367, km 278, s/n - Zona Rural, Araçuaí - MG, 39600-000</a></li> 
+        <li><i style="color: white" class="fa fa-whatsapp" aria-hidden="true"></i><a href="#">   (33) 99851-5585</a></li>
+        <li><i style="color: white" class="fa fa-paper-plane" aria-hidden="true"></i></i><a href="#">   nms6@aluno.ifnmg.edu.br</a></li>
+        <li><i style="color: white" class="fa fa-map-o" aria-hidden="true"></i></i><a href="#">   BR 367, km 278, s/n - Zona Rural</br>Araçuaí - MG, 39600-000</a></li> 
       </ul>
     </h2>
   </div>
 
+  <div class="boxs">
+    <h2>Sobre Nós</h2>
+      <ul>
+        <li><a>Somos um grupo de alunos do IFNMG - Campus Araçuaí e criamos essa plataforma web para o desenvolvimento do Projeto Integrador do Terceiro Período.
+                Nosso foco é uma plataforma simples com diversas funcionalidades e um com uma possibilidade de crescimento gigante.
+        </a></li>
+      </ul>
+    </h2>
+  </div>
+
+  <div class="boxs">
+    <h2 style="text-align: right" >Integrantes</h2>
+      <ul>
+        <li style="text-align: center" ><i style="color: white" aria-hidden="true"></i><i><a href="#">   Ana Flávia</a></li>
+        <li style="text-align: center" ><i style="color: white" aria-hidden="true"></i><i><a href="#">   Iara</a></li>
+        <li style="text-align: center" ><i style="color: white" aria-hidden="true"></i><i><a href="#">   Glauber</a></li>
+        <li style="text-align: center" ><i style="color: white" aria-hidden="true"></i><i><a href="#">   Naiane</a></li> 
+        <li style="text-align: center" ><i style="color: white" aria-hidden="true"></i><i><a href="#">   Nauberth</a></li> 
+      </ul>
+    </h2>
+  </div>
+  
 </footer>
 
 <div class="footer">
   <div class="sociais">
 
     <div class="social">
-      <a href="#"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
+      <a href="#"><i class="fa fa-instagram fa-4x" aria-hidden="true"></i></a>
     </div>
 
     <div class="social">
-      <a href="#"><i class="fa fa-github fa-2x" aria-hidden="true"></i>
+      <a href="#"><i class="fa fa-github fa-4x" aria-hidden="true"></i>
     </div>
 
     <div class="social">
-      <a href="#"><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></a>
+      <a href="#"><i class="fa fa-linkedin fa-4x" aria-hidden="true"></i></a>
     </div>
 
   </div>

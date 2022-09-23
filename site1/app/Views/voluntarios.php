@@ -26,7 +26,7 @@
 <body>
   <nav id="menu1">
     <ul>
-      <li><a href=""> MiauDota </a></li> 
+    <li><a> MiauDota </a></li> 
     </ul>
   </nav>
 
@@ -35,23 +35,11 @@
       <li><a href="<?php echo base_url('listaranimais')?>"> ADOÇÃO </a></li>
       <li><a href="<?php echo base_url('login')?>"> DOAÇÃO </a></li>
       <li><a href="<?php echo base_url('voluntarios')?>"> VOLUTÁRIADO </a></li>
-      <li><a href="<?php echo base_url('sobrenos')?>"> SOBRE NÓS </a></li>
       <li><a href="<?php echo base_url('suporte')?>"> SUPORTE </a></li>
       <li><a href="<?php echo base_url('login')?>"> ENTRAR </a></li>
     </ul>
   </nav>
 </body>
-
-<figure id="container">
-  <img style="width: 145%" src="<?php echo base_url('img/bg_1.jpg')?>">  
-  <figcaption>
-    <h1 class="hero__h1">
-      Encontre Um Novo
-      </br>
-      <span class="hero__h1--color">Companheiro.</span>
-    </h1>
-  </figcaption>
-</figure>
 
     
  
@@ -70,24 +58,19 @@
 
 
 </br></br></br></br></br></br></br>
+</br></br></br></br></br></br></br>
+</br></br></br></br></br></br></br>
+</br></br></br></br></br></br></br>
 
 <footer>
-
-  <div style="align-items: left" class="boxs">
+  
+  <div class="boxs">
     <h2>Links rápidos</h2>
       <ul>
-        <li><a href="#">Adoção</a></li>
-        <li><a href="#">Doação</a></li>
-        <li><a href="#">Voluntáriado</a></li> 
-        <li><a href="#">Sobre Nós</a></li> 
-      </ul>
-    </h2>
-  </div>
-
-  <div class="boxs">
-    <h2>Sobre Nós</h2>
-      <ul>
-        <li><a href="#">Get Into It (yuh)</a></li>
+        <li><a href="<?php echo base_url('listaranimais')?>">Adoção</a></li>
+        <li><a href="<?php echo base_url('listaranimais')?>">Doação</a></li>
+        <li><a href="<?php echo base_url('voluntarios')?>">Voluntáriado</a></li> 
+        <li><a href="<?php echo base_url('suporte')?>">Suporte</a></li> 
       </ul>
     </h2>
   </div>
@@ -95,33 +78,54 @@
   <div class="boxs">
     <h2>Contatos</h2>
       <ul>
-        <li><i style="color: white" class="fa fa-whatsapp fa-2x" aria-hidden="true"></i><a href="#">   (33) 99851-5585</a></li>
-        <li><i style="color: white" class="fa fa-paper-plane fa-2x" aria-hidden="true"></i></i><a href="#">   nms6@aluno.ifnmg.edu.br</a></li>
-        <li><i style="color: white" class="fa fa-map-o fa-2x" aria-hidden="true"></i></i><a href="#">   BR 367, km 278, s/n - Zona Rural, Araçuaí - MG, 39600-000</a></li> 
+        <li><i style="color: white" class="fa fa-whatsapp" aria-hidden="true"></i><a href="#">   (33) 99851-5585</a></li>
+        <li><i style="color: white" class="fa fa-paper-plane" aria-hidden="true"></i></i><a href="#">   nms6@aluno.ifnmg.edu.br</a></li>
+        <li><i style="color: white" class="fa fa-map-o" aria-hidden="true"></i></i><a href="#">   BR 367, km 278, s/n - Zona Rural</br>Araçuaí - MG, 39600-000</a></li> 
       </ul>
     </h2>
   </div>
 
+  <div class="boxs">
+    <h2>Sobre Nós</h2>
+      <ul>
+        <li><a>Somos um grupo de alunos do IFNMG - Campus Araçuaí e criamos essa plataforma web para o desenvolvimento do Projeto Integrador do Terceiro Período.
+                Nosso foco é uma plataforma simples com diversas funcionalidades e um com uma possibilidade de crescimento gigante.
+        </a></li>
+      </ul>
+    </h2>
+  </div>
+
+  <div class="boxs">
+    <h2 style="text-align: right" >Integrantes</h2>
+      <ul>
+        <li style="text-align: center" ><i style="color: white" aria-hidden="true"></i><i><a href="#">   Ana Flávia</a></li>
+        <li style="text-align: center" ><i style="color: white" aria-hidden="true"></i><i><a href="#">   Iara</a></li>
+        <li style="text-align: center" ><i style="color: white" aria-hidden="true"></i><i><a href="#">   Glauber</a></li>
+        <li style="text-align: center" ><i style="color: white" aria-hidden="true"></i><i><a href="#">   Naiane</a></li> 
+        <li style="text-align: center" ><i style="color: white" aria-hidden="true"></i><i><a href="#">   Nauberth</a></li> 
+      </ul>
+    </h2>
+  </div>
+  
 </footer>
 
 <div class="footer">
   <div class="sociais">
 
     <div class="social">
-      <a href="#"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
+      <a href="#"><i class="fa fa-instagram fa-4x" aria-hidden="true"></i></a>
     </div>
 
     <div class="social">
-      <a href="#"><i class="fa fa-github fa-2x" aria-hidden="true"></i>
+      <a href="#"><i class="fa fa-github fa-4x" aria-hidden="true"></i>
     </div>
 
     <div class="social">
-      <a href="#"><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></a>
+      <a href="#"><i class="fa fa-linkedin fa-4x" aria-hidden="true"></i></a>
     </div>
 
   </div>
 </div>
-
 </body></html> 
 
 

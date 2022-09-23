@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,500&display=swap');
 /*variables*/
 :root {
   /*color variable*/
@@ -14,6 +15,7 @@
   --navinicial:rgb(255, 226, 226);
   --telainteira: #dfdfdd8a;
   --fundodetexto: #DFDFDD;
+
   /*font variable*/
   --main-font: "Work Sans", sans-serif;
 }
@@ -112,17 +114,27 @@ ul {
 }
 
 #container {
-  display: inline-block;
+  display: flex;
   position: relative;
 }
 
 #container figcaption {
   position:absolute;
-  top: 60px;
+  top: 30px;
   left: 30px;
-  font-size: 20px;
+  font-size: 80px;
   color: black;
   text-shadow: 0px 0px 5px black;
+}
+
+#container figcaption h1 {
+  position:absolute;
+  top: 30px;
+  left: 30px;
+  font-size: 120px;
+  color: black;
+  text-shadow: 0px 0px 5px black;
+  line-height: 8rem;
 }
 
 /*hero*/
@@ -163,7 +175,7 @@ ul {
 .frase {
   display:flex;
   grid-column: 1;
-  font-size: 56px;
+  font-size: 70px;
   line-height: 5rem;
   margin-top: 2rem;
   margin-bottom: 3rem;
@@ -190,7 +202,7 @@ ul {
 }
 
 .hero__h2 li {
-  font-size: 48px;
+  font-size: 70px;
   line-height: 6rem;
   margin-top: 2rem;
   margin-bottom: 3rem;
@@ -215,16 +227,16 @@ ul {
 
 .hero__text2 {
   max-width: 700px;
-  font-size: 28px;
-  line-height: 32px;
+  font-size: 35px;
+  line-height: 40px;
   margin-bottom: 4rem;
   text-align: justify;
 }
 
 .hero__text3 {
   max-width: 700px;
-  font-size: 28px;
-  line-height: 32px;
+  font-size: 35px;
+  line-height: 40px;
   margin-bottom: 4rem;
   text-align: justify;
 }
@@ -316,6 +328,10 @@ ul {
   }
 }
 
+#card-img-top {
+  max-width: 80px;
+
+}
 
   @media screen and (max-width: 414px) {
     .header-nav-links li a {

@@ -26,7 +26,7 @@
 <body>
   <nav id="menu1">
     <ul>
-      <li><a href=""> MiauDota </a></li> 
+    <li><a href="<?php echo base_url('/')?>"> MiauDota </a></li> 
     </ul>
   </nav>
 

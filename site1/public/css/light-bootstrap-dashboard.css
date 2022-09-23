@@ -48,6 +48,8 @@
   }
 }
 /*           Font Smoothing      */
+
+
 body,
 h1, .h1,
 h2, .h2,
@@ -221,6 +223,7 @@ input:focus {
 
 .wrapper {
   position: relative;
+  display: flex;
   top: 0;
   height: 100vh;
 }
@@ -809,7 +812,7 @@ body > .navbar-collapse[data-color="purple"]:after {
 }
 
 .btn-group.select .btn {
-  text-align: left;
+  text-align: center;
 }
 
 .btn-group.select .caret {
@@ -1243,7 +1246,7 @@ body > .navbar-collapse[data-color="purple"]:after {
   line-height: 1.72222;
   overflow: hidden;
   position: relative;
-  text-align: left;
+  text-align: center;
   width: 60px;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -1252,7 +1255,6 @@ body > .navbar-collapse[data-color="purple"]:after {
   user-select: none;
   /*   this code is for fixing safari bug with hidden overflow for border-radius   */
   -webkit-mask: url("../img/mask.png") 0 0 no-repeat;
-  -webkit-mask-size: 60px 24px;
   mask: url("../img/mask.png") 0 0 no-repeat;
 }
 
@@ -1307,7 +1309,7 @@ body > .navbar-collapse[data-color="purple"]:after {
 .has-switch span {
   /*     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2) inset; */
   cursor: pointer;
-  float: left;
+  float: center;
   font-size: 11px;
   font-weight: 400;
   height: 24px;
@@ -1348,7 +1350,7 @@ body > .navbar-collapse[data-color="purple"]:after {
 
 .has-switch label {
   border-radius: 12px;
-  float: left;
+  float: center;
   height: 22px;
   margin: 1px -13px;
   padding: 0;
@@ -1430,12 +1432,6 @@ body > .navbar-collapse[data-color="purple"]:after {
 }
 .navbar .btn-simple {
   font-size: 16px;
-}
-.navbar.fixed {
-  width: calc(100% - $sidebar-width);
-  right: 0;
-  left: auto;
-  border-radius: 0;
 }
 
 .navbar-nav > li > .dropdown-menu {
@@ -1708,7 +1704,7 @@ body > .navbar-collapse[data-color="purple"]:after {
 }
 .footer:not(.footer-big) nav > ul li {
   margin-left: 20px;
-  float: left;
+  float: center;
 }
 .footer:not(.footer-big) nav > ul a {
   padding: 10px 0px;
@@ -1812,7 +1808,7 @@ body > .navbar-collapse[data-color="purple"]:after {
 .dropdown-with-icons i {
   text-align: center;
   line-height: 28px;
-  float: left;
+  float: center;
 }
 .dropdown-with-icons i[class^="pe-"] {
   font-size: 24px;
@@ -1861,6 +1857,12 @@ body > .navbar-collapse[data-color="purple"]:after {
   text-align: center;
   opacity: 0;
   filter: alpha(opacity=0);
+  position: absolute;
+  min-height: 300px; 
+  width: 300px; 
+  margin-top: 250px; 
+  padding-bottom: 20px; 
+  display: flex;
 }
 .card .filter .btn {
   position: relative;
@@ -2051,7 +2053,7 @@ body > .navbar-collapse[data-color="purple"]:after {
   -webkit-justify-content: flex-start;
   -ms-flex-pack: flex-start;
   justify-content: flex-start;
-  text-align: left;
+  text-align: center;
   text-anchor: start;
 }
 
@@ -2064,7 +2066,7 @@ body > .navbar-collapse[data-color="purple"]:after {
   -webkit-justify-content: flex-start;
   -ms-flex-pack: flex-start;
   justify-content: flex-start;
-  text-align: left;
+  text-align: center;
   text-anchor: start;
 }
 
@@ -2090,7 +2092,7 @@ body > .navbar-collapse[data-color="purple"]:after {
   -webkit-justify-content: flex-start;
   -ms-flex-pack: flex-start;
   justify-content: flex-start;
-  text-align: left;
+  text-align: center;
   text-anchor: start;
 }
 
@@ -2129,7 +2131,7 @@ body > .navbar-collapse[data-color="purple"]:after {
   -webkit-justify-content: flex-start;
   -ms-flex-pack: flex-start;
   justify-content: flex-start;
-  text-align: left;
+  text-align: center;
   text-anchor: start;
 }
 
@@ -2142,7 +2144,7 @@ body > .navbar-collapse[data-color="purple"]:after {
   -webkit-justify-content: flex-start;
   -ms-flex-pack: flex-start;
   justify-content: flex-start;
-  text-align: left;
+  text-align: center;
   text-anchor: start;
 }
 
@@ -2168,7 +2170,7 @@ body > .navbar-collapse[data-color="purple"]:after {
   -webkit-justify-content: flex-start;
   -ms-flex-pack: flex-start;
   justify-content: flex-start;
-  text-align: left;
+  text-align: center;
   text-anchor: end;
 }
 
@@ -2315,7 +2317,7 @@ body > .navbar-collapse[data-color="purple"]:after {
 }
 .ct-square:before {
   display: block;
-  float: left;
+  float: center;
   content: "";
   width: 0;
   height: 0;
@@ -2340,7 +2342,7 @@ body > .navbar-collapse[data-color="purple"]:after {
 }
 .ct-minor-second:before {
   display: block;
-  float: left;
+  float: center;
   content: "";
   width: 0;
   height: 0;
@@ -2365,7 +2367,7 @@ body > .navbar-collapse[data-color="purple"]:after {
 }
 .ct-major-second:before {
   display: block;
-  float: left;
+  float: center;
   content: "";
   width: 0;
   height: 0;
@@ -2390,7 +2392,7 @@ body > .navbar-collapse[data-color="purple"]:after {
 }
 .ct-minor-third:before {
   display: block;
-  float: left;
+  float: center;
   content: "";
   width: 0;
   height: 0;
@@ -2415,7 +2417,7 @@ body > .navbar-collapse[data-color="purple"]:after {
 }
 .ct-major-third:before {
   display: block;
-  float: left;
+  float: center;
   content: "";
   width: 0;
   height: 0;
@@ -2440,7 +2442,7 @@ body > .navbar-collapse[data-color="purple"]:after {
 }
 .ct-perfect-fourth:before {
   display: block;
-  float: left;
+  float: center;
   content: "";
   width: 0;
   height: 0;
@@ -2465,7 +2467,7 @@ body > .navbar-collapse[data-color="purple"]:after {
 }
 .ct-perfect-fifth:before {
   display: block;
-  float: left;
+  float: center;
   content: "";
   width: 0;
   height: 0;
@@ -2490,7 +2492,7 @@ body > .navbar-collapse[data-color="purple"]:after {
 }
 .ct-minor-sixth:before {
   display: block;
-  float: left;
+  float: center;
   content: "";
   width: 0;
   height: 0;
@@ -2515,7 +2517,7 @@ body > .navbar-collapse[data-color="purple"]:after {
 }
 .ct-golden-section:before {
   display: block;
-  float: left;
+  float: center;
   content: "";
   width: 0;
   height: 0;
@@ -2540,7 +2542,7 @@ body > .navbar-collapse[data-color="purple"]:after {
 }
 .ct-major-sixth:before {
   display: block;
-  float: left;
+  float: center;
   content: "";
   width: 0;
   height: 0;
@@ -2565,7 +2567,7 @@ body > .navbar-collapse[data-color="purple"]:after {
 }
 .ct-minor-seventh:before {
   display: block;
-  float: left;
+  float: center;
   content: "";
   width: 0;
   height: 0;
@@ -2590,7 +2592,7 @@ body > .navbar-collapse[data-color="purple"]:after {
 }
 .ct-major-seventh:before {
   display: block;
-  float: left;
+  float: center;
   content: "";
   width: 0;
   height: 0;
@@ -2615,7 +2617,7 @@ body > .navbar-collapse[data-color="purple"]:after {
 }
 .ct-octave:before {
   display: block;
-  float: left;
+  float: center;
   content: "";
   width: 0;
   height: 0;
@@ -2640,7 +2642,7 @@ body > .navbar-collapse[data-color="purple"]:after {
 }
 .ct-major-tenth:before {
   display: block;
-  float: left;
+  float: center;
   content: "";
   width: 0;
   height: 0;
@@ -2665,7 +2667,7 @@ body > .navbar-collapse[data-color="purple"]:after {
 }
 .ct-major-eleventh:before {
   display: block;
-  float: left;
+  float: center;
   content: "";
   width: 0;
   height: 0;
@@ -2690,7 +2692,7 @@ body > .navbar-collapse[data-color="purple"]:after {
 }
 .ct-major-twelfth:before {
   display: block;
-  float: left;
+  float: center;
   content: "";
   width: 0;
   height: 0;
@@ -2715,7 +2717,7 @@ body > .navbar-collapse[data-color="purple"]:after {
 }
 .ct-double-octave:before {
   display: block;
-  float: left;
+  float: center;
   content: "";
   width: 0;
   height: 0;
@@ -2886,7 +2888,7 @@ body > .navbar-collapse[data-color="purple"]:after {
     background-color: #999;
     overflow-y: visible;
     border-top: none;
-    text-align: left;
+    text-align: center;
     padding: 0;
     -webkit-transform: translate3d(250px, 0, 0);
     -moz-transform: translate3d(250px, 0, 0);
@@ -3286,10 +3288,6 @@ body > .navbar-collapse[data-color="purple"]:after {
     display: none;
   }
 
-  .navbar-fixed-top {
-    -webkit-backface-visibility: hidden;
-  }
-
   #bodyClick {
     height: 100%;
     width: 100%;
@@ -3382,7 +3380,7 @@ body > .navbar-collapse[data-color="purple"]:after {
     margin: 0;
   }
   .navbar-collapse [class^="pe-7s-"] {
-    float: left;
+    float: center;
     font-size: 20px;
     margin-right: 10px;
   }

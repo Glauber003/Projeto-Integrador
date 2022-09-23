@@ -45,7 +45,9 @@ $routes->get('/logout','Logout::index');
 $routes->get('listaranimais','Animal::listaranimais');
 $routes->get('voluntarios','Animal::voluntarios');
 $routes->get('sobrenos','Animal::sobrenos');
-$routes->get('suporte','Animal::suporte');
+
+$routes->post('enviadados_update','Animal::enviadados_update');
+
 
 
 //rotas usuario logado adm
@@ -54,6 +56,7 @@ $routes->get('listaranimaisadmn','Admin\Home::listaranimaisadmn');
 $routes->get('voluntariosadmn','Admin\Home::voluntariosadmn');
 $routes->get('sobrenosadmn','Admin\Home::sobrenosadmn');
 $routes->get('suporteadmn','Admin\Home::suporteadmn');
+$routes->post('animal/editardados/(:any)', 'Animal::editardados/$1');
 
 
 

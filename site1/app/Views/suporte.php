@@ -26,7 +26,7 @@
 <body>
   <nav id="menu1">
     <ul>
-      <li><a href=""> MiauDota </a></li> 
+    <li><a> MiauDota </a></li> 
     </ul>
   </nav>
 
@@ -70,16 +70,18 @@
 
 
 </br></br></br></br></br></br></br>
+</br></br></br></br></br></br></br>
+</br></br></br></br></br></br></br>
+</br></br></br></br></br></br></br>
 
 <footer>
 
   <div style="align-items: left" class="boxs">
     <h2>Links rápidos</h2>
       <ul>
-        <li><a href="#">Adoção</a></li>
-        <li><a href="#">Doação</a></li>
-        <li><a href="#">Voluntáriado</a></li> 
-        <li><a href="#">Sobre Nós</a></li> 
+      <li><a href="<?php echo base_url('listaranimais')?>">Doação</a></li>
+        <li><a href="<?php echo base_url('voluntarios')?>">Voluntáriado</a></li> 
+        <li><a href="<?php echo base_url('suporte')?>">Suporte</a></li> 
       </ul>
     </h2>
   </div>
@@ -108,19 +110,20 @@
   <div class="sociais">
 
     <div class="social">
-      <a href="#"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
+      <a href="#"><i class="fa fa-instagram fa-4x" aria-hidden="true"></i></a>
     </div>
 
     <div class="social">
-      <a href="#"><i class="fa fa-github fa-2x" aria-hidden="true"></i>
+      <a href="#"><i class="fa fa-github fa-4x" aria-hidden="true"></i>
     </div>
 
     <div class="social">
-      <a href="#"><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></a>
+      <a href="#"><i class="fa fa-linkedin fa-4x" aria-hidden="true"></i></a>
     </div>
 
   </div>
 </div>
+
 
 </body></html> 
 
