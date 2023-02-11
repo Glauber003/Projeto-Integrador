@@ -1,0 +1,83 @@
+CRITICAL - 2023-02-11 00:03:33 --> Undefined variable $listaranimais
+in APPPATH\Views\listaranimais.php on line 71.
+ 1 APPPATH\Views\listaranimais.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $listaranimais', 'APPPATH\\Views\\listaranimais.php', 71)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\listaranimais.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('listaranimais', [], true)
+ 5 APPPATH\Controllers\Animal.php(71): view('listaranimais', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Animal->listaranimais()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Animal))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-11 00:03:51 --> Undefined variable $listaranimais
+in APPPATH\Controllers\Animal.php on line 71.
+ 1 APPPATH\Controllers\Animal.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $listaranimais', 'APPPATH\\Controllers\\Animal.php', 71)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Animal->listaranimais()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Animal))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-11 00:05:15 --> Undefined variable $listaranimais
+in APPPATH\Views\listaranimais.php on line 71.
+ 1 APPPATH\Views\listaranimais.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $listaranimais', 'APPPATH\\Views\\listaranimais.php', 71)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\listaranimais.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('listaranimais', [], true)
+ 5 APPPATH\Controllers\Animal.php(71): view('listaranimais', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Animal->listaranimais()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Animal))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-11 00:05:55 --> Undefined variable $listaranimais
+in APPPATH\Controllers\Animal.php on line 71.
+ 1 APPPATH\Controllers\Animal.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $listaranimais', 'APPPATH\\Controllers\\Animal.php', 71)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Animal->listaranimais()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Animal))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-11 00:06:40 --> Undefined variable $listaranimais
+in APPPATH\Controllers\Animal.php on line 71.
+ 1 APPPATH\Controllers\Animal.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $listaranimais', 'APPPATH\\Controllers\\Animal.php', 71)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Animal->listaranimais()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Animal))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-11 00:08:27 --> Undefined variable $listaranimais
+in APPPATH\Controllers\Animal.php on line 71.
+ 1 APPPATH\Controllers\Animal.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $listaranimais', 'APPPATH\\Controllers\\Animal.php', 71)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Animal->listaranimais()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Animal))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-11 00:09:13 --> Undefined array key "id_animal"
+in APPPATH\Views\listaranimais.php on line 77.
+ 1 APPPATH\Views\listaranimais.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_animal"', 'APPPATH\\Views\\listaranimais.php', 77)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\listaranimais.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('listaranimais', [], true)
+ 5 APPPATH\Controllers\Animal.php(71): view('listaranimais', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Animal->listaranimais()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Animal))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-11 00:10:08 --> Undefined array key "id"
+in APPPATH\Views\listaranimais.php on line 77.
+ 1 APPPATH\Views\listaranimais.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Views\\listaranimais.php', 77)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\listaranimais.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('listaranimais', [], true)
+ 5 APPPATH\Controllers\Animal.php(71): view('listaranimais', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Animal->listaranimais()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Animal))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-11 00:10:36 --> Undefined array key "descricao_pet"
+in APPPATH\Views\listaranimais.php on line 80.
+ 1 APPPATH\Views\listaranimais.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "descricao_pet"', 'APPPATH\\Views\\listaranimais.php', 80)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\listaranimais.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('listaranimais', [], true)
+ 5 APPPATH\Controllers\Animal.php(71): view('listaranimais', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Animal->listaranimais()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Animal))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

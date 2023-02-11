@@ -1,0 +1,285 @@
+ERROR - 2022-08-20 04:52:05 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'cadastro_animal' in C:\xampp\htdocs\site1\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\site1\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', '', 'cadastro_animal', 3306, '', 0)
+#1 C:\xampp\htdocs\site1\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\site1\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\site1\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\site1\system\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\site1\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\site1\app\Controllers\Animal.php(17): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\site1\system\CodeIgniter.php(898): App\Controllers\Animal->index()
+#8 C:\xampp\htdocs\site1\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Animal))
+#9 C:\xampp\htdocs\site1\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\site1\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'cadastro_animal' in C:\xampp\htdocs\site1\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\site1\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\site1\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\site1\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\site1\system\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\site1\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\site1\app\Controllers\Animal.php(17): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\site1\system\CodeIgniter.php(898): App\Controllers\Animal->index()
+#7 C:\xampp\htdocs\site1\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Animal))
+#8 C:\xampp\htdocs\site1\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\site1\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-08-20 04:52:05 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'cadastro_animal'
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `cadastro_animal`', [], false)
+ 3 SYSTEMPATH\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Animal.php(17): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Animal->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Animal))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-20 04:55:46 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'cadastro_animal' in C:\xampp\htdocs\site1\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\site1\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', '', 'cadastro_animal', 3306, '', 0)
+#1 C:\xampp\htdocs\site1\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\site1\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\site1\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\site1\system\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\site1\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\site1\app\Controllers\Animal.php(17): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\site1\system\CodeIgniter.php(898): App\Controllers\Animal->index()
+#8 C:\xampp\htdocs\site1\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Animal))
+#9 C:\xampp\htdocs\site1\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\site1\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'cadastro_animal' in C:\xampp\htdocs\site1\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\site1\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\site1\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\site1\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\site1\system\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\site1\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\site1\app\Controllers\Animal.php(17): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\site1\system\CodeIgniter.php(898): App\Controllers\Animal->index()
+#7 C:\xampp\htdocs\site1\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Animal))
+#8 C:\xampp\htdocs\site1\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\site1\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-08-20 04:55:46 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'cadastro_animal'
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `cadastro_animal`', [], false)
+ 3 SYSTEMPATH\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Animal.php(17): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Animal->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Animal))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-20 04:59:30 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'cadastro_animal' in C:\xampp\htdocs\site1\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\site1\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', '', 'cadastro_animal', 3306, '', 0)
+#1 C:\xampp\htdocs\site1\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\site1\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\site1\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\site1\system\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\site1\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\site1\app\Controllers\Animal.php(17): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\site1\system\CodeIgniter.php(898): App\Controllers\Animal->index()
+#8 C:\xampp\htdocs\site1\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Animal))
+#9 C:\xampp\htdocs\site1\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\site1\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'cadastro_animal' in C:\xampp\htdocs\site1\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\site1\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\site1\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\site1\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\site1\system\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\site1\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\site1\app\Controllers\Animal.php(17): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\site1\system\CodeIgniter.php(898): App\Controllers\Animal->index()
+#7 C:\xampp\htdocs\site1\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Animal))
+#8 C:\xampp\htdocs\site1\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\site1\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-08-20 04:59:30 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'cadastro_animal'
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `cadastro_animal`', [], false)
+ 3 SYSTEMPATH\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Animal.php(17): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Animal->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Animal))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-20 05:01:18 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'cadastro_animal' in C:\xampp\htdocs\site1\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\site1\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', '', 'cadastro_animal', 3306, '', 0)
+#1 C:\xampp\htdocs\site1\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\site1\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\site1\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\site1\system\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\site1\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\site1\app\Controllers\Animal.php(17): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\site1\system\CodeIgniter.php(898): App\Controllers\Animal->index()
+#8 C:\xampp\htdocs\site1\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Animal))
+#9 C:\xampp\htdocs\site1\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\site1\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'cadastro_animal' in C:\xampp\htdocs\site1\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\site1\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\site1\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\site1\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\site1\system\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\site1\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\site1\app\Controllers\Animal.php(17): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\site1\system\CodeIgniter.php(898): App\Controllers\Animal->index()
+#7 C:\xampp\htdocs\site1\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Animal))
+#8 C:\xampp\htdocs\site1\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\site1\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-08-20 05:01:18 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'cadastro_animal'
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `cadastro_animal`', [], false)
+ 3 SYSTEMPATH\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Animal.php(17): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Animal->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Animal))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-20 05:01:20 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'cadastro_animal' in C:\xampp\htdocs\site1\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\site1\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', '', 'cadastro_animal', 3306, '', 0)
+#1 C:\xampp\htdocs\site1\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\site1\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\site1\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\site1\system\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\site1\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\site1\app\Controllers\Animal.php(17): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\site1\system\CodeIgniter.php(898): App\Controllers\Animal->index()
+#8 C:\xampp\htdocs\site1\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Animal))
+#9 C:\xampp\htdocs\site1\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\site1\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'cadastro_animal' in C:\xampp\htdocs\site1\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\site1\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\site1\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\site1\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\site1\system\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\site1\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\site1\app\Controllers\Animal.php(17): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\site1\system\CodeIgniter.php(898): App\Controllers\Animal->index()
+#7 C:\xampp\htdocs\site1\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Animal))
+#8 C:\xampp\htdocs\site1\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\site1\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-08-20 05:01:20 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'cadastro_animal'
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `cadastro_animal`', [], false)
+ 3 SYSTEMPATH\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Animal.php(17): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Animal->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Animal))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-20 05:02:02 --> syntax error, unexpected token "(", expecting ";"
+in APPPATH\Views\animal.php on line 95.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('animal', [], true)
+ 3 APPPATH\Controllers\Animal.php(17): view('animal', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Animal->index()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Animal))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-20 05:40:40 --> syntax error, unexpected token "/"
+in APPPATH\Views\animal.php on line 101.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('animal', [], true)
+ 3 APPPATH\Controllers\Animal.php(17): view('animal', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Animal->index()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Animal))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-20 06:25:08 --> Call to undefined function form_open()
+in APPPATH\Views\form.php on line 10.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('form', [], true)
+ 4 APPPATH\Controllers\Animal.php(23): view('form')
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Animal->cadastro()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Animal))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-20 06:25:47 --> Undefined constant "App\Controllers\form"
+in SYSTEMPATH\CodeIgniter.php on line 860.
+ 1 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 2 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-20 06:26:12 --> Undefined constant "animal"
+in APPPATH\Views\form.php on line 10.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('form', [], true)
+ 4 APPPATH\Controllers\Animal.php(23): view('form')
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Animal->cadastro()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Animal))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-20 06:26:57 --> Undefined constant "Animal"
+in APPPATH\Views\form.php on line 10.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('form', [], true)
+ 4 APPPATH\Controllers\Animal.php(23): view('form')
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Animal->cadastro()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Animal))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-20 06:26:59 --> Undefined constant "Animal"
+in APPPATH\Views\form.php on line 10.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('form', [], true)
+ 4 APPPATH\Controllers\Animal.php(23): view('form')
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Animal->cadastro()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Animal))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-20 07:02:40 --> syntax error, unexpected end of file
+in APPPATH\Controllers\Animal.php on line 40.
+ 1 SYSTEMPATH\Router\Router.php(499): CodeIgniter\Router\AutoRouter->getRoute('Animal/cadastro')
+ 2 SYSTEMPATH\Router\Router.php(205): CodeIgniter\Router\Router->autoRoute('Animal/cadastro')
+ 3 SYSTEMPATH\CodeIgniter.php(773): CodeIgniter\Router\Router->handle('Animal/cadastro')
+ 4 SYSTEMPATH\CodeIgniter.php(406): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-20 07:07:23 --> Invalid file: messages.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('messages.php')
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('messages', [], true)
+ 3 APPPATH\Controllers\Animal.php(29): view('messages', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Animal->enviadados_cadastro()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Animal))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

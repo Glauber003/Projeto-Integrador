@@ -1,0 +1,264 @@
+CRITICAL - 2022-09-10 21:50:19 --> syntax error, unexpected token "<", expecting end of file
+in APPPATH\Views\form_usuario.php on line 56.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('form_usuario', [], true)
+ 3 APPPATH\Controllers\Usuario.php(23): view('form_usuario')
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Usuario->cadastro()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 21:50:54 --> syntax error, unexpected token "<", expecting end of file
+in APPPATH\Views\form_usuario.php on line 56.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('form_usuario', [], true)
+ 3 APPPATH\Controllers\Usuario.php(23): view('form_usuario')
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Usuario->cadastro()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 21:50:55 --> syntax error, unexpected token "<", expecting end of file
+in APPPATH\Views\form_usuario.php on line 56.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('form_usuario', [], true)
+ 3 APPPATH\Controllers\Usuario.php(23): view('form_usuario')
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Usuario->cadastro()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 21:50:56 --> syntax error, unexpected token "<", expecting end of file
+in APPPATH\Views\form_usuario.php on line 56.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('form_usuario', [], true)
+ 3 APPPATH\Controllers\Usuario.php(23): view('form_usuario')
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Usuario->cadastro()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 22:16:01 --> syntax error, unexpected double-quoted string "Email", expecting ")"
+in APPPATH\Views\form_usuario.php on line 60.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('form_usuario', [], true)
+ 3 APPPATH\Controllers\Usuario.php(23): view('form_usuario')
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Usuario->cadastro()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 22:17:19 --> Unknown named parameter $label_text
+in APPPATH\Views\form_usuario.php on line 60.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('form_usuario', [], true)
+ 4 APPPATH\Controllers\Usuario.php(23): view('form_usuario')
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Usuario->cadastro()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 22:17:19 --> Unknown named parameter $label_text
+in APPPATH\Views\form_usuario.php on line 60.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('form_usuario', [], true)
+ 4 APPPATH\Controllers\Usuario.php(23): view('form_usuario')
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Usuario->cadastro()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 22:17:20 --> Unknown named parameter $label_text
+in APPPATH\Views\form_usuario.php on line 60.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('form_usuario', [], true)
+ 4 APPPATH\Controllers\Usuario.php(23): view('form_usuario')
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Usuario->cadastro()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 22:17:21 --> Unknown named parameter $label_text
+in APPPATH\Views\form_usuario.php on line 60.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('form_usuario', [], true)
+ 4 APPPATH\Controllers\Usuario.php(23): view('form_usuario')
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Usuario->cadastro()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 22:17:21 --> Unknown named parameter $label_text
+in APPPATH\Views\form_usuario.php on line 60.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('form_usuario', [], true)
+ 4 APPPATH\Controllers\Usuario.php(23): view('form_usuario')
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Usuario->cadastro()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 22:24:06 --> Unknown named parameter $label_text
+in APPPATH\Views\form_usuario.php on line 60.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('form_usuario', [], true)
+ 4 APPPATH\Controllers\Usuario.php(23): view('form_usuario')
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Usuario->cadastro()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 22:24:07 --> Unknown named parameter $label_text
+in APPPATH\Views\form_usuario.php on line 60.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('form_usuario', [], true)
+ 4 APPPATH\Controllers\Usuario.php(23): view('form_usuario')
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Usuario->cadastro()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 22:24:07 --> Unknown named parameter $label_text
+in APPPATH\Views\form_usuario.php on line 60.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('form_usuario', [], true)
+ 4 APPPATH\Controllers\Usuario.php(23): view('form_usuario')
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Usuario->cadastro()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 22:24:07 --> Unknown named parameter $label_text
+in APPPATH\Views\form_usuario.php on line 60.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('form_usuario', [], true)
+ 4 APPPATH\Controllers\Usuario.php(23): view('form_usuario')
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Usuario->cadastro()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 22:24:08 --> Unknown named parameter $label_text
+in APPPATH\Views\form_usuario.php on line 60.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('form_usuario', [], true)
+ 4 APPPATH\Controllers\Usuario.php(23): view('form_usuario')
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Usuario->cadastro()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 22:44:07 --> syntax error, unexpected token "<", expecting end of file
+in APPPATH\Views\form_usuario.php on line 59.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('form_usuario', [], true)
+ 3 APPPATH\Controllers\Usuario.php(23): view('form_usuario')
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Usuario->cadastro()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 22:47:20 --> syntax error, unexpected token "echo", expecting "," or ";"
+in APPPATH\Views\form_usuario.php on line 59.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('form_usuario', [], true)
+ 3 APPPATH\Controllers\Usuario.php(23): view('form_usuario')
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Usuario->cadastro()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 22:53:23 --> syntax error, unexpected token "echo", expecting "," or ";"
+in APPPATH\Views\form_usuario.php on line 56.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('form_usuario', [], true)
+ 3 APPPATH\Controllers\Usuario.php(23): view('form_usuario')
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Usuario->cadastro()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 22:57:06 --> syntax error, unexpected token "echo", expecting "," or ";"
+in APPPATH\Views\form_usuario.php on line 56.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('form_usuario', [], true)
+ 3 APPPATH\Controllers\Usuario.php(23): view('form_usuario')
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Usuario->cadastro()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 22:57:46 --> Unknown named parameter $label_text
+in APPPATH\Views\form_usuario.php on line 56.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('form_usuario', [], true)
+ 4 APPPATH\Controllers\Usuario.php(23): view('form_usuario')
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Usuario->cadastro()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 22:57:47 --> Unknown named parameter $label_text
+in APPPATH\Views\form_usuario.php on line 56.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('form_usuario', [], true)
+ 4 APPPATH\Controllers\Usuario.php(23): view('form_usuario')
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Usuario->cadastro()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 23:12:13 --> syntax error, unexpected token "<", expecting end of file
+in APPPATH\Views\form_usuario.php on line 55.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('form_usuario', [], true)
+ 3 APPPATH\Controllers\Usuario.php(23): view('form_usuario')
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Usuario->cadastro()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 23:16:12 --> syntax error, unexpected token "function"
+in APPPATH\Controllers\Login.php on line 13.
+ 1 SYSTEMPATH\Router\Router.php(499): CodeIgniter\Router\AutoRouter->getRoute('Login/autenticar')
+ 2 SYSTEMPATH\Router\Router.php(205): CodeIgniter\Router\Router->autoRoute('Login/autenticar')
+ 3 SYSTEMPATH\CodeIgniter.php(773): CodeIgniter\Router\Router->handle('Login/autenticar')
+ 4 SYSTEMPATH\CodeIgniter.php(406): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 23:20:15 --> syntax error, unexpected token "function"
+in APPPATH\Controllers\Login.php on line 13.
+ 1 SYSTEMPATH\Router\Router.php(499): CodeIgniter\Router\AutoRouter->getRoute('Login/autenticar')
+ 2 SYSTEMPATH\Router\Router.php(205): CodeIgniter\Router\Router->autoRoute('Login/autenticar')
+ 3 SYSTEMPATH\CodeIgniter.php(773): CodeIgniter\Router\Router->handle('Login/autenticar')
+ 4 SYSTEMPATH\CodeIgniter.php(406): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 23:20:38 --> syntax error, unexpected token "function"
+in APPPATH\Controllers\Login.php on line 13.
+ 1 SYSTEMPATH\Router\Router.php(499): CodeIgniter\Router\AutoRouter->getRoute('Login')
+ 2 SYSTEMPATH\Router\Router.php(205): CodeIgniter\Router\Router->autoRoute('Login')
+ 3 SYSTEMPATH\CodeIgniter.php(773): CodeIgniter\Router\Router->handle('Login')
+ 4 SYSTEMPATH\CodeIgniter.php(406): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 23:25:58 --> syntax error, unexpected token "function"
+in APPPATH\Controllers\Login.php on line 13.
+ 1 SYSTEMPATH\Router\Router.php(499): CodeIgniter\Router\AutoRouter->getRoute('Login/autenticar')
+ 2 SYSTEMPATH\Router\Router.php(205): CodeIgniter\Router\Router->autoRoute('Login/autenticar')
+ 3 SYSTEMPATH\CodeIgniter.php(773): CodeIgniter\Router\Router->handle('Login/autenticar')
+ 4 SYSTEMPATH\CodeIgniter.php(406): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 23:28:10 --> syntax error, unexpected token "}"
+in APPPATH\Controllers\Login.php on line 22.
+ 1 SYSTEMPATH\Router\Router.php(499): CodeIgniter\Router\AutoRouter->getRoute('Login/autenticar')
+ 2 SYSTEMPATH\Router\Router.php(205): CodeIgniter\Router\Router->autoRoute('Login/autenticar')
+ 3 SYSTEMPATH\CodeIgniter.php(773): CodeIgniter\Router\Router->handle('Login/autenticar')
+ 4 SYSTEMPATH\CodeIgniter.php(406): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 23:33:40 --> Undefined property: App\Controllers\Login::$load
+in APPPATH\Controllers\Login.php on line 10.
+ 1 APPPATH\Controllers\Login.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Login::$load', 'APPPATH\\Controllers\\Login.php', 10)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Login->autenticar()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 23:46:22 --> Undefined property: App\Controllers\Login::$load
+in APPPATH\Controllers\Login.php on line 10.
+ 1 APPPATH\Controllers\Login.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Login::$load', 'APPPATH\\Controllers\\Login.php', 10)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Login->autenticar()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

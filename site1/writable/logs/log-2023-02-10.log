@@ -1,0 +1,228 @@
+CRITICAL - 2023-02-10 19:36:29 --> Undefined variable $descricao_animal
+in APPPATH\Controllers\CadastroAnimalController.php on line 33.
+ 1 APPPATH\Controllers\CadastroAnimalController.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $descricao_animal', 'APPPATH\\Controllers\\CadastroAnimalController.php', 33)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\CadastroAnimalController->cadastrar()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CadastroAnimalController))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-10 19:36:54 --> Undefined variable $descricao_animal
+in APPPATH\Controllers\CadastroAnimalController.php on line 33.
+ 1 APPPATH\Controllers\CadastroAnimalController.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $descricao_animal', 'APPPATH\\Controllers\\CadastroAnimalController.php', 33)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\CadastroAnimalController->cadastrar()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CadastroAnimalController))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-10 19:36:57 --> Undefined variable $descricao_animal
+in APPPATH\Controllers\CadastroAnimalController.php on line 33.
+ 1 APPPATH\Controllers\CadastroAnimalController.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $descricao_animal', 'APPPATH\\Controllers\\CadastroAnimalController.php', 33)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\CadastroAnimalController->cadastrar()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CadastroAnimalController))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-10 19:42:56 --> Undefined variable $descricao_animal
+in APPPATH\Controllers\CadastroAnimalController.php on line 33.
+ 1 APPPATH\Controllers\CadastroAnimalController.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $descricao_animal', 'APPPATH\\Controllers\\CadastroAnimalController.php', 33)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\CadastroAnimalController->cadastrar()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CadastroAnimalController))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-10 19:43:48 --> Undefined variable $descricao_animal
+in APPPATH\Controllers\CadastroAnimalController.php on line 33.
+ 1 APPPATH\Controllers\CadastroAnimalController.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $descricao_animal', 'APPPATH\\Controllers\\CadastroAnimalController.php', 33)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\CadastroAnimalController->cadastrar()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CadastroAnimalController))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-10 19:45:11 --> Undefined variable $descricao_animal
+in APPPATH\Controllers\CadastroAnimalController.php on line 33.
+ 1 APPPATH\Controllers\CadastroAnimalController.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $descricao_animal', 'APPPATH\\Controllers\\CadastroAnimalController.php', 33)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\CadastroAnimalController->cadastrar()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CadastroAnimalController))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-10 19:46:38 --> syntax error, unexpected variable "$ch"
+in APPPATH\Controllers\CadastroAnimalController.php on line 42.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\CadastroAnimalController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\CadastroAnimalController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\CadastroAnimalController')
+ 4 SYSTEMPATH\CodeIgniter.php(848): class_exists('\\App\\Controllers\\CadastroAnimalController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-10 19:46:51 --> syntax error, unexpected variable "$ch"
+in APPPATH\Controllers\CadastroAnimalController.php on line 42.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\CadastroAnimalController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\CadastroAnimalController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\CadastroAnimalController')
+ 4 SYSTEMPATH\CodeIgniter.php(848): class_exists('\\App\\Controllers\\CadastroAnimalController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-10 19:46:52 --> syntax error, unexpected variable "$ch"
+in APPPATH\Controllers\CadastroAnimalController.php on line 42.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\CadastroAnimalController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\CadastroAnimalController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\CadastroAnimalController')
+ 4 SYSTEMPATH\CodeIgniter.php(848): class_exists('\\App\\Controllers\\CadastroAnimalController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-10 19:46:54 --> syntax error, unexpected variable "$ch"
+in APPPATH\Controllers\CadastroAnimalController.php on line 42.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\CadastroAnimalController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\CadastroAnimalController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\CadastroAnimalController')
+ 4 SYSTEMPATH\CodeIgniter.php(848): class_exists('\\App\\Controllers\\CadastroAnimalController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-10 19:46:54 --> syntax error, unexpected variable "$ch"
+in APPPATH\Controllers\CadastroAnimalController.php on line 42.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\CadastroAnimalController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\CadastroAnimalController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\CadastroAnimalController')
+ 4 SYSTEMPATH\CodeIgniter.php(848): class_exists('\\App\\Controllers\\CadastroAnimalController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-10 19:46:55 --> syntax error, unexpected variable "$ch"
+in APPPATH\Controllers\CadastroAnimalController.php on line 42.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\CadastroAnimalController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\CadastroAnimalController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\CadastroAnimalController')
+ 4 SYSTEMPATH\CodeIgniter.php(848): class_exists('\\App\\Controllers\\CadastroAnimalController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-10 19:48:14 --> Undefined variable $descricao_animal
+in APPPATH\Controllers\CadastroAnimalController.php on line 33.
+ 1 APPPATH\Controllers\CadastroAnimalController.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $descricao_animal', 'APPPATH\\Controllers\\CadastroAnimalController.php', 33)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\CadastroAnimalController->cadastrar()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CadastroAnimalController))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-10 19:49:02 --> Undefined variable $descricao_animal
+in APPPATH\Controllers\CadastroAnimalController.php on line 33.
+ 1 APPPATH\Controllers\CadastroAnimalController.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $descricao_animal', 'APPPATH\\Controllers\\CadastroAnimalController.php', 33)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\CadastroAnimalController->cadastrar()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CadastroAnimalController))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-10 19:49:08 --> Undefined variable $descricao_animal
+in APPPATH\Controllers\CadastroAnimalController.php on line 33.
+ 1 APPPATH\Controllers\CadastroAnimalController.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $descricao_animal', 'APPPATH\\Controllers\\CadastroAnimalController.php', 33)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\CadastroAnimalController->cadastrar()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CadastroAnimalController))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-10 19:49:21 --> Undefined variable $descricao_animal
+in APPPATH\Controllers\CadastroAnimalController.php on line 33.
+ 1 APPPATH\Controllers\CadastroAnimalController.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $descricao_animal', 'APPPATH\\Controllers\\CadastroAnimalController.php', 33)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\CadastroAnimalController->cadastrar()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CadastroAnimalController))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-10 19:49:29 --> Undefined variable $descricao_animal
+in APPPATH\Controllers\CadastroAnimalController.php on line 33.
+ 1 APPPATH\Controllers\CadastroAnimalController.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $descricao_animal', 'APPPATH\\Controllers\\CadastroAnimalController.php', 33)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\CadastroAnimalController->cadastrar()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CadastroAnimalController))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-10 19:50:11 --> Undefined variable $descricao_animal
+in APPPATH\Controllers\CadastroAnimalController.php on line 33.
+ 1 APPPATH\Controllers\CadastroAnimalController.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $descricao_animal', 'APPPATH\\Controllers\\CadastroAnimalController.php', 33)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\CadastroAnimalController->cadastrar()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CadastroAnimalController))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-10 19:50:33 --> Undefined variable $descricao_animal
+in APPPATH\Controllers\CadastroAnimalController.php on line 33.
+ 1 APPPATH\Controllers\CadastroAnimalController.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $descricao_animal', 'APPPATH\\Controllers\\CadastroAnimalController.php', 33)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\CadastroAnimalController->cadastrar()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CadastroAnimalController))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-10 19:50:58 --> Undefined variable $descricao_animal
+in APPPATH\Controllers\CadastroAnimalController.php on line 33.
+ 1 APPPATH\Controllers\CadastroAnimalController.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $descricao_animal', 'APPPATH\\Controllers\\CadastroAnimalController.php', 33)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\CadastroAnimalController->cadastrar()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CadastroAnimalController))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-10 19:53:53 --> Undefined variable $descricao_animal
+in APPPATH\Controllers\CadastroAnimalController.php on line 33.
+ 1 APPPATH\Controllers\CadastroAnimalController.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $descricao_animal', 'APPPATH\\Controllers\\CadastroAnimalController.php', 33)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\CadastroAnimalController->cadastrar()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CadastroAnimalController))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-10 19:56:14 --> Undefined variable $descricao_animal
+in APPPATH\Controllers\CadastroAnimalController.php on line 33.
+ 1 APPPATH\Controllers\CadastroAnimalController.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $descricao_animal', 'APPPATH\\Controllers\\CadastroAnimalController.php', 33)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\CadastroAnimalController->cadastrar()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CadastroAnimalController))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-10 19:57:04 --> Undefined variable $descricao_animal
+in APPPATH\Controllers\CadastroAnimalController.php on line 33.
+ 1 APPPATH\Controllers\CadastroAnimalController.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $descricao_animal', 'APPPATH\\Controllers\\CadastroAnimalController.php', 33)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\CadastroAnimalController->cadastrar()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CadastroAnimalController))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-10 19:59:37 --> Undefined variable $descricao_animal
+in APPPATH\Controllers\CadastroAnimalController.php on line 33.
+ 1 APPPATH\Controllers\CadastroAnimalController.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $descricao_animal', 'APPPATH\\Controllers\\CadastroAnimalController.php', 33)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\CadastroAnimalController->cadastrar()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CadastroAnimalController))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-10 20:02:53 --> Undefined variable $descricao_animal
+in APPPATH\Controllers\CadastroAnimalController.php on line 33.
+ 1 APPPATH\Controllers\CadastroAnimalController.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $descricao_animal', 'APPPATH\\Controllers\\CadastroAnimalController.php', 33)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\CadastroAnimalController->cadastrar()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CadastroAnimalController))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-10 20:08:58 --> Undefined variable $descricao_animal
+in APPPATH\Controllers\CadastroAnimalController.php on line 33.
+ 1 APPPATH\Controllers\CadastroAnimalController.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $descricao_animal', 'APPPATH\\Controllers\\CadastroAnimalController.php', 33)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\CadastroAnimalController->cadastrar()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CadastroAnimalController))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-10 20:11:15 --> Undefined variable $descricao_animal
+in APPPATH\Controllers\CadastroAnimalController.php on line 33.
+ 1 APPPATH\Controllers\CadastroAnimalController.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $descricao_animal', 'APPPATH\\Controllers\\CadastroAnimalController.php', 33)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\CadastroAnimalController->cadastrar()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CadastroAnimalController))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-10 20:59:59 --> Undefined variable $animals
+in APPPATH\Views\animaislista.php on line 23.
+ 1 APPPATH\Views\animaislista.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $animals', 'APPPATH\\Views\\animaislista.php', 23)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\animaislista.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('animaislista', [], true)
+ 5 APPPATH\Controllers\CadastroAnimalController.php(92): view('animaislista', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\CadastroAnimalController->animaislista()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CadastroAnimalController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-10 21:02:30 --> Undefined array key "descricao_pet"
+in APPPATH\Views\animaislista.php on line 28.
+ 1 APPPATH\Views\animaislista.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "descricao_pet"', 'APPPATH\\Views\\animaislista.php', 28)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\animaislista.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('animaislista', [], true)
+ 5 APPPATH\Controllers\CadastroAnimalController.php(92): view('animaislista', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\CadastroAnimalController->animaislista()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CadastroAnimalController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-10 23:27:07 --> syntax error, unexpected single-quoted string "enviaratualizarapi"
+in APPPATH\Config\Routes.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(406): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 2 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
