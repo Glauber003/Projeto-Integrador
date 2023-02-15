@@ -112,23 +112,21 @@
     </br>
   </section>
 
-  <section class="shop" id="shop">
-    <h1 class="heading"> Lista De <span> Animais </span> </h1>
-      <div class="box-container">
-      <?php foreach($animalAdmn as $animalAdmns) : ?>
-        <div class="box">
-          <div class="image">
-            <img src="https://i0.wp.com/www.portaldodog.com.br/cachorros/wp-content/uploads/2021/03/visa%CC%83o-do-cachorro-2.jpeg?resize=626%2C626&ssl=1" alt="animal">
-          </div>
-          <div class="content">
-            <h3>-ID Animal :<?php echo $animalAdmns ['id_animal']?>/  Nome Animal: <?php echo $animalAdmns ['nome_animal']?><h3>
-            <h3>-Raça :<?php echo $animalAdmns ['raca']?>/ Porte <?php echo $animalAdmns ['porte']?> /  sexo: <?php echo $animalAdmns ['sexo']?><h3>
-            <h3>-Idade: <?php echo $animalAdmns ['idade']?> anos /  sexo: <?php echo $animalAdmns ['sexo']?><h3>
-            <h3>-Descrição Do Pet: <?php echo $animalAdmns ['descricao_pet']?><h3>
-            <h3>-Onde se encontra?: <?php echo $animalAdmns ['local_animal']?><h3>
-          </div>
-        </div>
-      <?php endforeach;?>
-    </div>
-  </section>
+  <?php foreach($listaranimais as $listaranimaiss) : ?>
+                <h1>PUXANDO DADOS API teste</h1>
+                <div class="box">
+                <div class="possy"style="width: 100px">
+                  <img style="width: 100px" src="https://i0.wp.com/www.portaldodog.com.br/cachorros/wp-content/uploads/2021/03/visa%CC%83o-do-cachorro-2.jpeg?resize=626%2C626&ssl=1" alt="animal">
+                </div>
+                <div class="content">
+                  <h3> Nome Animal: <?php echo $listaranimaiss ['nome_animal']?><h3>
+                  <h3>-Raça :<?php echo $listaranimaiss ['raca']?>/ Porte <?php echo $listaranimaiss ['porte']?> /  sexo: <?php echo $listaranimaiss ['sexo']?><h3>
+                  <h3>-Idade: <?php echo $listaranimaiss ['idade']?> anos /  sexo: <?php echo $listaranimaiss ['sexo']?><h3>
+                  <h3>-Descrição Do animal <?php echo $listaranimaiss ['descricao_animal']?><h3>
+                  <h3>-Onde se encontra?: <?php echo $listaranimaiss ['local_animal']?><h3>
+                </div>
+              </div>
+            </div>
+          <?php endforeach;?>
+          
 </body></html>

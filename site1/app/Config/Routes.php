@@ -40,7 +40,7 @@ $routes->match(['get','post'], 'registrar', 'registrar::index');
 /*$routes->get('Animal/cadastro', 'Animal::cadastro');*/
 $routes->get('Usuario/listar', 'Usuario::index');
 $routes->match(['get','post'],'login', 'Login::index');
-$routes->get('/admin', 'Animal::poslogin');
+$routes->get('admin', 'Animal::poslogin');
 $routes->get('/logout','Logout::index');
 $routes->get('listaranimais','Animal::listaranimais');
 $routes->get('voluntarios','Animal::voluntarios');
@@ -54,6 +54,7 @@ $routes->match(['get','post'], 'enviarloginapicadastro', 'CadastroAnimalControll
 $routes->match(['get','post'], 'animaislista', 'CadastroAnimalController::animaislista');
 $routes->match(['get','post'], 'animal/atualizar', 'CadastroAnimalController::animalatualizar');
 $routes->match(['get','post'], 'cadastrarusuarioapi', 'Registrar::cadastrarusuarioapi');
+$routes->match(['get','post'], 'login...', 'login::login');
 $routes->post('enviaratualizarapi', 'CadastroAnimalController::atualizar');
 
 

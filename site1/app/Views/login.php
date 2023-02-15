@@ -64,20 +64,20 @@
 	<div class="limiter">
 		<div class="container-login100" style="background-image: url('images/fundo_patas2.jpg');">
 			<div class="wrap-login100 p-l-55 p-r-55 p-t-65 p-b-54">
-				<form class="login100-form validate-form">
+				<form class="login100-form validate-form" action="<?= base_url('login...') ?>" method="post">>
 					<span class="login100-form-title p-b-49">
 						FAÇA SEU LOGIN
 					</span>
 
 					<div class="wrap-input100 validate-input m-b-23" data-validate = "É necessário inserir seu login!">
 						<span class="label-input100">E-mail</span>
-						<input class="input100" type="text" name="username" placeholder="Digite seu email">
+						<input class="input100" type="text" name="email" placeholder="Digite seu email">
 						<span class="focus-input100" data-symbol="&#xf206;"></span>
 					</div>
 
 					<div class="wrap-input100 validate-input" data-validate="É necessário inserir sua senha!">
 						<span class="label-input100">Senha</span>
-						<input class="input100" type="password" name="pass" placeholder="Digite sua senha">
+						<input class="input100" type="password" name="password" placeholder="Digite sua senha">
 						<span class="focus-input100" data-symbol="&#xf190;"></span>
 					</div>
 					
