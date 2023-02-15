@@ -1,0 +1,7 @@
+CRITICAL - 2023-02-12 15:17:56 --> Call to undefined method App\Models\UsuarioModel::erros
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\Registrar.php(21): CodeIgniter\Model->__call('erros', [])
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Registrar->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrar))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

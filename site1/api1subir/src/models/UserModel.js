@@ -8,6 +8,14 @@ const User = database.define('Users',{
         type: DataTypes.STRING,
         allowNull: false
     },
+    cpf:{
+        type: DataTypes.STRING,
+        allowNull: false
+    },
+    rg:{
+        type: DataTypes.STRING,
+        allowNull: false
+    },
     email:{
         type: DataTypes.STRING,
         allowNull: false
@@ -17,6 +25,14 @@ const User = database.define('Users',{
     },
     password_hash:{
         type: DataTypes.STRING
+    },
+    sexo:{
+        type: DataTypes.STRING,
+        allowNull: false
+    },
+    nacionalidade:{
+        type: DataTypes.STRING,
+        allowNull: false
     }
 },{
 

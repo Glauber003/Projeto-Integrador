@@ -43,7 +43,7 @@
 </body>
 
 <figure id="container">
-  <img style="width: 145%" src="<?php echo base_url('img/bg_1.jpg')?>">  
+  <img style="width: 103%" src="<?php echo base_url('img/bg_1.jpg')?>">  
   <figcaption>
     <h1 class="hero__h1">
       Encontre Um Novo
@@ -72,36 +72,34 @@
 </br></br></br></br></br></br></br>
 
 <footer>
-
   <div style="align-items: left" class="boxs">
-    <h2>Links rápidos</h2>
+    <h2 style="font-size:40px">Links rápidos</h2>
       <ul>
-        <li><a href="#">Adoção</a></li>
-        <li><a href="#">Doação</a></li>
-        <li><a href="#">Voluntáriado</a></li> 
-        <li><a href="#">Sobre Nós</a></li> 
+        <li style="font-size:20px"><a href="#">Adoção</a></li>
+        <li style="font-size:20px"><a href="#">Doação</a></li>
+        <li style="font-size:20px"><a href="#">Voluntáriado</a></li> 
+        <li style="font-size:20px"><a href="#">Sobre Nós</a></li> 
       </ul>
     </h2>
   </div>
 
   <div class="boxs">
-    <h2>Sobre Nós</h2>
+    <h2 style="font-size:40px">Sobre Nós</h2>
       <ul>
-        <li><a href="#">Get Into It (yuh)</a></li>
+        <li style="font-size:20px"><a href="#">Get Into It (yuh)</a></li>
       </ul>
     </h2>
   </div>
 
   <div class="boxs">
-    <h2>Contatos</h2>
+    <h2 style="font-size:40px">Contatos</h2>
       <ul>
-        <li><i style="color: white" class="fa fa-whatsapp fa-2x" aria-hidden="true"></i><a href="#">   (33) 99851-5585</a></li>
-        <li><i style="color: white" class="fa fa-paper-plane fa-2x" aria-hidden="true"></i></i><a href="#">   nms6@aluno.ifnmg.edu.br</a></li>
-        <li><i style="color: white" class="fa fa-map-o fa-2x" aria-hidden="true"></i></i><a href="#">   BR 367, km 278, s/n - Zona Rural, Araçuaí - MG, 39600-000</a></li> 
+        <li style="font-size:20px"><i style="color: white" class="fa fa-whatsapp" aria-hidden="true"></i><a href="#">   (33) 99851-5585</a></li>
+        <li style="font-size:20px"><i style="color: white" class="fa fa-paper-plane" aria-hidden="true"></i></i><a href="#">   nms6@aluno.ifnmg.edu.br</a></li>
+        <li style="font-size:20px"><i style="color: white" class="fa fa-map-o" aria-hidden="true"></i></i><a href="#">   BR 367 - Zona Rural, Araçuaí - MG, 39600-000</a></li> 
       </ul>
     </h2>
   </div>
-
 </footer>
 
 <div class="footer">

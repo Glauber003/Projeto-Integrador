@@ -11,11 +11,15 @@ class UserController{
         return res.json('Usuário já cadastrado no sistema!')
     }
 
-    const {id, nome} = await User.create(req.body)
+    const {id, nome, cpf , rg, sexo,nacionalidade} = await User.create(req.body)
 
     return res.json({
         id,
-        nome
+        nome,
+        cpf,
+        rg,
+        sexo,
+        nacionalidade
     })
   }
 }

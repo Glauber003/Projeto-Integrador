@@ -37,7 +37,7 @@ $routes->setAutoRoute(true);
 // route since we don't have to scan directories.
 $routes->get('/', 'Animal::index');
 $routes->match(['get','post'], 'registrar', 'registrar::index');
-$routes->get('Animal/cadastro', 'Animal::cadastro');
+/*$routes->get('Animal/cadastro', 'Animal::cadastro');*/
 $routes->get('Usuario/listar', 'Usuario::index');
 $routes->match(['get','post'],'login', 'Login::index');
 $routes->get('/admin', 'Animal::poslogin');
@@ -53,7 +53,9 @@ $routes->match(['get','post'], 'cadastraranimal', 'CadastroAnimalController::ind
 $routes->match(['get','post'], 'enviarloginapicadastro', 'CadastroAnimalController::cadastrar');
 $routes->match(['get','post'], 'animaislista', 'CadastroAnimalController::animaislista');
 $routes->match(['get','post'], 'animal/atualizar', 'CadastroAnimalController::animalatualizar');
+$routes->match(['get','post'], 'cadastrarusuarioapi', 'Registrar::cadastrarusuarioapi');
 $routes->post('enviaratualizarapi', 'CadastroAnimalController::atualizar');
+
 
 
 

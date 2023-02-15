@@ -81,3 +81,52 @@ in APPPATH\Views\listaranimais.php on line 80.
  7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Animal))
  8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-11 13:26:20 --> foreach() argument must be of type array|object, null given
+in APPPATH\Controllers\Animal.php on line 25.
+ 1 APPPATH\Controllers\Animal.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'APPPATH\\Controllers\\Animal.php', 25)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Animal->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Animal))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-11 13:28:59 --> foreach() argument must be of type array|object, null given
+in APPPATH\Controllers\Animal.php on line 25.
+ 1 APPPATH\Controllers\Animal.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'APPPATH\\Controllers\\Animal.php', 25)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Animal->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Animal))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-11 13:33:11 --> foreach() argument must be of type array|object, null given
+in APPPATH\Controllers\Animal.php on line 25.
+ 1 APPPATH\Controllers\Animal.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'APPPATH\\Controllers\\Animal.php', 25)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Animal->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Animal))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-11 16:40:57 --> foreach() argument must be of type array|object, null given
+in APPPATH\Controllers\Animal.php on line 25.
+ 1 APPPATH\Controllers\Animal.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'APPPATH\\Controllers\\Animal.php', 25)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Animal->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Animal))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-11 16:46:18 --> foreach() argument must be of type array|object, null given
+in APPPATH\Controllers\Animal.php on line 25.
+ 1 APPPATH\Controllers\Animal.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'APPPATH\\Controllers\\Animal.php', 25)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Animal->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Animal))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-11 16:47:51 --> foreach() argument must be of type array|object, null given
+in APPPATH\Controllers\Animal.php on line 25.
+ 1 APPPATH\Controllers\Animal.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'APPPATH\\Controllers\\Animal.php', 25)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Animal->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Animal))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-11 17:10:11 --> foreach() argument must be of type array|object, null given
+in APPPATH\Controllers\Animal.php on line 25.
+ 1 APPPATH\Controllers\Animal.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'APPPATH\\Controllers\\Animal.php', 25)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Animal->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Animal))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

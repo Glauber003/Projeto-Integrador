@@ -43,7 +43,7 @@
 </body>
 
 <figure id="container">
-  <img style="width: 145%" src="<?php echo base_url('img/bg_1.jpg')?>">  
+  <img style="width: 103%" src="<?php echo base_url('img/bg_1.jpg')?>">  
   <figcaption>
     <h1 class="hero__h1">
       Encontre Um Novo
@@ -67,7 +67,6 @@
 </section>
 
 <section class="hero">
-
   <div class="hero-left">
     <h1 class="hero__h2">
       <li>
@@ -75,95 +74,101 @@
       </li>
       <p class="hero__text2">
       Segundo informações do instituto bilubilubilu Sou um parágrafo. Clique aqui para editar-me e adicionar o seu próprio texto. É fácil! Basta clicar em "Editar Texto" ou clicar duas vezes sobre mim e você poderá adicionar o seu próprio conteúdo e trocar fontes. 
+      </br></br>
       Sinta-se à vontade para arrastar-me e soltar em qualquer lugar em sua página. Sou um ótimo lugar para você contar sua história e permitir que seus clientes saibam um pouco mais sobre você.
-      Este é um ótimo espaço para escrever um texto longo sobre a sua compania e seus serviços. Você pode usar esse espaço para entrar em detalhes sobre a sua empresa. Fale sobre a sua equipe e sobre os serviços prestados por você.
+      Este é um ótimo espaço para escrever um texto longo sobre a sua compania e seus serviços. 
+      </br></br>
+      Você pode usar esse espaço para entrar em detalhes sobre a sua empresa. Fale sobre a sua equipe e sobre os serviços prestados por você.
       Conte para seus visitantes sobre como teve a idéia de iniciar o seu negócio e o que o torna diferente de seus competidores. Faça com que sua empresa se destaque e mostre quem você é.
       </p>
     </h1>
   </div>
 
-      <h1 class="hero__h2">
-        <div class="container">
-          <div class="row">
-            <div class="col-sm">
-              <li list-style-image="#">
-                <span class="hero__h1--color">Doação</span>
-              </li>
-              <p class="hero__text3">
-              Segundo informações do instituto bilubilubilu Sou um parágrafo. Clique aqui para editar-me e adicionar o seu próprio texto. É fácil! Basta clicar em "Editar Texto" ou clicar duas vezes sobre mim e você poderá adicionar o seu próprio conteúdo e trocar fontes. 
-              Sinta-se à vontade para arrastar-me e soltar em qualquer lugar em sua página. Sou um ótimo lugar para você contar sua história e permitir que seus clientes saibam um pouco mais sobre você.
-              Este é um ótimo espaço para escrever um texto longo sobre a sua compania e seus serviços. Você pode usar esse espaço para entrar em detalhes sobre a sua empresa. Fale sobre a sua equipe e sobre os serviços prestados por você.
-              Conte para seus visitantes sobre como teve a idéia de iniciar o seu negócio e o que o torna diferente de seus competidores. Faça com que sua empresa se destaque e mostre quem você é.
-              </p>
-            </div>
-          </div>
+  <h1 class="hero__h2">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm">
+          <li list-style-image="#">
+            <span class="hero__h1--color">Doação</span>
+          </li>
+          <p class="hero__text3">
+          Segundo informações do instituto bilubilubilu Sou um parágrafo. Clique aqui para editar-me e adicionar o seu próprio texto. É fácil! Basta clicar em "Editar Texto" ou clicar duas vezes sobre mim e você poderá adicionar o seu próprio conteúdo e trocar fontes. 
+          </br></br>
+          Sinta-se à vontade para arrastar-me e soltar em qualquer lugar em sua página. Sou um ótimo lugar para você contar sua história e permitir que seus clientes saibam um pouco mais sobre você.
+          Este é um ótimo espaço para escrever um texto longo sobre a sua compania e seus serviços. 
+          </br></br>
+          Você pode usar esse espaço para entrar em detalhes sobre a sua empresa. Fale sobre a sua equipe e sobre os serviços prestados por você.
+          Conte para seus visitantes sobre como teve a idéia de iniciar o seu negócio e o que o torna diferente de seus competidores. Faça com que sua empresa se destaque e mostre quem você é.
+          </p>
         </div>
-      </h1> 
-
+      </div>
+    </div>
+  </h1> 
 </section>
 
 <section class="hero">
   <div class="hero-left">
     <h1 class="hero__h2">
       <li>
-        <span list-style-tipe="circle" class="hero__h1--color">Voluntariado</span>
+        <span list-style-tipe="circle" class="hero__h1--color">Voluntáriado</span>
       </li>
-      <p class="hero__text2">
-        Segundo informações do instituto bilubilubilu Sou um parágrafo. Clique aqui para editar-me e adicionar o seu próprio texto. É fácil! Basta clicar em "Editar Texto" ou clicar duas vezes sobre mim e você poderá adicionar o seu próprio conteúdo e trocar fontes. 
-        Sinta-se à vontade para arrastar-me e soltar em qualquer lugar em sua página. Sou um ótimo lugar para você contar sua história e permitir que seus clientes saibam um pouco mais sobre você.
-        Este é um ótimo espaço para escrever um texto longo sobre a sua compania e seus serviços. Você pode usar esse espaço para entrar em detalhes sobre a sua empresa. Fale sobre a sua equipe e sobre os serviços prestados por você.
-        Conte para seus visitantes sobre como teve a idéia de iniciar o seu negócio e o que o torna diferente de seus competidores. Faça com que sua empresa se destaque e mostre quem você é.
+      <p class="hero__text4">
+      Segundo informações do instituto bilubilubilu Sou um parágrafo. Clique aqui para editar-me e adicionar o seu próprio texto. É fácil! Basta clicar em "Editar Texto" ou clicar duas vezes sobre mim e você poderá adicionar o seu próprio conteúdo e trocar fontes. 
+      </br></br>
+      Sinta-se à vontade para arrastar-me e soltar em qualquer lugar em sua página. Sou um ótimo lugar para você contar sua história e permitir que seus clientes saibam um pouco mais sobre você.
+      Este é um ótimo espaço para escrever um texto longo sobre a sua compania e seus serviços. 
+      </br></br>
+      Você pode usar esse espaço para entrar em detalhes sobre a sua empresa. Fale sobre a sua equipe e sobre os serviços prestados por você.
+      Conte para seus visitantes sobre como teve a idéia de iniciar o seu negócio e o que o torna diferente de seus competidores. Faça com que sua empresa se destaque e mostre quem você é.
       </p>
     </h1>
+  </div>
 
-    <h1 class="hero__h2">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm">
-            <p class="hero__text3">
-              <img style="width: 70%" src="<?php echo base_url('img/cuidados.png')?>"> 
-            </p>
-          </div>
+  <h1 class="hero__h2">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm">
+        </br>
+        <img style="width: 100%" src="images/voluntario_inicio2.png">
+        <img style="width: 100%" src="images/voluntario_inicio.jpg">
         </div>
       </div>
-    </h1> 
-  </div>
+    </div>
+  </h1> 
 </section>
 
 
 </br></br></br></br></br></br></br>
 
 <footer>
-
   <div style="align-items: left" class="boxs">
-    <h2>Links rápidos</h2>
+    <h2 style="font-size:40px">Links rápidos</h2>
       <ul>
-        <li><a href="#">Adoção</a></li>
-        <li><a href="#">Doação</a></li>
-        <li><a href="#">Voluntáriado</a></li> 
-        <li><a href="#">Sobre Nós</a></li> 
+        <li style="font-size:20px"><a href="#">Adoção</a></li>
+        <li style="font-size:20px"><a href="#">Doação</a></li>
+        <li style="font-size:20px"><a href="#">Voluntáriado</a></li> 
+        <li style="font-size:20px"><a href="#">Sobre Nós</a></li> 
       </ul>
     </h2>
   </div>
 
   <div class="boxs">
-    <h2>Sobre Nós</h2>
+    <h2 style="font-size:40px">Sobre Nós</h2>
       <ul>
-        <li><a href="#">Get Into It (yuh)</a></li>
+        <li style="font-size:20px"><a href="#">Get Into It (yuh)</a></li>
       </ul>
     </h2>
   </div>
 
   <div class="boxs">
-    <h2>Contatos</h2>
+    <h2 style="font-size:40px">Contatos</h2>
       <ul>
-        <li><i style="color: white" class="fa fa-whatsapp fa-2x" aria-hidden="true"></i><a href="#">   (33) 99851-5585</a></li>
-        <li><i style="color: white" class="fa fa-paper-plane fa-2x" aria-hidden="true"></i></i><a href="#">   nms6@aluno.ifnmg.edu.br</a></li>
-        <li><i style="color: white" class="fa fa-map-o fa-2x" aria-hidden="true"></i></i><a href="#">   BR 367, km 278, s/n - Zona Rural, Araçuaí - MG, 39600-000</a></li> 
+        <li style="font-size:20px"><i style="color: white" class="fa fa-whatsapp" aria-hidden="true"></i><a href="#">   (33) 99851-5585</a></li>
+        <li style="font-size:20px"><i style="color: white" class="fa fa-paper-plane" aria-hidden="true"></i></i><a href="#">   nms6@aluno.ifnmg.edu.br</a></li>
+        <li style="font-size:20px"><i style="color: white" class="fa fa-map-o" aria-hidden="true"></i></i><a href="#">   BR 367 - Zona Rural, Araçuaí - MG, 39600-000</a></li> 
       </ul>
     </h2>
   </div>
-
 </footer>
 
 <div class="footer">

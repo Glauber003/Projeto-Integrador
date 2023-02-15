@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,500&display=swap');
+
+/*variables*/
+:root {
+    /*color variable*/
+    --white: #f7f8ff;
+    --light-green: #00b097;
+    --normal-green: #235952;
+    --btn-green: #00d8ba;
+    --dark-green: hwb(0 3% 97%);
+    --light-black: #1f1f1f;
+    --pure-black: #000;
+    --hero_btn: #000;
+    --nav1_section1: rgb(227, 206, 206);
+    --nav1_section2: rgb(227, 206, 206);
+    --navinicial:rgb(255, 226, 226);
+    --telainteira: #dfdfdd8a;
+    --fundodetexto: #DFDFDD;
+  
+    /*font variable*/
+    --main-font: "Work Sans", sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,500&display=swap');
+
+/*variables*/
+:root {
+    /*color variable*/
+    --white: #f7f8ff;
+    --light-green: #00b097;
+    --normal-green: #235952;
+    --btn-green: #00d8ba;
+    --dark-green: hwb(0 3% 97%);
+    --light-black: #1f1f1f;
+    --pure-black: #000;
+    --hero_btn: #000;
+    --nav1_section1: rgb(227, 206, 206);
+    --nav1_section2: rgb(227, 206, 206);
+    --navinicial:rgb(255, 226, 226);
+    --telainteira: #dfdfdd8a;
+    --fundodetexto: #DFDFDD;
+  
+    /*font variable*/
+    --main-font: "Work Sans", sans-serif;
+}
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    align-items: center;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+body {
+    display: flex;
+}
+
+#hero_login_h1 {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+#userLogin {
+    max-width: 500px;
+    align-items: center;
+    font-size: 18px;
+    text-align: center;
+}
+
+#userPassword {
+    max-width: 500px;
+    align-items: center;
+    font-size: 18px;
+    text-align: center;
+}
+
+#entrar{
+    max-width: 500px;
+    align-items: center;
+    border-color: var(--normal-green);
+    color: var(--normal-green);
+    text-align: center;
+}
+
+#entrar:hover{
+    background-color: rgba(4, 167, 113, 0.733);
+}
+
+#ls-login-forgot {
+    font-size: 25px;
+}

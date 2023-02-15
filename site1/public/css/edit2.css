@@ -129,7 +129,7 @@ ul {
 .hero {
   display: grid;
   width: 100%;
-  max-width: 1800px;
+  max-width: 1500px;
   margin: 70px auto;
   padding: 0 8rem;
   grid-template-columns: repeat(2, 1fr);
@@ -147,7 +147,7 @@ ul {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   display: flex;
   width: 100%;
-  max-width: 1800px;
+  max-width: 1000px;
   margin: 70px auto;
   padding: 0 10rem;
   grid-template-columns: repeat(2, 1fr);
@@ -163,7 +163,7 @@ ul {
 .frase {
   display:flex;
   grid-column: 1;
-  font-size: 56px;
+  font-size: 40px;
   line-height: 5rem;
   margin-top: 2rem;
   margin-bottom: 3rem;
@@ -183,7 +183,7 @@ ul {
 }
 
 .hero__h1 {
-  font-size: 3rem;
+  font-size: 4rem;
   line-height: 4.625rem;
   margin-top: 2rem;
   margin-bottom: 3rem;
@@ -197,7 +197,7 @@ ul {
 }
 
 .hero__h1--color {
-  color: var(--normal-green);
+  color: #e48c3b;
 }
 
 .hero__underline-img {
@@ -214,21 +214,28 @@ ul {
 }
 
 .hero__text2 {
-  max-width: 700px;
-  font-size: 28px;
+  max-width: 500px;
+  font-size: 20px;
   line-height: 32px;
   margin-bottom: 4rem;
   text-align: justify;
 }
 
 .hero__text3 {
-  max-width: 700px;
-  font-size: 28px;
+  max-width: 600px;
+  font-size: 20px;
   line-height: 32px;
   margin-bottom: 4rem;
   text-align: justify;
 }
 
+.hero__text4 {
+  max-width: 570px;
+  font-size: 20px;
+  line-height: 32px;
+  margin-bottom: 4rem;
+  text-align: justify;
+}
 
 .hero__dog-img {
   border-radius: 4px;

@@ -1,0 +1,225 @@
+CRITICAL - 2022-09-22 00:03:59 --> Undefined variable $animal
+in APPPATH\Views\form.php on line 15.
+ 1 APPPATH\Views\form.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $animal', 'APPPATH\\Views\\form.php', 15)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\form.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('form', [], true)
+ 5 APPPATH\Controllers\Animal.php(53): view('form')
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Animal->cadastro()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Animal))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-22 00:11:20 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 846.
+ 1 SYSTEMPATH\BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(692): CodeIgniter\BaseModel->update([...], [])
+ 3 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->update(' value=', [...])
+ 4 APPPATH\Controllers\Animal.php(57): CodeIgniter\BaseModel->save([...])
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Animal->enviadados_cadastro()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Animal))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-22 00:13:01 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 846.
+ 1 SYSTEMPATH\BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(692): CodeIgniter\BaseModel->update([...], [])
+ 3 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->update(' value=', [...])
+ 4 APPPATH\Controllers\Animal.php(57): CodeIgniter\BaseModel->save([...])
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Animal->enviadados_cadastro()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Animal))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-22 00:13:54 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 846.
+ 1 SYSTEMPATH\BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(692): CodeIgniter\BaseModel->update([...], [])
+ 3 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->update(' value=', [...])
+ 4 APPPATH\Controllers\Animal.php(57): CodeIgniter\BaseModel->save([...])
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Animal->enviadados_cadastro()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Animal))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-22 00:15:24 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 846.
+ 1 SYSTEMPATH\BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(692): CodeIgniter\BaseModel->update([...], [])
+ 3 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->update(' value=', [...])
+ 4 APPPATH\Controllers\Animal.php(57): CodeIgniter\BaseModel->save([...])
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Animal->enviadados_cadastro()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Animal))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-22 00:18:31 --> syntax error, unexpected token "=", expecting "," or ";"
+in APPPATH\Views\form.php on line 35.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('form', [], true)
+ 3 APPPATH\Controllers\Animal.php(70): view('form', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Animal->editardados('13')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Animal))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-22 00:18:55 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 846.
+ 1 SYSTEMPATH\BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(692): CodeIgniter\BaseModel->update([...], [])
+ 3 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->update(' value=', [...])
+ 4 APPPATH\Controllers\Animal.php(57): CodeIgniter\BaseModel->save([...])
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Animal->enviadados_cadastro()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Animal))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-22 00:19:38 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 846.
+ 1 SYSTEMPATH\BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(692): CodeIgniter\BaseModel->update([...], [])
+ 3 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->update(' value=', [...])
+ 4 APPPATH\Controllers\Animal.php(57): CodeIgniter\BaseModel->save([...])
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Animal->enviadados_cadastro()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Animal))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-22 00:26:08 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 846.
+ 1 SYSTEMPATH\BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(692): CodeIgniter\BaseModel->update([...], [])
+ 3 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->update(' value=', [...])
+ 4 APPPATH\Controllers\Animal.php(58): CodeIgniter\BaseModel->save([...])
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Animal->enviadados_cadastro()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Animal))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-22 00:26:31 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 846.
+ 1 SYSTEMPATH\BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(692): CodeIgniter\BaseModel->update([...], [])
+ 3 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->update(' value=', [...])
+ 4 APPPATH\Controllers\Animal.php(58): CodeIgniter\BaseModel->save([...])
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Animal->enviadados_cadastro()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Animal))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-22 00:27:23 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 846.
+ 1 SYSTEMPATH\BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(692): CodeIgniter\BaseModel->update([...], [])
+ 3 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->update(' value=', [...])
+ 4 APPPATH\Controllers\Animal.php(58): CodeIgniter\BaseModel->save([...])
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Animal->enviadados_cadastro()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Animal))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-22 00:35:13 --> Undefined variable $listaranimaisadmn
+in APPPATH\Views\listaranimaisadmn.php on line 69.
+ 1 APPPATH\Views\listaranimaisadmn.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $listaranimaisadmn', 'APPPATH\\Views\\listaranimaisadmn.php', 69)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\listaranimaisadmn.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('listaranimaisadmn', [], true)
+ 5 APPPATH\Controllers\Animal.php(62): view('listaranimaisadmn')
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Animal->enviadados_cadastro()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Animal))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-22 00:36:19 --> Undefined variable $listaranimaisadmn
+in APPPATH\Views\listaranimaisadmn.php on line 69.
+ 1 APPPATH\Views\listaranimaisadmn.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $listaranimaisadmn', 'APPPATH\\Views\\listaranimaisadmn.php', 69)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\listaranimaisadmn.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('listaranimaisadmn', [], true)
+ 5 APPPATH\Controllers\Animal.php(62): view('listaranimaisadmn')
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Animal->enviadados_cadastro()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Animal))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-22 01:28:06 --> Class "App\Controllers\AnimalModel" not found
+in APPPATH\Controllers\Animal.php on line 57.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Animal->enviadados_cadastro()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Animal))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-22 15:51:01 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 219.
+ 1 SYSTEMPATH\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2022-09-22 15:56:40 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 219.
+ 1 SYSTEMPATH\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2022-09-22 16:03:25 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 219.
+ 1 SYSTEMPATH\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2022-09-22 16:03:27 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 219.
+ 1 SYSTEMPATH\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2022-09-22 13:10:57 --> syntax error, unexpected token ","
+in APPPATH\Views\animalAdmn.php on line 41.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('animalAdmn', [], true)
+ 3 APPPATH\Controllers\Animal.php(46): view('animalAdmn', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Animal->poslogin()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Animal))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-22 13:18:28 --> Undefined variable $listaranimais
+in APPPATH\Views\listaranimaisadmn.php on line 59.
+ 1 APPPATH\Views\listaranimaisadmn.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $listaranimais', 'APPPATH\\Views\\listaranimaisadmn.php', 59)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\listaranimaisadmn.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('listaranimaisadmn', [], true)
+ 5 APPPATH\Controllers\Admin\Home.php(27): view('listaranimaisadmn', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\admin\Home->listaranimaisadmn()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-22 13:19:57 --> Undefined variable $listaranimais
+in APPPATH\Views\listaranimaisadmn.php on line 59.
+ 1 APPPATH\Views\listaranimaisadmn.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $listaranimais', 'APPPATH\\Views\\listaranimaisadmn.php', 59)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\listaranimaisadmn.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('listaranimaisadmn', [], true)
+ 5 APPPATH\Controllers\Admin\Home.php(27): view('listaranimaisadmn', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\admin\Home->listaranimaisadmn()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-22 14:27:47 --> Undefined variable $listaranimaiss
+in APPPATH\Views\listaranimaisadmn.php on line 65.
+ 1 APPPATH\Views\listaranimaisadmn.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $listaranimaiss', 'APPPATH\\Views\\listaranimaisadmn.php', 65)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\listaranimaisadmn.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('listaranimaisadmn', [], true)
+ 5 APPPATH\Controllers\Admin\Home.php(27): view('listaranimaisadmn', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\admin\Home->listaranimaisadmn()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-22 14:40:25 --> Call to undefined method App\Models\UsuarioModel::erros
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\Registrar.php(22): CodeIgniter\Model->__call('erros', [])
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Registrar->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrar))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-22 16:09:59 --> Undefined variable $id_animal
+in APPPATH\Controllers\Animal.php on line 72.
+ 1 APPPATH\Controllers\Animal.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id_animal', 'APPPATH\\Controllers\\Animal.php', 72)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Animal->enviadados_update()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Animal))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-22 16:20:34 --> Undefined variable $listaranimaisadmn
+in APPPATH\Views\listaranimaisadmn.php on line 58.
+ 1 APPPATH\Views\listaranimaisadmn.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $listaranimaisadmn', 'APPPATH\\Views\\listaranimaisadmn.php', 58)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\listaranimaisadmn.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('listaranimaisadmn', [], true)
+ 5 APPPATH\Controllers\Animal.php(98): view('listaranimaisadmn')
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Animal->deletaranimal('16')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Animal))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

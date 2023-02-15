@@ -1,0 +1,14 @@
+CRITICAL - 2023-02-14 18:14:27 --> Undefined variable $listaranimais
+in APPPATH\Controllers\Animal.php on line 71.
+ 1 APPPATH\Controllers\Animal.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $listaranimais', 'APPPATH\\Controllers\\Animal.php', 71)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Animal->listaranimais()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Animal))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-14 18:14:30 --> Undefined variable $listaranimais
+in APPPATH\Controllers\Animal.php on line 71.
+ 1 APPPATH\Controllers\Animal.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $listaranimais', 'APPPATH\\Controllers\\Animal.php', 71)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Animal->listaranimais()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Animal))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
