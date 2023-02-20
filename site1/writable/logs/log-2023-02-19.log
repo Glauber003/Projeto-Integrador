@@ -1,0 +1,518 @@
+CRITICAL - 2023-02-19 15:35:56 --> Invalid file: admin.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin.php')
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('admin', [], true)
+ 3 APPPATH\Controllers\Login.php(81): view('admin', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Login->validacao()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-19 15:41:47 --> Undefined variable $nome
+in APPPATH\Views\animalAdmn.php on line 61.
+ 1 APPPATH\Views\animalAdmn.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nome', 'APPPATH\\Views\\animalAdmn.php', 61)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\animalAdmn.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('animalAdmn', [], true)
+ 5 APPPATH\Controllers\Login.php(81): view('animalAdmn', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Login->validacao()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-19 15:42:01 --> Undefined variable $email
+in APPPATH\Views\animalAdmn.php on line 61.
+ 1 APPPATH\Views\animalAdmn.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $email', 'APPPATH\\Views\\animalAdmn.php', 61)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\animalAdmn.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('animalAdmn', [], true)
+ 5 APPPATH\Controllers\Login.php(81): view('animalAdmn', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Login->validacao()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-19 15:44:02 --> syntax error, unexpected string content "", expecting "-" or identifier or variable or number
+in APPPATH\Views\animalAdmn.php on line 61.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('animalAdmn', [], true)
+ 3 APPPATH\Controllers\Animal.php(114): view('animalAdmn', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Animal->poslogin()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Animal))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-19 15:45:55 --> Undefined variable $user_data
+in APPPATH\Views\animalAdmn.php on line 61.
+ 1 APPPATH\Views\animalAdmn.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user_data', 'APPPATH\\Views\\animalAdmn.php', 61)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\animalAdmn.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('animalAdmn', [], true)
+ 5 APPPATH\Controllers\Animal.php(114): view('animalAdmn', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Animal->poslogin()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Animal))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-19 15:47:13 --> Undefined variable $user_data
+in APPPATH\Views\animalAdmn.php on line 61.
+ 1 APPPATH\Views\animalAdmn.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user_data', 'APPPATH\\Views\\animalAdmn.php', 61)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\animalAdmn.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('animalAdmn', [], true)
+ 5 APPPATH\Controllers\Animal.php(114): view('animalAdmn', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Animal->poslogin()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Animal))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-19 15:53:14 --> Undefined variable $data
+in APPPATH\Views\animalAdmn.php on line 61.
+ 1 APPPATH\Views\animalAdmn.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Views\\animalAdmn.php', 61)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\animalAdmn.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('animalAdmn', [], true)
+ 5 APPPATH\Controllers\Login.php(81): view('animalAdmn', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Login->validacao()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-19 15:54:44 --> syntax error, unexpected token "<", expecting ")"
+in APPPATH\Views\animalAdmn.php on line 40.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('animalAdmn', [], true)
+ 3 APPPATH\Controllers\Login.php(81): view('animalAdmn', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Login->validacao()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-19 15:56:10 --> syntax error, unexpected identifier "user_data", expecting "," or ";"
+in APPPATH\Views\animalAdmn.php on line 61.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('animalAdmn', [], true)
+ 3 APPPATH\Controllers\Login.php(81): view('animalAdmn', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Login->validacao()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-19 18:17:10 --> Undefined variable $user_data
+in APPPATH\Views\animalAdmn.php on line 24.
+ 1 APPPATH\Views\animalAdmn.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user_data', 'APPPATH\\Views\\animalAdmn.php', 24)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\animalAdmn.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('animalAdmn', [], true)
+ 5 APPPATH\Controllers\Animal.php(114): view('animalAdmn', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Animal->poslogin()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Animal))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-19 19:19:09 --> Undefined variable $user_data
+in APPPATH\Views\animalAdmn.php on line 66.
+ 1 APPPATH\Views\animalAdmn.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user_data', 'APPPATH\\Views\\animalAdmn.php', 66)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\animalAdmn.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('animalAdmn', [], true)
+ 5 APPPATH\Controllers\Animal.php(114): view('animalAdmn', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Animal->poslogin()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Animal))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-19 19:37:32 --> Cannot access offset of type string on string
+in APPPATH\Views\animaislista.php on line 25.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('animaislista', [], true)
+ 4 APPPATH\Controllers\CadastroAnimalController.php(61): view('animaislista', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\CadastroAnimalController->cadastrar()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CadastroAnimalController))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-19 19:38:53 --> Undefined variable $listaranimaisadmn
+in APPPATH\Views\listaranimaisadmn.php on line 58.
+ 1 APPPATH\Views\listaranimaisadmn.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $listaranimaisadmn', 'APPPATH\\Views\\listaranimaisadmn.php', 58)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\listaranimaisadmn.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('listaranimaisadmn', [], true)
+ 5 APPPATH\Controllers\CadastroAnimalController.php(61): view('listaranimaisadmn', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\CadastroAnimalController->cadastrar()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CadastroAnimalController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-19 19:39:18 --> Undefined variable $listaranimais
+in APPPATH\Views\listaranimaisadmn.php on line 72.
+ 1 APPPATH\Views\listaranimaisadmn.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $listaranimais', 'APPPATH\\Views\\listaranimaisadmn.php', 72)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\listaranimaisadmn.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('listaranimaisadmn', [], true)
+ 5 APPPATH\Controllers\CadastroAnimalController.php(61): view('listaranimaisadmn', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\CadastroAnimalController->cadastrar()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CadastroAnimalController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-19 19:39:50 --> Undefined variable $listaranimais
+in APPPATH\Controllers\CadastroAnimalController.php on line 61.
+ 1 APPPATH\Controllers\CadastroAnimalController.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $listaranimais', 'APPPATH\\Controllers\\CadastroAnimalController.php', 61)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\CadastroAnimalController->cadastrar()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CadastroAnimalController))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-19 19:40:41 --> Undefined variable $listaranimais
+in APPPATH\Views\listaranimaisadmn.php on line 72.
+ 1 APPPATH\Views\listaranimaisadmn.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $listaranimais', 'APPPATH\\Views\\listaranimaisadmn.php', 72)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\listaranimaisadmn.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('listaranimaisadmn', [], true)
+ 5 APPPATH\Controllers\CadastroAnimalController.php(61): view('listaranimaisadmn', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\CadastroAnimalController->cadastrar()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CadastroAnimalController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-19 19:41:41 --> Undefined variable $listaranimais
+in APPPATH\Views\listaranimaisadmn.php on line 72.
+ 1 APPPATH\Views\listaranimaisadmn.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $listaranimais', 'APPPATH\\Views\\listaranimaisadmn.php', 72)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\listaranimaisadmn.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('listaranimaisadmn', [], true)
+ 5 APPPATH\Controllers\CadastroAnimalController.php(61): view('listaranimaisadmn', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\CadastroAnimalController->cadastrar()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CadastroAnimalController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-19 19:41:56 --> Undefined variable $listaranimais
+in APPPATH\Views\listaranimaisadmn.php on line 72.
+ 1 APPPATH\Views\listaranimaisadmn.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $listaranimais', 'APPPATH\\Views\\listaranimaisadmn.php', 72)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\listaranimaisadmn.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('listaranimaisadmn', [], true)
+ 5 APPPATH\Controllers\CadastroAnimalController.php(61): view('listaranimaisadmn', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\CadastroAnimalController->cadastrar()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CadastroAnimalController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-19 19:43:19 --> Undefined variable $listaranimais
+in APPPATH\Views\listaranimais.php on line 72.
+ 1 APPPATH\Views\listaranimais.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $listaranimais', 'APPPATH\\Views\\listaranimais.php', 72)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\listaranimais.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('listaranimais', [], true)
+ 5 APPPATH\Controllers\CadastroAnimalController.php(61): view('listaranimais', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\CadastroAnimalController->cadastrar()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CadastroAnimalController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-19 19:43:58 --> Undefined variable $listaranimais
+in APPPATH\Views\listaranimais.php on line 72.
+ 1 APPPATH\Views\listaranimais.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $listaranimais', 'APPPATH\\Views\\listaranimais.php', 72)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\listaranimais.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('listaranimais', [], true)
+ 5 APPPATH\Controllers\CadastroAnimalController.php(61): view('listaranimais', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\CadastroAnimalController->cadastrar()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CadastroAnimalController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-19 19:44:44 --> Undefined variable $listaranimais
+in APPPATH\Views\listaranimais.php on line 72.
+ 1 APPPATH\Views\listaranimais.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $listaranimais', 'APPPATH\\Views\\listaranimais.php', 72)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\listaranimais.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('listaranimais', [], true)
+ 5 APPPATH\Controllers\CadastroAnimalController.php(61): view('listaranimais', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\CadastroAnimalController->cadastrar()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CadastroAnimalController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-19 19:44:59 --> Undefined variable $listaranimais
+in APPPATH\Views\listaranimais.php on line 72.
+ 1 APPPATH\Views\listaranimais.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $listaranimais', 'APPPATH\\Views\\listaranimais.php', 72)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\listaranimais.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('listaranimais', [], true)
+ 5 APPPATH\Controllers\CadastroAnimalController.php(61): view('listaranimais', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\CadastroAnimalController->cadastrar()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CadastroAnimalController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-19 19:45:06 --> Undefined variable $listaranimais
+in APPPATH\Views\listaranimais.php on line 72.
+ 1 APPPATH\Views\listaranimais.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $listaranimais', 'APPPATH\\Views\\listaranimais.php', 72)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\listaranimais.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('listaranimais', [], true)
+ 5 APPPATH\Controllers\CadastroAnimalController.php(61): view('listaranimais', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\CadastroAnimalController->cadastrar()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CadastroAnimalController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-19 19:46:31 --> Undefined variable $listaranimais
+in APPPATH\Views\listaranimais.php on line 72.
+ 1 APPPATH\Views\listaranimais.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $listaranimais', 'APPPATH\\Views\\listaranimais.php', 72)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\listaranimais.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('listaranimais', [], true)
+ 5 APPPATH\Controllers\CadastroAnimalController.php(61): view('listaranimais', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\CadastroAnimalController->cadastrar()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CadastroAnimalController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-19 19:47:29 --> Cannot access offset of type string on string
+in APPPATH\Views\listaranimaisadmn.php on line 78.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('listaranimaisadmn', [], true)
+ 4 APPPATH\Controllers\CadastroAnimalController.php(61): view('listaranimaisadmn', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\CadastroAnimalController->cadastrar()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CadastroAnimalController))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-19 19:49:59 --> Undefined variable $response_array
+in APPPATH\Controllers\CadastroAnimalController.php on line 63.
+ 1 APPPATH\Controllers\CadastroAnimalController.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $response_array', 'APPPATH\\Controllers\\CadastroAnimalController.php', 63)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\CadastroAnimalController->cadastrar()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CadastroAnimalController))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-19 19:50:30 --> Cannot access offset of type string on string
+in APPPATH\Views\listaranimaisadmn.php on line 78.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('listaranimaisadmn', [], true)
+ 4 APPPATH\Controllers\CadastroAnimalController.php(62): view('listaranimaisadmn', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\CadastroAnimalController->cadastrar()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CadastroAnimalController))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-19 19:50:53 --> Cannot access offset of type string on string
+in APPPATH\Views\listaranimaisadmn.php on line 78.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('listaranimaisadmn', [], true)
+ 4 APPPATH\Controllers\CadastroAnimalController.php(62): view('listaranimaisadmn', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\CadastroAnimalController->cadastrar()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CadastroAnimalController))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-19 19:53:19 --> Cannot access offset of type string on string
+in APPPATH\Views\animaislista.php on line 25.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('animaislista', [], true)
+ 4 APPPATH\Controllers\CadastroAnimalController.php(61): view('animaislista', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\CadastroAnimalController->cadastrar()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CadastroAnimalController))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-19 19:53:37 --> Cannot access offset of type string on string
+in APPPATH\Views\animaislista.php on line 25.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('animaislista', [], true)
+ 4 APPPATH\Controllers\CadastroAnimalController.php(61): view('animaislista', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\CadastroAnimalController->cadastrar()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CadastroAnimalController))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-19 19:54:14 --> Undefined variable $listaranimaiss
+in APPPATH\Views\listaranimaisadmn.php on line 78.
+ 1 APPPATH\Views\listaranimaisadmn.php(78): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $listaranimaiss', 'APPPATH\\Views\\listaranimaisadmn.php', 78)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\listaranimaisadmn.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('listaranimaisadmn', [], true)
+ 5 APPPATH\Controllers\CadastroAnimalController.php(61): view('listaranimaisadmn', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\CadastroAnimalController->cadastrar()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CadastroAnimalController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-19 19:54:53 --> Undefined variable $listaranimais
+in APPPATH\Views\listaranimaisadmn.php on line 72.
+ 1 APPPATH\Views\listaranimaisadmn.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $listaranimais', 'APPPATH\\Views\\listaranimaisadmn.php', 72)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\listaranimaisadmn.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('listaranimaisadmn', [], true)
+ 5 APPPATH\Controllers\CadastroAnimalController.php(61): view('listaranimaisadmn', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\CadastroAnimalController->cadastrar()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CadastroAnimalController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-19 19:56:03 --> Undefined variable $listaranimais
+in APPPATH\Views\listaranimaisadmn.php on line 72.
+ 1 APPPATH\Views\listaranimaisadmn.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $listaranimais', 'APPPATH\\Views\\listaranimaisadmn.php', 72)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\listaranimaisadmn.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('listaranimaisadmn', [], true)
+ 5 APPPATH\Controllers\CadastroAnimalController.php(61): view('listaranimaisadmn', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\CadastroAnimalController->cadastrar()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CadastroAnimalController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-19 19:56:58 --> Undefined variable $listaranimais
+in APPPATH\Views\listaranimaisadmn.php on line 72.
+ 1 APPPATH\Views\listaranimaisadmn.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $listaranimais', 'APPPATH\\Views\\listaranimaisadmn.php', 72)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\listaranimaisadmn.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('listaranimaisadmn', [], true)
+ 5 APPPATH\Controllers\CadastroAnimalController.php(61): view('listaranimaisadmn', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\CadastroAnimalController->cadastrar()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CadastroAnimalController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-19 19:58:53 --> Cannot access offset of type string on string
+in APPPATH\Views\listaranimaisadmn.php on line 78.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('listaranimaisadmn', [], true)
+ 4 APPPATH\Controllers\CadastroAnimalController.php(61): view('listaranimaisadmn', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\CadastroAnimalController->cadastrar()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CadastroAnimalController))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-19 19:59:23 --> Cannot access offset of type string on string
+in APPPATH\Views\listaranimaisadmn.php on line 78.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('listaranimaisadmn', [], true)
+ 4 APPPATH\Controllers\CadastroAnimalController.php(61): view('listaranimaisadmn', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\CadastroAnimalController->cadastrar()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CadastroAnimalController))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-19 20:00:00 --> Cannot access offset of type string on string
+in APPPATH\Views\listaranimaisadmn.php on line 78.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('listaranimaisadmn', [], true)
+ 4 APPPATH\Controllers\CadastroAnimalController.php(61): view('listaranimaisadmn', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\CadastroAnimalController->cadastrar()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CadastroAnimalController))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-19 20:01:00 --> Undefined variable $listaranimais
+in APPPATH\Views\listaranimaisadmn.php on line 72.
+ 1 APPPATH\Views\listaranimaisadmn.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $listaranimais', 'APPPATH\\Views\\listaranimaisadmn.php', 72)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\listaranimaisadmn.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('listaranimaisadmn', [], true)
+ 5 APPPATH\Controllers\CadastroAnimalController.php(61): view('listaranimaisadmn', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\CadastroAnimalController->cadastrar()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CadastroAnimalController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-19 20:01:37 --> Undefined variable $listaranimais
+in APPPATH\Views\listaranimaisadmn.php on line 72.
+ 1 APPPATH\Views\listaranimaisadmn.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $listaranimais', 'APPPATH\\Views\\listaranimaisadmn.php', 72)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\listaranimaisadmn.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('listaranimaisadmn', [], true)
+ 5 APPPATH\Controllers\CadastroAnimalController.php(61): view('listaranimaisadmn', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\CadastroAnimalController->cadastrar()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CadastroAnimalController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-19 20:06:56 --> Undefined variable $listaranimais
+in APPPATH\Views\listaranimaisadmn.php on line 72.
+ 1 APPPATH\Views\listaranimaisadmn.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $listaranimais', 'APPPATH\\Views\\listaranimaisadmn.php', 72)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\listaranimaisadmn.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('listaranimaisadmn', [], true)
+ 5 APPPATH\Controllers\CadastroAnimalController.php(61): view('listaranimaisadmn', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\CadastroAnimalController->cadastrar()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CadastroAnimalController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-19 20:10:38 --> Undefined variable $animal
+in APPPATH\Controllers\CadastroAnimalController.php on line 61.
+ 1 APPPATH\Controllers\CadastroAnimalController.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $animal', 'APPPATH\\Controllers\\CadastroAnimalController.php', 61)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\CadastroAnimalController->cadastrar()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CadastroAnimalController))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-19 20:10:56 --> Undefined variable $animal
+in APPPATH\Controllers\CadastroAnimalController.php on line 61.
+ 1 APPPATH\Controllers\CadastroAnimalController.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $animal', 'APPPATH\\Controllers\\CadastroAnimalController.php', 61)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\CadastroAnimalController->cadastrar()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CadastroAnimalController))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-19 20:13:16 --> Invalid file: listaranimaisadmnn.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('listaranimaisadmnn.php')
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('listaranimaisadmnn', [], true)
+ 3 APPPATH\Controllers\CadastroAnimalController.php(61): view('listaranimaisadmnn')
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\CadastroAnimalController->cadastrar()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CadastroAnimalController))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-19 20:17:05 --> Undefined variable $animal
+in APPPATH\Controllers\CadastroAnimalController.php on line 108.
+ 1 APPPATH\Controllers\CadastroAnimalController.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $animal', 'APPPATH\\Controllers\\CadastroAnimalController.php', 108)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\CadastroAnimalController->listaranimaisadmnn()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CadastroAnimalController))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-19 20:17:29 --> Undefined variable $animal
+in APPPATH\Controllers\CadastroAnimalController.php on line 108.
+ 1 APPPATH\Controllers\CadastroAnimalController.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $animal', 'APPPATH\\Controllers\\CadastroAnimalController.php', 108)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\CadastroAnimalController->listaranimaisadmnn()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CadastroAnimalController))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-19 20:19:47 --> Undefined variable $listaranimais
+in APPPATH\Views\listaranimaisadmn.php on line 72.
+ 1 APPPATH\Views\listaranimaisadmn.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $listaranimais', 'APPPATH\\Views\\listaranimaisadmn.php', 72)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\listaranimaisadmn.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('listaranimaisadmn', [], true)
+ 5 APPPATH\Controllers\CadastroAnimalController.php(122): view('listaranimaisadmn', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\CadastroAnimalController->listaranimaisadmnn()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CadastroAnimalController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-19 20:23:40 --> Undefined variable $user_data
+in APPPATH\Views\animalAdmn.php on line 66.
+ 1 APPPATH\Views\animalAdmn.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user_data', 'APPPATH\\Views\\animalAdmn.php', 66)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\animalAdmn.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('animalAdmn', [], true)
+ 5 APPPATH\Controllers\Animal.php(114): view('animalAdmn', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Animal->poslogin()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Animal))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-19 20:24:36 --> Undefined variable $user_data
+in APPPATH\Views\animalAdmn.php on line 66.
+ 1 APPPATH\Views\animalAdmn.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user_data', 'APPPATH\\Views\\animalAdmn.php', 66)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\animalAdmn.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('animalAdmn', [], true)
+ 5 APPPATH\Controllers\Animal.php(114): view('animalAdmn', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Animal->poslogin()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Animal))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-19 20:26:30 --> Undefined variable $user_data
+in APPPATH\Views\animalAdmn.php on line 66.
+ 1 APPPATH\Views\animalAdmn.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user_data', 'APPPATH\\Views\\animalAdmn.php', 66)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\animalAdmn.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('animalAdmn', [], true)
+ 5 APPPATH\Controllers\Animal.php(114): view('animalAdmn', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Animal->poslogin()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Animal))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-19 20:27:14 --> Undefined variable $user_data
+in APPPATH\Views\animalAdmn.php on line 66.
+ 1 APPPATH\Views\animalAdmn.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user_data', 'APPPATH\\Views\\animalAdmn.php', 66)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\animalAdmn.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('animalAdmn', [], true)
+ 5 APPPATH\Controllers\Animal.php(114): view('animalAdmn', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Animal->poslogin()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Animal))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-19 21:21:51 --> Undefined variable $dados
+in APPPATH\Views\listaranimais.php on line 78.
+ 1 APPPATH\Views\listaranimais.php(78): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dados', 'APPPATH\\Views\\listaranimais.php', 78)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\listaranimais.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('listaranimais', [], true)
+ 5 APPPATH\Controllers\Animal.php(71): view('listaranimais', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Animal->listaranimais()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Animal))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

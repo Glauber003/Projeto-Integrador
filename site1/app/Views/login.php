@@ -122,7 +122,7 @@
 						</span>
 
 						<a href="#" class="txt2">
-							Cadastre-se
+						<?php echo anchor('base_url'('registrar'), 'CADASTRA-SE', ['class'=>'btn btn-outline-primary'])?>
 						</a>
 					</div>
 				</form>

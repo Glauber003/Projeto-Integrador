@@ -23,12 +23,16 @@ class SessionController{
     }
 
 
-    const{id, nome} = user
+    const{id, nome,cpf,rg,sexo,nacionalidade} = user
 
     return res.json ({
         user:{
             id,
-            nome
+            nome,
+            cpf,
+            rg,
+            sexo,
+            nacionalidade
         },
         token: jwt.sign({id}, authConfig.secret)
         })

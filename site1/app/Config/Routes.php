@@ -46,6 +46,13 @@ $routes->get('listaranimais','Animal::listaranimais');
 $routes->get('voluntarios','Animal::voluntarios');
 $routes->get('sobrenos','Animal::sobrenos');
 $routes->get('suporte','Animal::suporte');
+//rotas adm
+$routes->match(['get','post'], 'adocaoadmn', 'CadastroAnimalController::index');
+$routes->match(['get','post'], 'listaranimaisadmn', 'CadastroAnimalController::listaranimaisadmnn');
+$routes->match(['get','post'], 'doacaoadmn', 'CadastroAnimalController::index');
+$routes->match(['get','post'], 'voluntariosadmn', 'CadastroAnimalController::index');
+$routes->match(['get','post'], 'sobrenosadmn', 'CadastroAnimalController::index');
+$routes->match(['get','post'], 'suporteadmn', 'CadastroAnimalController::index');
 
 
 //novas rotas com api 

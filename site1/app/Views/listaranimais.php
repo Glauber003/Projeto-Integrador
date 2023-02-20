@@ -14,7 +14,11 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
   <link rel="stylesheet" type="text/css" href="<?php echo base_url('css/edit.css'); ?>">
   <link rel="stylesheet" type="text/css" href="<?php echo base_url('css/edit2.css'); ?>">
-
+    <!--  o JS do Bootstrap -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
   <title>MiauDota</title>
 
 </head>
@@ -59,8 +63,7 @@
   <div class="hero-frase">
     <div class="frase">
       <p class="frase" style="text-align: center">
-        A empresa sem fins lucrativos Miaudota é responsável por programas de resgate de cachorros em situação de abandono, 
-        aqui você podera adotar cachorros e ter um amiguinho novo para alegrar seu dia.     
+      A animais para adoação.     
       </p>
     </div>
   </div>
@@ -68,24 +71,29 @@
 
 
 
-<?php foreach($listaranimais as $listaranimaiss) : ?>
-                <h1>PUXANDO DADOS API teste</h1>
-                <div class="box">
-                <div class="possy"style="width: 100px">
-                  <img style="width: 100px" src="https://i0.wp.com/www.portaldodog.com.br/cachorros/wp-content/uploads/2021/03/visa%CC%83o-do-cachorro-2.jpeg?resize=626%2C626&ssl=1" alt="animal">
-                </div>
-                <div class="content">
-                  <h3> Nome Animal: <?php echo $listaranimaiss ['nome_animal']?><h3>
-                  <h3>-Raça :<?php echo $listaranimaiss ['raca']?>/ Porte <?php echo $listaranimaiss ['porte']?> /  sexo: <?php echo $listaranimaiss ['sexo']?><h3>
-                  <h3>-Idade: <?php echo $listaranimaiss ['idade']?> anos /  sexo: <?php echo $listaranimaiss ['sexo']?><h3>
-                  <h3>-Descrição Do animal <?php echo $listaranimaiss ['descricao_animal']?><h3>
-                  <h3>-Onde se encontra?: <?php echo $listaranimaiss ['local_animal']?><h3>
-                </div>
-              </div>
-            </div>
-          <?php endforeach;?>*/
+<div class="container">
+    <div class="row">
 
-</br></br></br></br></br></br></br>
+      <?php foreach ($listaranimais as $listaranimaiss) : ?>
+        <div class="col-sm-4">
+          <div class="card mb-4 box-shadow">
+            <img class="card-img-top" src="https://i0.wp.com/www.portaldodog.com.br/cachorros/wp-content/uploads/2021/03/visa%CC%83o-do-cachorro-2.jpeg?resize=626%2C626&ssl=1" alt="Animal">
+            <div class="card-body">
+              <h3 class="card-text">Nome do animal: <?php echo $listaranimaiss['nome_animal'] ?></h3>
+              <h3 class="card-text">Raça: <?php echo $listaranimaiss['raca'] ?></h3>
+              <h3 class="card-text"> Porte: <?php echo $listaranimaiss['porte'] ?></h3>
+              <h3 class="card-text"> Sexo: <?php echo $listaranimaiss['sexo'] ?></h3>
+              <h3 class="card-text">Idade: <?php echo $listaranimaiss['idade'] ?> anos 
+              <h3 class="card-text">Sexo: <?php echo $listaranimaiss['sexo'] ?></h3>
+              <h3 class="card-text">Descrição do animal: <?php echo $listaranimaiss['descricao_animal'] ?></h3>
+              <h3 class="card-text">Onde se encontra?: <?php echo $listaranimaiss['local_animal'] ?></h3>
+            </div>
+          </div>
+        </div>
+      <?php endforeach; ?>
+
+    </div>
+  </div>
 
 <footer>
   <div style="align-items: left" class="boxs">

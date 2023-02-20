@@ -58,7 +58,7 @@ class CadastroAnimalController extends Controller
 
       // Verificando resposta da API
       if ($api) {
-          echo("ANIMAL CADASTRADO GARAI");
+        return redirect()->to('/listaranimaisadmn');
       } else {
           // Erro ao enviar dados
           // ...
@@ -92,6 +92,39 @@ class CadastroAnimalController extends Controller
     return view('animaislista', ['dados' => $dados]);
     
 }
+
+
+public function listaranimaisadmnn () {
+    $ch = curl_init();
+    curl_setopt($ch, CURLOPT_URL, "http://localhost:3000/animal/todos");
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+
+    $response = curl_exec($ch);
+    $response_array = json_decode($response, true);
+
+    $listaranimais = array();
+    foreach ($response_array as $animal) {
+        $dados[] = array(
+            'nome_animal' => $animal['nome_animal'],
+            'especie_animal' => $animal['especie_animal'],
+            'idade' => $animal['idade'],
+            'descricao_animal' => $animal['descricao_animal'],
+            'porte' => $animal['porte'],
+            'raca' => $animal['raca'],
+            'sexo' => $animal['sexo'],
+            'local_animal' => $animal['local_animal'],
+            'peso' => $animal['peso'],
+        );
+    }
+
+    curl_close($ch);
+
+    return view('listaranimaisadmn', ['dados' => $dados]);
+}  
+
+
+
+
 
 
     public function animalatualizar()

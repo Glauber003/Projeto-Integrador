@@ -1,132 +1,260 @@
 <!DOCTYPE html>
-<!-- saved from url=(0044)https://paulopbi.github.io/pequenos-amigos/# -->
-<html lang="pt-br"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--google font-->
-    <link rel="preconnect" href="https://fonts.googleapis.com/">
-    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
-    <link href="./Pequenos Amigos_files/css2" rel="stylesheet">
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="stylesheet" type="text/css" href="<?php echo base_url('css/edit2.css'); ?>">
-    <!--css-->
-    <link rel="stylesheet" href="./Pequenos Amigos_files/style.css">
-    <title>Pequenos Amigos</title>
-  </head>
+<html lang="en">
+<head>
+<meta charset="utf-8">
 
-  <body>
-    <header class="header">
-      <div class="header-nav-logo2">
-          <img src="">
-          <a href="#" class="header-nav__logo2">MiauDota</a>
 
-      </div>
-      <header class="header">
-        <nav class="header-nav">
-          <ul class="header-nav-links">
-            <li>
-              <a href="" class="header-nav-link" target="_blank">Adoção</a>
-            </li>
-            <li>
-              <a href="" class="header-nav-link" target="_blank">Doação</a>
-            </li>
-            <li>
-              <a href="" class="header-nav-link" target="_blank">Sobre Nós</a>
-            </li>
-            <li>
-              <a href="" class="header-nav-link" target="_blank">Volutáriado</a>
-            </li>
-            <li>
-              <a href="" class="header-nav-link" target="_blank">Suporte</a>
-            </li>
-            </li></li></li></li><?php echo anchor('base_url'('logout'), 'Logout', ['class'=>'hero__btn'])?>
-        </ul>
-      </nav>
-    </header>
 
-    <section class="hero">
-      <div class="hero-left">
-        <h1 class="hero__h1">
-          Encontre Um Novo
-          <span class="hero__h1--color">Companheiro.</span>
-        </h1>
-        <img src="./Pequenos Amigos_files/underline.svg" alt="underline" class="hero__underline-img">
-        <p class="hero__text">
-          A empresa sem fins lucrativos <strong>pequenos amigos</strong> é
-          responsavel por programas de resgate de cachorros em situação de
-          abandono, aqui você podera adotar cachorros e ter um amiguinho novo
-          para alegrar seu dia.     
-        </p>
-        <?php echo anchor('base_url'('Animal/cadastro'), 'Cadastrar Novo Animal', ['class'=>'hero__btn'])?>
+<title>Usuario</title>
 
-          
-        </button>
-      </div>
 
-      <div class="hero-right">
-        <img src="https://love.doghero.com.br/wp-content/uploads/2019/10/Racoon_Filhote-2-1024x684.jpg" alt="Dogs" class="hero__dog-img">
-      </div>
-    </section>
-    </br>
 
-  <section class="hero">
-    <div class="hero-left">
-        <h1 class="hero__h2">
-          <li>
-            <span list-style-tipe="circle" class="hero__h1--color">Voluntários</span>
-          </li>
-          <p class="hero__text2">
-          Segundo informações do instituto bilubilubilu Sou um parágrafo. Clique aqui para editar-me e adicionar o seu próprio texto. É fácil! Basta clicar em "Editar Texto" ou clicar duas vezes sobre mim e você poderá adicionar o seu próprio conteúdo e trocar fontes. 
-          Sinta-se à vontade para arrastar-me e soltar em qualquer lugar em sua página. Sou um ótimo lugar para você contar sua história e permitir que seus clientes saibam um pouco mais sobre você.
-          Este é um ótimo espaço para escrever um texto longo sobre a sua compania e seus serviços. Você pode usar esse espaço para entrar em detalhes sobre a sua empresa. Fale sobre a sua equipe e sobre os serviços prestados por você.
-          Conte para seus visitantes sobre como teve a idéia de iniciar o seu negócio e o que o torna diferente de seus competidores. Faça com que sua empresa se destaque e mostre quem você é.
-        </p>
-        </h1>
-    </div>
-    <h1 class="hero__h2">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm">
-          <li list-style-image="">
-            <span class="hero__h1--color">Mamacita</span>
-          </li>
-          <p class="hero__text2">
-            Cadastro de voluntarios
-          </p>
-        </div>
-    </div>
+<head>
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link href="http://fonts.cdnfonts.com/css/montserrat" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com/">
+  <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="#">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+  <link rel="stylesheet" type="text/css" href="<?php echo base_url('css/edit.css'); ?>">
+  <link rel="stylesheet" type="text/css" href="<?php echo base_url('css/edit2.css'); ?>">
+
+  <title>MiauDota</title>
+
+</head>
+
+<body>
+  <nav id="menu1">
+    <ul>
+      <li><a href=""> MiauDota </a></li> 
+    </ul>
+  </nav>
+
+  <nav id="menu2">
+    <ul>
+      <li><a href="<?php echo base_url('listaranimais')?>"> ADOÇÃO </a></li>
+      <li><a href="<?php echo base_url('login')?>"> DOAÇÃO </a></li>
+      <li><a href="<?php echo base_url('voluntarios')?>"> VOLUTÁRIADO </a></li>
+      <li><a href="<?php echo base_url('sobrenos')?>"> SOBRE NÓS </a></li>
+      <li><a href="<?php echo base_url('suporte')?>"> SUPORTE </a></li>
+    </ul>
+  </nav>
+</body>
+
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+<div class="container">
+<div class="main-body">
+<div class="row">
+<div class="col-lg-4">
+<div class="card">
+<div class="card-body">
+<div class="d-flex flex-column align-items-center text-center">
+<img src="https://bootdey.com/img/Content/avatar/avatar6.png" alt="Admin" class="rounded-circle p-1 bg-primary" width="110">
+<div class="mt-3">
+
+
+<h4><?php echo $user_data['nome']; ?></h4>
+<p class="text-secondary mb-1">SEJA BEM VINDO</p>
+<p class="text-muted font-size-sm">AO MIAUDOTA </p>
+<?php echo anchor('base_url'('cadastraranimal'), 'Cadastrar Animal', ['class'=>'btn btn-primary px-4'])?>
+</br>
+<?php echo anchor('base_url'('admin/edicaodedados'), 'Logout', ['class'=>'btn btn-outline-primary'])?>
+<?php echo anchor('base_url'('admin/edicaodedados'), 'Deletar Conta', ['class'=>'btn btn-outline-primary'])?>
+
+</div>
+</div>
+<hr class="my-4">
+<ul class="list-group list-group-flush">
+
+</li>
+<li class="list-group-item d-flex justify-content-between align-items-center flex-wrap">
+<h6 class="mb-0"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-twitter me-2 icon-inline text-info"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path></svg>Vinsule sua conta no Twitter</h6>
+<span class="text-secondary"></span>
+</li>
+<li class="list-group-item d-flex justify-content-between align-items-center flex-wrap">
+<h6 class="mb-0"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-instagram me-2 icon-inline text-danger"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>Vinsule sua conta no Instagram</h6>
+<span class="text-secondary"></span>
+</li>
+<li class="list-group-item d-flex justify-content-between align-items-center flex-wrap">
+<h6 class="mb-0"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-facebook me-2 icon-inline text-primary"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>Vinsule sua conta no Facebook</h6>
+<span class="text-secondary"></span>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="col-lg-8">
+<div class="card">
+<div class="card-body">
+<div class="row mb-3">
+<div class="col-sm-3">
+<h6 class="mb-0">NOME</h6>
+</div>
+<div class="col-sm-9 text-secondary">
+<input type="text" class="form-control" value=<?php echo $user_data['nome']; ?>>
+</div>
+</div>
+<div class="row mb-3">
+<div class="col-sm-3">
+<h6 class="mb-0">CPF</h6>
+</div>
+<div class="col-sm-9 text-secondary">
+<input type="text" class="form-control" value=<?php echo $user_data['cpf']; ?>>
+</div>
+</div>
+<div class="row mb-3">
+<div class="col-sm-3">
+<h6 class="mb-0">RG</h6>
+</div>
+<div class="col-sm-9 text-secondary">
+<input type="text" class="form-control" value="<?php echo $user_data['rg']; ?>">
+</div>
+</div>
+<div class="row mb-3">
+<div class="col-sm-3">
+<h6 class="mb-0">SEXO</h6>
+</div>
+<div class="col-sm-9 text-secondary">
+<input type="text" class="form-control" value="<?php echo $user_data['sexo']; ?>">
+</div>
+</div>
+<div class="row mb-3">
+<div class="col-sm-3">
+<h6 class="mb-0">NACIONALIDADE</h6>
+</div>
+<div class="col-sm-9 text-secondary">
+<input type="text" class="form-control" value="<?php echo $user_data['nacionalidade']; ?>">
+</div>
+</div>
+<div class="row">
+<div class="col-sm-3"></div>
+<div class="col-sm-9 text-secondary">
+<?php echo anchor('base_url'('admin/edicaodedados'), 'Editar dados', ['class'=>'btn btn-primary px-4'])?>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-sm-12">
+<div class="card">
+<div class="card-body">
+<h5 class="d-flex align-items-center mb-3">ANIMAIS ADICIONADOS</h5>
+<p>DOG1</p>
+<div class="progress mb-3" style="height: 5px">
+<div class="progress-bar bg-primary" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+</div>
+<p>DOG1</p>
+<div class="progress mb-3" style="height: 5px">
+<div class="progress-bar bg-danger" role="progressbar" style="width: 72%" aria-valuenow="72" aria-valuemin="0" aria-valuemax="100"></div>
+</div>
+<p>DOG1</p>
+<div class="progress mb-3" style="height: 5px">
+<div class="progress-bar bg-success" role="progressbar" style="width: 89%" aria-valuenow="89" aria-valuemin="0" aria-valuemax="100"></div>
+</div>
+<p>DOG1</p>
+<div class="progress mb-3" style="height: 5px">
+<div class="progress-bar bg-warning" role="progressbar" style="width: 55%" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
+</div>
+<p>DOG1</p>
+<div class="progress" style="height: 5px">
+<div class="progress-bar bg-info" role="progressbar" style="width: 66%" aria-valuenow="66" aria-valuemin="0" aria-valuemax="100"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<style type="text/css">
+body{
+    background: #f7f7ff;
+    margin-top:20px;
+}
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 0 solid transparent;
+    border-radius: .25rem;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 2px 6px 0 rgb(218 218 253 / 65%), 0 2px 6px 0 rgb(206 206 238 / 54%);
+}
+.me-2 {
+    margin-right: .5rem!important;
+}
+</style>
+<script type="text/javascript">
+
+</script>
+
+
+
+
+<footer>
+  <div style="align-items: left" class="boxs">
+    <h2 style="font-size:40px">Links rápidos</h2>
+      <ul>
+        <li style="font-size:20px"><a href="#">Adoção</a></li>
+        <li style="font-size:20px"><a href="#">Doação</a></li>
+        <li style="font-size:20px"><a href="#">Voluntáriado</a></li> 
+        <li style="font-size:20px"><a href="#">Sobre Nós</a></li> 
+      </ul>
+    </h2>
   </div>
-  </section>
 
+  <div class="boxs">
+    <h2 style="font-size:40px">Sobre Nós</h2>
+      <ul>
+        <li style="font-size:20px"><a href="#">Get Into It (yuh)</a></li>
+      </ul>
+    </h2>
+  </div>
 
-  <section class="hero">
-    <div class="hero-left">
-      <h1 class="hero__h2">
-        <li>
-          <span list-style-tipe="circle" class="hero__h1--color">Animais para doação</span>
-        </li>
-      </h1>
+  <div class="boxs">
+    <h2 style="font-size:40px">Contatos</h2>
+      <ul>
+        <li style="font-size:20px"><i style="color: white" class="fa fa-whatsapp" aria-hidden="true"></i><a href="#">   (33) 99851-5585</a></li>
+        <li style="font-size:20px"><i style="color: white" class="fa fa-paper-plane" aria-hidden="true"></i></i><a href="#">   nms6@aluno.ifnmg.edu.br</a></li>
+        <li style="font-size:20px"><i style="color: white" class="fa fa-map-o" aria-hidden="true"></i></i><a href="#">   BR 367 - Zona Rural, Araçuaí - MG, 39600-000</a></li> 
+      </ul>
+    </h2>
+  </div>
+</footer>
+
+<div class="footer">
+  <div class="sociais">
+
+    <div class="social">
+      <a href="#"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
     </div>
-    </br>
-  </section>
 
-  <?php foreach($listaranimais as $listaranimaiss) : ?>
-                <h1>PUXANDO DADOS API teste</h1>
-                <div class="box">
-                <div class="possy"style="width: 100px">
-                  <img style="width: 100px" src="https://i0.wp.com/www.portaldodog.com.br/cachorros/wp-content/uploads/2021/03/visa%CC%83o-do-cachorro-2.jpeg?resize=626%2C626&ssl=1" alt="animal">
-                </div>
-                <div class="content">
-                  <h3> Nome Animal: <?php echo $listaranimaiss ['nome_animal']?><h3>
-                  <h3>-Raça :<?php echo $listaranimaiss ['raca']?>/ Porte <?php echo $listaranimaiss ['porte']?> /  sexo: <?php echo $listaranimaiss ['sexo']?><h3>
-                  <h3>-Idade: <?php echo $listaranimaiss ['idade']?> anos /  sexo: <?php echo $listaranimaiss ['sexo']?><h3>
-                  <h3>-Descrição Do animal <?php echo $listaranimaiss ['descricao_animal']?><h3>
-                  <h3>-Onde se encontra?: <?php echo $listaranimaiss ['local_animal']?><h3>
-                </div>
-              </div>
-            </div>
-          <?php endforeach;?>
-          
-</body></html>
+    <div class="social">
+      <a href="#"><i class="fa fa-github fa-2x" aria-hidden="true"></i>
+    </div>
+
+    <div class="social">
+      <a href="#"><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></a>
+    </div>
+
+  </div>
+</div>
+
+
+</body>
+</html>

@@ -238,7 +238,8 @@
   <div class="hero-frase">
     <div class="frase">
       <p class="frase" style="text-align: center">
-        A animais para adoação     
+        A empresa sem fins lucrativos Miaudota é responsável por programas de resgate de cachorros em situação de abandono, 
+        aqui você podera adotar cachorros e ter um amiguinho novo para alegrar seu dia.     
       </p>
     </div>
   </div>
