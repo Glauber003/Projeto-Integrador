@@ -12,6 +12,9 @@ routes.use(json())
 
 routes.post('/user/create', UserController.addUser)
 routes.post('/user/login', SessionController.createSession)
+routes.put('/user/update', UserController.updateUser)
+routes.delete('/user/delete/:id', UserController.deletUser)
+routes.get('/user/:id', UserController.getUser)
 
 routes.put('/animal/atualizar', AnimalController.updateAnimal)
 routes.post('/animal/add', AnimalController.addAnimal)

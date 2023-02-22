@@ -1,8 +1,12 @@
 import jwt from 'jsonwebtoken'
 import bcrypt from 'bcryptjs'
+import sgMail from '@sendgrid/mail';
 
 import User from '../models/UserModel.js'
 import authConfig from '../config/auth.js'
+
+/*sgMail.setApiKey(process.env.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);*/
+
 
 
 class SessionController{
@@ -23,22 +27,29 @@ class SessionController{
     }
 
 
-    const{id, nome,cpf,rg,sexo,nacionalidade} = user
+    const { id, nome, cpf, rg, sexo, nacionalidade } = user;
 
-    return res.json ({
-        user:{
-            id,
-            nome,
-            cpf,
-            rg,
-            sexo,
-            nacionalidade
-        },
-        token: jwt.sign({id}, authConfig.secret)
-        })
+    const token = jwt.sign({ id }, authConfig.secret);
 
-    
-    }
+    await User.update({ token }, { where: { id } });
+
+    return res.json({
+      user: {
+        id,
+        nome,
+        cpf,
+        rg,
+        sexo,
+        nacionalidade,
+      },
+      token,
+    });
+
+}
 }
 
 export default new SessionController
+
+
+
+// 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 api de envio de email

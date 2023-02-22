@@ -5,11 +5,7 @@ namespace App\Controllers;
 use App\Controllers\BaseController;
 class Animal extends BaseController
 {
-	private $animalModel;
-
-	public function __construct(){
-		$this->animalModel = new \App\Models\AnimalModel();
-	}
+	//nesse controler tem os metodos somente do aniamal 
 
 
 

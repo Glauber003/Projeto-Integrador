@@ -41,7 +41,7 @@
   <nav id="menu2">
     <ul>
       <li><a href="<?php echo base_url('listaranimaisadmn')?>"> ADOÇÃO </a></li>
-      <li><a href="<?php echo base_url('listaranimaisadmn')?>"> DOAÇÃO </a></li>
+      <li><a href="<?php echo base_url('cadastraranimal')?>"> DOAÇÃO </a></li>
       <li><a href="<?php echo base_url('voluntariosadmn')?>"> VOLUTÁRIADO </a></li>
       <li><a href="<?php echo base_url('sobrenosadmn')?>"> SOBRE NÓS </a></li>
       <li><a href="<?php echo base_url('suporteadmn')?>"> SUPORTE </a></li>

@@ -26,6 +26,15 @@
 
 </head>
 
+
+<?php if (session()->getFlashdata('success')): ?>
+    <div class="alert alert-success">
+        <?php echo session()->getFlashdata('success'); ?>
+    </div>
+<?php endif; ?>
+
+
+
 <body>
   <nav id="menu1">
     <ul>
@@ -35,9 +44,9 @@
 
   <nav id="menu2">
     <ul>
-      <li><a href="<?php echo base_url('listaranimais')?>"> ADOÇÃO </a></li>
-      <li><a href="<?php echo base_url('login')?>"> DOAÇÃO </a></li>
-      <li><a href="<?php echo base_url('voluntarios')?>"> VOLUTÁRIADO </a></li>
+      <li><a href="<?php echo base_url('listaranimaisadmn')?>"> ADOÇÃO </a></li>
+      <li><a href="<?php echo base_url('cadastraranimal')?>"> DOAÇÃO </a></li>
+      <li><a href="<?php echo base_url('voluntariosadmn')?>"> VOLUTÁRIADO </a></li>
       <li><a href="<?php echo base_url('sobrenos')?>"> SOBRE NÓS </a></li>
       <li><a href="<?php echo base_url('suporte')?>"> SUPORTE </a></li>
     </ul>
@@ -68,8 +77,13 @@
 <p class="text-muted font-size-sm">AO MIAUDOTA </p>
 <?php echo anchor('base_url'('cadastraranimal'), 'Cadastrar Animal', ['class'=>'btn btn-primary px-4'])?>
 </br>
-<?php echo anchor('base_url'('admin/edicaodedados'), 'Logout', ['class'=>'btn btn-outline-primary'])?>
-<?php echo anchor('base_url'('admin/edicaodedados'), 'Deletar Conta', ['class'=>'btn btn-outline-primary'])?>
+<?php echo anchor('base_url'('/logout'), 'Logout', ['class'=>'btn btn-outline-primary'])?>
+<button onclick="confirmDelete()" class="btn btn-outline-primary">Deletar Conta</button>
+
+
+
+
+
 
 </div>
 </div>
@@ -94,56 +108,71 @@
 </div>
 </div>
 <div class="col-lg-8">
-<div class="card">
-<div class="card-body">
-<div class="row mb-3">
-<div class="col-sm-3">
-<h6 class="mb-0">NOME</h6>
+    <div class="card">
+        <div class="card-body">
+            <form method="post" action="<?php echo base_url('user/atualizar'); ?>">
+                <div class="row mb-3">
+                    <div class="col-sm-3">
+                        <h6 class="mb-0">ID</h6>
+                    </div>
+                    <div class="col-sm-9 text-secondary">
+                        <input type="text" class="form-control" value="<?php echo $user_data['id']; ?>" readonly>
+                        <input type="hidden" name="id" value="<?php echo $user_data['id']; ?>">
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <div class="col-sm-3">
+                        <h6 class="mb-0">NOME</h6>
+                    </div>
+                    <div class="col-sm-9 text-secondary">
+                        <input type="text" class="form-control" name="nome" value="<?php echo $user_data['nome']; ?>">
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <div class="col-sm-3">
+                        <h6 class="mb-0">CPF</h6>
+                    </div>
+                    <div class="col-sm-9 text-secondary">
+                        <input type="text" class="form-control" name="cpf" value="<?php echo $user_data['cpf']; ?>">
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <div class="col-sm-3">
+                        <h6 class="mb-0">RG</h6>
+                    </div>
+                    <div class="col-sm-9 text-secondary">
+                        <input type="text" class="form-control" name="rg" value="<?php echo $user_data['rg']; ?>">
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <div class="col-sm-3">
+                        <h6 class="mb-0">SEXO</h6>
+                    </div>
+                    <div class="col-sm-9 text-secondary">
+                        <input type="text" class="form-control" name="sexo" value="<?php echo $user_data['sexo']; ?>">
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <div class="col-sm-3">
+                        <h6 class="mb-0">NACIONALIDADE</h6>
+                    </div>
+                    <div class="col-sm-9 text-secondary">
+                        <input type="text" class="form-control" name="nacionalidade" value="<?php echo $user_data['nacionalidade']; ?>">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-3"></div>
+                    <div class="col-sm-9 text-secondary">
+                        <button type="submit"  class="btn btn-primary px-4" >Editar dados</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
 </div>
-<div class="col-sm-9 text-secondary">
-<input type="text" class="form-control" value=<?php echo $user_data['nome']; ?>>
-</div>
-</div>
-<div class="row mb-3">
-<div class="col-sm-3">
-<h6 class="mb-0">CPF</h6>
-</div>
-<div class="col-sm-9 text-secondary">
-<input type="text" class="form-control" value=<?php echo $user_data['cpf']; ?>>
-</div>
-</div>
-<div class="row mb-3">
-<div class="col-sm-3">
-<h6 class="mb-0">RG</h6>
-</div>
-<div class="col-sm-9 text-secondary">
-<input type="text" class="form-control" value="<?php echo $user_data['rg']; ?>">
-</div>
-</div>
-<div class="row mb-3">
-<div class="col-sm-3">
-<h6 class="mb-0">SEXO</h6>
-</div>
-<div class="col-sm-9 text-secondary">
-<input type="text" class="form-control" value="<?php echo $user_data['sexo']; ?>">
-</div>
-</div>
-<div class="row mb-3">
-<div class="col-sm-3">
-<h6 class="mb-0">NACIONALIDADE</h6>
-</div>
-<div class="col-sm-9 text-secondary">
-<input type="text" class="form-control" value="<?php echo $user_data['nacionalidade']; ?>">
-</div>
-</div>
-<div class="row">
-<div class="col-sm-3"></div>
-<div class="col-sm-9 text-secondary">
-<?php echo anchor('base_url'('admin/edicaodedados'), 'Editar dados', ['class'=>'btn btn-primary px-4'])?>
-</div>
-</div>
-</div>
-</div>
+
+
+
 <div class="row">
 <div class="col-sm-12">
 <div class="card">
@@ -258,3 +287,26 @@ body{
 
 </body>
 </html>
+
+
+
+<script>
+    function confirmDelete() {
+        if (confirm("Tem certeza que deseja excluir o usuário?")) {
+            window.location.href = "<?php echo base_url('user/remover/' . $user_data['id']) ?>";
+        }
+    }
+</script>
+
+<script>
+$(document).ready(function() {
+   // verifique se o usuário foi atualizado
+   if (sessionStorage.getItem('user_updated')) {
+      // exiba a janela pop-up
+      alert('Usuário atualizado com sucesso!');
+      // limpe o item da sessão
+      sessionStorage.removeItem('user_updated');
+   }
+});
+
+</script>

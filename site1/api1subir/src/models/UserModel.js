@@ -33,6 +33,9 @@ const User = database.define('Users',{
     nacionalidade:{
         type: DataTypes.STRING,
         allowNull: false
+    },
+    token:{
+        type: DataTypes.STRING
     }
 },{
 
