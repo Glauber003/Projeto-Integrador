@@ -1,0 +1,58 @@
+CRITICAL - 2023-02-23 19:42:06 --> Cannot access offset of type string on string
+in APPPATH\Controllers\Login.php on line 53.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Login->login()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-23 19:42:20 --> Cannot access offset of type string on string
+in APPPATH\Controllers\Login.php on line 53.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Login->login()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-23 19:50:39 --> Cannot access offset of type string on string
+in APPPATH\Controllers\Login.php on line 53.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Login->login()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-23 21:00:51 --> Undefined variable $listaranimaiss
+in APPPATH\Views\listaranimais.php on line 112.
+ 1 APPPATH\Views\listaranimais.php(112): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $listaranimaiss', 'APPPATH\\Views\\listaranimais.php', 112)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\listaranimais.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('listaranimais', [], true)
+ 5 APPPATH\Controllers\Animal.php(67): view('listaranimais', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Animal->listaranimais()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Animal))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-23 21:01:27 --> Undefined variable $listaranimaiss
+in APPPATH\Views\listaranimais.php on line 112.
+ 1 APPPATH\Views\listaranimais.php(112): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $listaranimaiss', 'APPPATH\\Views\\listaranimais.php', 112)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\listaranimais.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('listaranimais', [], true)
+ 5 APPPATH\Controllers\Animal.php(67): view('listaranimais', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Animal->listaranimais()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Animal))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-23 21:23:18 --> syntax error, unexpected end of file
+in APPPATH\Views\listaranimais.php on line 197.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('listaranimais', [], true)
+ 3 APPPATH\Controllers\Animal.php(67): view('listaranimais', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Animal->listaranimais()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Animal))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-23 21:34:30 --> syntax error, unexpected token "<", expecting end of file
+in APPPATH\Views\listaranimais.php on line 110.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('listaranimais', [], true)
+ 3 APPPATH\Controllers\Animal.php(67): view('listaranimais', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Animal->listaranimais()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Animal))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

@@ -25,7 +25,39 @@
   <title>MiauDota</title>
 
 </head>
-
+<style>
+  .card-img-animal {
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card-body-animal h3:first-child {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .card-body-animal {
+    background-color: #f2f2f2;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card-body-animal h3:not(:first-child) {
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #555;
+  }
+  
+  .col-md-4-animal {
+    margin-bottom: 20px;
+  }
+  .card-img-animal {
+    max-height: 400px;
+    object-fit: cover;
+}
+  
+</style>
 <style>
   @import url('http://fonts.cdnfonts.com/css/montserrat');
   
@@ -77,29 +109,43 @@
 
 <body>
 
-  <div class="container">
-    <div class="row">
+<div class="row">
+<?php 
+$imagens = [
+    'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9RFHm9oq5WcJk9kLHrOZVFt8dnMmGOABAbQ&usqp=CAU',
+    'https://wl-incrivel.cf.tsp.li/resize/728x/jpg/b31/0cb/624907582e90fe7da201e8b94d.jpg',
+    'https://i0.wp.com/petcaramelo.com/wp-content/uploads/2018/09/Yorkshire-Terrier.jpg?resize=682%2C500&ssl=1',
+    // adicione quantas URLs de imagens desejar
+];
 
-      <?php foreach ($dados as $listaranimaiss) : ?>
-        <div class="col-sm-4">
-          <div class="card mb-4 box-shadow">
-            <img class="card-img-top" src="https://i0.wp.com/www.portaldodog.com.br/cachorros/wp-content/uploads/2021/03/visa%CC%83o-do-cachorro-2.jpeg?resize=626%2C626&ssl=1" alt="Animal">
-            <div class="card-body">
-              <h3 class="card-text">Nome do animal: <?php echo $listaranimaiss['nome_animal'] ?></h3>
-              <h3 class="card-text">Raça: <?php echo $listaranimaiss['raca'] ?></h3>
-              <h3 class="card-text"> Porte: <?php echo $listaranimaiss['porte'] ?></h3>
-              <h3 class="card-text"> Sexo: <?php echo $listaranimaiss['sexo'] ?></h3>
-              <h3 class="card-text">Idade: <?php echo $listaranimaiss['idade'] ?> anos 
-              <h3 class="card-text">Sexo: <?php echo $listaranimaiss['sexo'] ?></h3>
-              <h3 class="card-text">Descrição do animal: <?php echo $listaranimaiss['descricao_animal'] ?></h3>
-              <h3 class="card-text">Onde se encontra?: <?php echo $listaranimaiss['local_animal'] ?></h3>
+foreach ($dados as $listaranimaiss) : 
+    $imagem = $imagens[array_rand($imagens)];
+?>
+    <div class="col-md-4 col-sm-12 col-xs-12 col-lg-4 col-xl-4 col-xxl-4 col-md-4-animal">
+        <div class="card mb-4 box-shadow">
+            <img class="card-img-animal" src="<?php echo $imagem ?>" alt="Animal">
+            <div class="card-body-animal">
+                <h3 class="card-text-animal">Nome: <?php echo $listaranimaiss['nome_animal'] ?></h3>
+                <h3 class="card-text-animal">---------------------------------------------------------</h3>
+                <h3 class="card-text-animal">Raça: <?php echo $listaranimaiss['raca'] ?></h3>
+                <h3 class="card-text-animal">---------------------------------------------------------</h3>
+                <h3 class="card-text-animal">Porte: <?php echo $listaranimaiss['porte'] ?></h3>
+                <h3 class="card-text-animal">---------------------------------------------------------</h3>
+                <h3 class="card-text-animal">Sexo: <?php echo $listaranimaiss['sexo'] ?></h3>
+                <h3 class="card-text-animal">---------------------------------------------------------</h3>
+                <h3 class="card-text-animal">Idade: <?php echo $listaranimaiss['idade'] ?> anos 
+                <h3 class="card-text-animal">---------------------------------------------------------</h3>
+                <h3 class="card-text-animal">Descrição: <?php echo $listaranimaiss['descricao_animal'] ?></h3>
+                <h3 class="card-text-animal">---------------------------------------------------------</h3>
+                <h3 class="card-text-animal">Local: <?php echo $listaranimaiss['local_animal'] ?></h3>
             </div>
-          </div>
+            <div class="card-footer-animal">
+                <a class="btn btn-primary" href="#">Adote agora</a>
+            </div>
         </div>
-      <?php endforeach; ?>
-
     </div>
-  </div>
+<?php endforeach; ?>
+</div>
 
 
 </body>

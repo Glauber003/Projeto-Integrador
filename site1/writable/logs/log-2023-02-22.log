@@ -1,0 +1,7 @@
+CRITICAL - 2023-02-22 14:55:37 --> foreach() argument must be of type array|object, null given
+in APPPATH\Controllers\Animal.php on line 21.
+ 1 APPPATH\Controllers\Animal.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'APPPATH\\Controllers\\Animal.php', 21)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Animal->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Animal))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
