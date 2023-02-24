@@ -52,7 +52,9 @@
 #menu2 ul li:last-child a {
     float: right;
     background-color: #e48c3b;
+    text-align: right;
 }
+
 
 #menu2 ul li:last-child a:hover{
     background-color:#e46e00;

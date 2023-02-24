@@ -58,7 +58,7 @@ $routes->get('suporte','Animal::suporte');
 $routes->match(['get','post'], 'adocaoadmn', 'CadastroAnimalController::index');
 $routes->match(['get','post'], 'listaranimaisadmn', 'CadastroAnimalController::listaranimaisadmnn');
 $routes->match(['get','post'], 'doacaoadmn', 'CadastroAnimalController::index');
-$routes->match(['get','post'], 'voluntariosadmn', 'CadastroAnimalController::index');
+$routes->match(['get','post'], 'voluntariosadmn', 'Animal::voluntariosadmn');
 $routes->match(['get','post'], 'sobrenosadmn', 'CadastroAnimalController::index');
 $routes->match(['get','post'], 'suporteadmn', 'CadastroAnimalController::index');
 

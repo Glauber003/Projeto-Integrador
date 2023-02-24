@@ -66,7 +66,9 @@
 			<div class="wrap-login100 p-l-55 p-r-55 p-t-65 p-b-54">
 				<form class="login100-form validate-form" action="<?= base_url('login...') ?>" method="post">>
 					<span class="login100-form-title p-b-49">
-						FAÇA SEU LOGIN
+						<li><img style="width: 250px" src="img/logo.png" alt="Logo da empresa" class="logo"></li>
+						</br>
+						<li>FAÇA SEU LOGIN</li>
 					</span>
 
 					<div class="wrap-input100 validate-input m-b-23" data-validate = "É necessário inserir seu login!">

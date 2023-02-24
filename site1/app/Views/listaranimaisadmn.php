@@ -25,41 +25,41 @@
   <title>MiauDota</title>
 
 </head>
+
 <style>
+  @import url('http://fonts.cdnfonts.com/css/montserrat');
+
   .card-img-animal {
-    border-radius: 10px;
+    border-radius: 4px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
   }
-  
+ 
   .card-body-animal h3:first-child {
     font-size: 24px;
     color: #333;
   }
-  
+ 
   .card-body-animal {
     background-color: #f2f2f2;
-    padding: 15px;
+    padding: 12px;
     border-radius: 10px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
   }
-  
+ 
   .card-body-animal h3:not(:first-child) {
-    margin-bottom: 10px;
+    margin-bottom: 6px;
     font-size: 18px;
     color: #555;
   }
-  
+ 
   .col-md-4-animal {
     margin-bottom: 20px;
   }
+
   .card-img-animal {
-    max-height: 400px;
+    max-height: 450px;
     object-fit: cover;
-}
-  
-</style>
-<style>
-  @import url('http://fonts.cdnfonts.com/css/montserrat');
+  }
   
 </style>
 
@@ -75,9 +75,8 @@
       <li><a href="<?php echo base_url('listaranimaisadmn')?>"> ADOÇÃO </a></li>
       <li><a href="<?php echo base_url('cadastraranimal')?>"> DOAÇÃO </a></li>
       <li><a href="<?php echo base_url('voluntariosadmn')?>"> VOLUTÁRIADO </a></li>
-      <li><a href="<?php echo base_url('sobrenosadmn')?>"> SOBRE NÓS </a></li>
       <li><a href="<?php echo base_url('suporteadmn')?>"> SUPORTE </a></li>
-      </li></li></li></li><?php echo anchor('base_url'('login/validacao'), 'PERFIL', ['class'=>'hero__btn'])?>
+      <li><?php echo anchor('base_url'('login/validacao'), 'PERFIL', ['class'=>'hero__btn'])?></li>
     </ul>
   </nav>
 </body>
@@ -99,8 +98,7 @@
   <div class="hero-frase">
     <div class="frase">
       <p class="frase" style="text-align: center">
-        A empresa sem fins lucrativos Miaudota é responsável por programas de resgate de cachorros em situação de abandono, 
-        aqui você podera adotar cachorros e ter um amiguinho novo para alegrar seu dia.     
+       ANIMAIS PARA DOAÇÃO.     
       </p>
     </div>
   </div>
@@ -117,7 +115,7 @@ $imagens = [
     'https://i0.wp.com/petcaramelo.com/wp-content/uploads/2018/09/Yorkshire-Terrier.jpg?resize=682%2C500&ssl=1',
     // adicione quantas URLs de imagens desejar
 ];
-
+ 
 foreach ($dados as $listaranimaiss) : 
     $imagem = $imagens[array_rand($imagens)];
 ?>
@@ -163,25 +161,6 @@ foreach ($dados as $listaranimaiss) :
         <li style="font-size:20px"><a href="#">Adoção</a></li>
         <li style="font-size:20px"><a href="#">Doação</a></li>
         <li style="font-size:20px"><a href="#">Voluntáriado</a></li> 
-        <li style="font-size:20px"><a href="#">Sobre Nós</a></li> 
-      </ul>
-    </h2>
-  </div>
-
-  <div class="boxs">
-    <h2 style="font-size:40px">Sobre Nós</h2>
-      <ul>
-        <li style="font-size:20px"><a href="#">Get Into It (yuh)</a></li>
-      </ul>
-    </h2>
-  </div>
-
-  <div class="boxs">
-    <h2 style="font-size:40px">Contatos</h2>
-      <ul>
-        <li style="font-size:20px"><i style="color: white" class="fa fa-whatsapp" aria-hidden="true"></i><a href="#">   (33) 99851-5585</a></li>
-        <li style="font-size:20px"><i style="color: white" class="fa fa-paper-plane" aria-hidden="true"></i></i><a href="#">   nms6@aluno.ifnmg.edu.br</a></li>
-        <li style="font-size:20px"><i style="color: white" class="fa fa-map-o" aria-hidden="true"></i></i><a href="#">   BR 367 - Zona Rural, Araçuaí - MG, 39600-000</a></li> 
       </ul>
     </h2>
   </div>

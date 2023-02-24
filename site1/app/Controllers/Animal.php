@@ -77,6 +77,11 @@ class Animal extends BaseController
 		return view('voluntarios');
 
 	}
+	public function voluntariosadmn()
+	{
+		return view('voluntariosadmn');
+
+	}
 	public function suporte()
 	{
 		return view('suporte');

@@ -22,41 +22,42 @@
   <title>MiauDota</title>
 
 </head>
+
 <style>
+  @import url('http://fonts.cdnfonts.com/css/montserrat');
+
   .card-img-animal {
-    border-radius: 10px;
+    border-radius: 4px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
   }
-  
+ 
   .card-body-animal h3:first-child {
     font-size: 24px;
     color: #333;
   }
-  
+ 
   .card-body-animal {
     background-color: #f2f2f2;
-    padding: 15px;
+    padding: 12px;
     border-radius: 10px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
   }
-  
+ 
   .card-body-animal h3:not(:first-child) {
-    margin-bottom: 10px;
+    margin-bottom: 6px;
     font-size: 18px;
     color: #555;
   }
-  
+ 
   .col-md-4-animal {
     margin-bottom: 20px;
   }
+
   .card-img-animal {
-    max-height: 400px;
+    max-height: 450px;
     object-fit: cover;
-}
-  
-</style>
-<style>
-  @import url('http://fonts.cdnfonts.com/css/montserrat');
+  }
+
 </style>
 
 <body>
@@ -65,13 +66,12 @@
       <li><a href=""> MiauDota </a></li> 
     </ul>
   </nav>
-
+  
   <nav id="menu2">
     <ul>
       <li><a href="<?php echo base_url('listaranimais')?>"> ADOÇÃO </a></li>
       <li><a href="<?php echo base_url('login')?>"> DOAÇÃO </a></li>
       <li><a href="<?php echo base_url('voluntarios')?>"> VOLUTÁRIADO </a></li>
-      <li><a href="<?php echo base_url('sobrenos')?>"> SOBRE NÓS </a></li>
       <li><a href="<?php echo base_url('suporte')?>"> SUPORTE </a></li>
       <li><a href="<?php echo base_url('login')?>"> ENTRAR </a></li>
     </ul>
@@ -81,36 +81,25 @@
 <figure id="container">
   <img style="width: 103%" src="<?php echo base_url('img/bg_1.jpg')?>">  
   <figcaption>
-    <h1 class="hero__h1">
-      Encontre Um Novo
+    <h1 style="font-size:60px" class="hero__h1">
+      ANIMAIS PARA ADOÇÃO
       </br>
-      <span class="hero__h1--color">Companheiro.</span>
+      <span class="hero__h1--color">Escolha seu companheiro</span>
     </h1>
   </figcaption>
 </figure>
 
     
- 
-<section class="hero-f">
-  <div class="hero-frase">
-    <div class="frase">
-      <p class="frase" style="text-align: center">
-      A animais para adoação.     
-      </p>
-    </div>
-  </div>
-</section>
-    
 
 <div class="row">
-<?php 
-$imagens = [
+  <?php 
+  $imagens = [
     'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9RFHm9oq5WcJk9kLHrOZVFt8dnMmGOABAbQ&usqp=CAU',
     'https://wl-incrivel.cf.tsp.li/resize/728x/jpg/b31/0cb/624907582e90fe7da201e8b94d.jpg',
     'https://i0.wp.com/petcaramelo.com/wp-content/uploads/2018/09/Yorkshire-Terrier.jpg?resize=682%2C500&ssl=1',
     // adicione quantas URLs de imagens desejar
 ];
-
+ 
 foreach ($listaranimais as $listaranimaiss) : 
     $imagem = $imagens[array_rand($imagens)];
 ?>
@@ -132,43 +121,21 @@ foreach ($listaranimais as $listaranimaiss) :
                 <h3 class="card-text-animal">---------------------------------------------------------</h3>
                 <h3 class="card-text-animal">Local: <?php echo $listaranimaiss['local_animal'] ?></h3>
             </div>
-            <div class="card-footer-animal">
-                <a class="btn btn-primary" href="#">Adote agora</a>
+            <div style="item-align: center" class="card-footer-animal">
+                <a style="item-align: center" class="btn btn-primary" href="#">Adote agora</a>
             </div>
         </div>
     </div>
 <?php endforeach; ?>
 </div>
 
-
-
-
 <footer>
-  <div style="align-items: left" class="boxs">
+  <div style="align-items: center" class="boxs">
     <h2 style="font-size:40px">Links rápidos</h2>
       <ul>
         <li style="font-size:20px"><a href="#">Adoção</a></li>
         <li style="font-size:20px"><a href="#">Doação</a></li>
         <li style="font-size:20px"><a href="#">Voluntáriado</a></li> 
-        <li style="font-size:20px"><a href="#">Sobre Nós</a></li> 
-      </ul>
-    </h2>
-  </div>
-
-  <div class="boxs">
-    <h2 style="font-size:40px">Sobre Nós</h2>
-      <ul>
-        <li style="font-size:20px"><a href="#">Get Into It (yuh)</a></li>
-      </ul>
-    </h2>
-  </div>
-
-  <div class="boxs">
-    <h2 style="font-size:40px">Contatos</h2>
-      <ul>
-        <li style="font-size:20px"><i style="color: white" class="fa fa-whatsapp" aria-hidden="true"></i><a href="#">   (33) 99851-5585</a></li>
-        <li style="font-size:20px"><i style="color: white" class="fa fa-paper-plane" aria-hidden="true"></i></i><a href="#">   nms6@aluno.ifnmg.edu.br</a></li>
-        <li style="font-size:20px"><i style="color: white" class="fa fa-map-o" aria-hidden="true"></i></i><a href="#">   BR 367 - Zona Rural, Araçuaí - MG, 39600-000</a></li> 
       </ul>
     </h2>
   </div>
@@ -192,8 +159,7 @@ foreach ($listaranimais as $listaranimaiss) :
   </div>
 </div>
 
-</body>
-</html> 
+</body></html> 
 
 
 

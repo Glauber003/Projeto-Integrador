@@ -51,7 +51,7 @@ class AnimalController{
     }
 
    /*
-   //funçao pra pegar animal e4xepcigo ainda nao terminada
+   //funçao pra pegar animal ainda nao terminada
    async getProduto(req, res){
         const {id} = req.params
         const produto = await Produto.findByPk(id)

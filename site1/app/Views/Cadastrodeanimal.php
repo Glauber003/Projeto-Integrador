@@ -110,7 +110,7 @@
 
 				<br>
 				<div class="wrap-input100 validate-input" data-validate="É necessário inserir um e-mail válido!">
-					<span class="label-input100">porte</span>
+					<span class="label-input100">Porte</span>
 					<input class="input100" type="text" name="porte" placeholder="Descreva o seu porte ">
 					<span class="focus-input100" data-symbol="&#xf206;"></span>
 				</div>
@@ -122,7 +122,6 @@
 					<span class="focus-input100" data-symbol="&#xf190;"></span>
 				</div>
 
-				<br>
 				<br>
 				<div class="wrap-input100 validate-input" data-validate="É necessário inserir seu sexo.">
 					<span class="label-input100">Macho ou Femêa?</span>
@@ -137,13 +136,15 @@
 					<span class="focus-input100" data-symbol="&#xf206;"></span>
 				</div>
 					
-        <div class="wrap-input100 validate-input" data-validate="É necessário inserir sua nacionalidade">
+				</br>
+        		<div class="wrap-input100 validate-input" data-validate="É necessário inserir sua nacionalidade">
 					<span class="label-input100">Peso do animal</span>
 					<input class="input100" type="text" name="peso" placeholder="Peso do animal em KG">
 					<span class="focus-input100" data-symbol="&#xf206;"></span>
 				</div>
 
-					
+					</br>
+					</br>
 					<div class="container-login100-form-btn">
 					<div class="wrap-login100-form-btn">
 						<div class="login100-form-bgbtn"></div>
@@ -157,7 +158,6 @@
 			</div>
 		</div>
 	</div>
-	
 
 	<div id="dropDownSelect1"></div>
 	

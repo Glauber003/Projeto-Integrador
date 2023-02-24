@@ -37,7 +37,6 @@
       <li><a href="<?php echo base_url('listaranimaisadmn')?>"> ADOÇÃO </a></li>
       <li><a href="<?php echo base_url('listaranimaisadmn')?>"> DOAÇÃO </a></li>
       <li><a href="<?php echo base_url('voluntariosadmn')?>"> VOLUTÁRIADO </a></li>
-      <li><a href="<?php echo base_url('sobrenosadmn')?>"> SOBRE NÓS </a></li>
       <li><a href="<?php echo base_url('suporteadmn')?>"> SUPORTE </a></li>
       
     </ul>
@@ -155,7 +154,7 @@
         <li style="font-size:20px"><a href="#">Adoção</a></li>
         <li style="font-size:20px"><a href="#">Doação</a></li>
         <li style="font-size:20px"><a href="#">Voluntáriado</a></li> 
-        <li style="font-size:20px"><a href="#">Sobre Nós</a></li> 
+        <li style="font-size:20px"><a href="#">Suporte</a></li> 
       </ul>
     </h2>
   </div>
